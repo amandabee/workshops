@@ -38,7 +38,7 @@ Get an NYS county shapefile for CartoDB
 + Nathan Yau's tutorials
 Tools we use: CartoDB, R, Highcharts, D3
 More super easy tools:
-* that QZ chart maker
+* that QZ chart maker http://quartz.github.io/Chartbuilder/
 * the Medium chart maker
 * Datawrapper.de
 * http://app.raw.densitydesign.org/ -- for flat graphics to edit in illustrator
