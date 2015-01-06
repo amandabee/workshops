@@ -17,6 +17,11 @@ First: get thee to [FRED](http://research.stlouisfed.org/fred2/graph/).
 
 We're looking for Miami home prices, so just start typing "Miami Home" and you'll see the series: S&P/Case-Shiller FL-Miami Home Price Index© and export the data.
 
+To filter, put your cursor in cell A10 and then select "Filter"; use the "standard filter" for >= "1999-01-01" (Jeb's term: 1999-2007)
+
+Copy it over to Chartbuilder, name the columns "date" and anything you want. (Chartbuilder needs you to say it is a date, explicitly). 
+
+
 ### 45 Min: Making an Index (Bui) 
 Index Data -- pull time series data, index it w/in Fred, index it in Excel
 Register. Make sure users save data. Then give the option to go back and
@@ -41,12 +46,6 @@ More good examples of visualizations of similar data/or that use data transforme
 -CartoDB (Amanda)
 ** TK: County Shapefile
 ** Map the well data
-
-
-Possible data to work with: 
-+ NY State budget data, Citizens Budget Commission, Nat'l Assn of State Budget Officers
-+ Medicaid as a percent of the whole budget, state by state
-+ 
 
 ## Where to keep learning:
 + [NICAR-L](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/)
