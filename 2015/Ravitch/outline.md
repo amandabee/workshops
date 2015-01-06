@@ -19,7 +19,7 @@ We're looking for Miami home prices, so just start typing "Miami Home" and you'l
 
 To filter, put your cursor in cell A10 and then select "Filter"; use the "standard filter" for >= "1999-01-01" (Jeb's term: 1999-2007)
 
-Copy it over to Chartbuilder, name the columns "date" and anything you want. (Chartbuilder needs you to say it is a date, explicitly). 
+Copy it over to [Chartbuilder](http://quartz.github.io/Chartbuilder/), name the columns "date" and anything you want. (Chartbuilder needs you to say it is a date, explicitly). 
 
 *Or*
 Add the Miami Dade unemployment and export it again. Check the box next to one of the data series to add another axis and fiddle with the suffix and max. 
