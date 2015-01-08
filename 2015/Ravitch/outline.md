@@ -58,7 +58,7 @@ More good examples of visualizations of similar data/or that use data transforme
 + Take a RAW SVG into Illustrator (Bui)
 + ACS (Bui). Think of a fun question. 
 + CartoDB (Amanda)
-** TK: County Shapefile
+** [NYS County Shapefile](http://cugir.mannlib.cornell.edu/bucketinfo.jsp?id=7865) (note that you have to unzip it twice)
 ** Map the well data
 + [Datatables](https://github.com/amandabee/cunyjdata/blob/22ba0ce3c52cc91d0e8cab817c9d69f830049d54/lecture%20notes/showyourwork.md)
 
