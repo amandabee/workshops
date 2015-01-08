@@ -1,0 +1,28 @@
+# VLOOKUP
+
+> The Department of Environmental Conservation publishes [data on gas wells](http://www.dec.ny.gov/energy/1603.html) in New York State. 
+
+Most of you worked with this data last semester, but we didn't spend much time in the metadata. 
+
+Copy the "Well Type Codes" into their own sheet.
+
+> Save as XLS; keep track of your format. Is it XLS or CSV? What is the error you see when you save it?
+
+> Learn to read errors. This stuff isn't arbitrary. 
+
+Functions that work in LibreOffice Calc `=LOOKUP(A3,WellTypeCodes.A$1:A$23,Sheet1.B$1:B$23)` and `=VLOOKUP(A3,WellTypeCodes.A$1:B$23,2)`
+
+And in Microsoft Excel: `=LOOKUP(A3, WellTypeCodes!A$1:A$23,WellTypeCodes!B$1:B$23)` and `=VLOOKUP(A3,WellTypeCodes!A$1:B$23,2)`
+
+Discuss: $ to prevent incrementing; managing where your cursor is, what is an "argument"
+
+LOOKUP vs VLOOKUP vs HLOOKUP
+
+Use Paste > Transpose to make a horizontal table. This is all pretty rational. 
+
+`=LOOKUP(A3,WellTypeCodes!E$1:AA$2)` or `=HLOOKUP(A3,WellTypeCodes!E$1:AA$2,2)`
+
+# INDEX/MATCH
+
+Basically works much like a LOOKUP, but it is much more flexible (and complicated).
+<http://trumpexcel.com/2013/09/excel-index-formula-its-magical/>
