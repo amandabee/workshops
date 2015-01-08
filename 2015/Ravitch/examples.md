@@ -1,5 +1,9 @@
 Krugman: http://krugman.blogs.nytimes.com/2014/12/17/jebs-bubble/?_r=2
 Neither of us is quite sure why we're juxtaposing the housing bubble and unemployment here, but if you did want to do that, you could go one prettier than a stock FRED chart. 
+-----
+
+http://www.minnpost.com/politics-policy/2011/02/daytons-budget-offers-chance-explore-rationale-collecting-more-taxes
+------
 Dan Keating at the Washington Post has beaten up the DC municipal budget
 http://www.washingtonpost.com/people/dan-keating
 Not budget, but interesting:
@@ -57,6 +61,8 @@ http://www.npr.org/blogs/thetwo-way/2014/10/20/357611987/map-femas-buying-out-fl
 I don't know if I'm entirely surprised -- the Mississippi floods, too -- but this is still a good story. The next question is, Why?
 Data Viz to put a story in context:
 NPR did some reporting that is a little old at this point, though few of the details have changed as far as I know. They looked into data that showed that native kids in South Dakota were significantly more likely to be placed in foster care than white kids, even when the circumstances were similar, and that native kids were overwhelmingly going to (and, according to the Lakota People's Law Project being prescribed anti-psychotics at much higher rates --SJ Merc did a similar story on prescription drugs in CA. You should all do that story.) white foster homes. Their data viz piece looked at all fifty states http://www.npr.org/2011/10/25/141475618/disproportionality-rates-of-native-american-children-in-foster-care and flagged the states where native kids are substantially more likely to be in foster care and in non-native homes. 
+
+
 Daily News on NYCHA Overtime
 [NYCHA paid $106 million in overtime to workers in 2014 — with plumbers at top of list](http://www.nydailynews.com/new-york/exclusive-nycha-paid-106-million-overtime-2014-article-1.2046654)
 [City Council members confront NYCHA over skyrocketing overtime costs](http://www.nydailynews.com/news/politics/nycha-confronted-council-skyrocketing-overtime-costs-article-1.2048002)
