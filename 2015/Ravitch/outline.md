@@ -32,11 +32,16 @@ If we have time or inclination, we can look at Charted which is super limited bu
 
 ### 45 Min: Making an Index (Bui) 
 Index Data -- pull time series data, index it w/in Fred, index it in Excel
+
 Register. Make sure users save data. Then give the option to go back and
 try other transformations.
+
 Bui will show year-on-year and 3 month moving average smoothing in Fred
+
 Bui will make an example spreadsheet
+
 More good examples of visualizations of similar data/or that use data transformed in this way.
+
 [Data](https://www.dropbox.com/s/rhxcmokoxfcgvyg/wisconsin-revenues.xlsx)
 
 ### 20 Min: Pivot Tables (Amanda)
@@ -50,11 +55,13 @@ Use the state average and over/under -- with Gas Wells
 More good examples of visualizations of similar data/or that use data transformed in this way.
 
 ### Extra: more things we can do if we have time
--Take a RAW SVG into Illustrator (Bui)
--ACS (Bui). Think of a fun question. 
--CartoDB (Amanda)
++ Take a RAW SVG into Illustrator (Bui)
++ ACS (Bui). Think of a fun question. 
++ CartoDB (Amanda)
 ** TK: County Shapefile
 ** Map the well data
++ [Datatables](https://github.com/amandabee/cunyjdata/blob/22ba0ce3c52cc91d0e8cab817c9d69f830049d54/lecture%20notes/showyourwork.md)
+
 
 ## Where to keep learning:
 + [NICAR-L](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/)
