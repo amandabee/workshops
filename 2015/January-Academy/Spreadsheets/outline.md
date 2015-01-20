@@ -1,3 +1,16 @@
+#  Fri. Jan. 23, 2015
+9:30 a.m.-12:30 p.m.
+
+> Brush Up Your Excel Skills – Amanda Hickman – Room 436 (14 students max)
+
+> You’ll learn how to work in a spreadsheet to add context and depth to an existing story or find a new stories to pursue. You’ll learn how to import data in Excel and how to analyze it. Among the concepts you’ll learn include how to sort data, apply formulas, and create a chart. I’ll also provide list of the most useful and easy to access data sets for future reference. Many computer-assisted reporting stories can be done using just Excel. This class will give you the tools necessary to start doing those stories.
+
+
+# Welcome
+Core principle: if you can describe it, there's a function for it. From pulling the three letters after the decimal in a string to calculating interest payments on a loan over time.
+
+
+
 # VLOOKUP
 
 > The Department of Environmental Conservation publishes [data on gas wells](http://www.dec.ny.gov/energy/1603.html) in New York State. 
