@@ -1,3 +1,10 @@
+# Intor to R for Data 
+
+Thurs., Jan. 22, 9:30 a.m.-12:30 p.m.  
+Room 436 (14 students max)  
+
+> If you plan to crunch data, you will outgrow Excel, which is when smart reporters turn to R, a powerful statistical analysis and programming language that can process much larger volumes of data than a spreadsheet. We'll walk through the process of opening and summarizing a data set in R, and we'll look at good places to get help when you get stuck. You won’t leave this workshop an expert, but you’ll have enough of a foundation that you can tackle bigger data analysis challenges with the help of the R documentation. The workshop will be taught by Amanda Hickman, who has used R for projects she simply couldn't have completed otherwise. Prerequisites: You should be comfortable filtering and writing simple formulas in Excel or Calc, to get the most out of our workshop. We’ll use R through RStudio’s excellent interface, so please come with RStudio installed on your laptop.
+
 #Introduction 
 R is an incredibly powerful free and open source programming language for statistical computing and graphics. If you've ever used SPSS or Stata, you know what "real stats software" can do. R, too, is real stats software. 
 
