@@ -1,4 +1,4 @@
-# Intor to R for Data 
+# Intro to R for Data 
 
 Thurs., Jan. 22, 9:30 a.m.-12:30 p.m.  
 Room 436 (14 students max)  
