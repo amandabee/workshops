@@ -57,6 +57,8 @@ Transpose it.
 
 Use Conditional Formatting to make sense of it. 
 
+* classic ... format only cells that contain ... cell value ...greater than ... `.01`
+* classic ... format only cells that contain ... cell value ...between ... `.0001` and `.01`
 
 # Indexing Population Change
 
