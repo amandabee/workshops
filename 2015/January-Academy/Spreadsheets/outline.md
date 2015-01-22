@@ -48,3 +48,16 @@ Using [Wisconsin Revenue Data](https://github.com/amandabee/workshops/blob/maste
 * `=LEFT(A2,FIND("County",A2))`
 * `=LEFT(A2,FIND("County",A2)-1)`
 * `=TRIM(LEFT(A2,FIND("County",A2)-1))`
+
+#Schmantzy Pivot
+
+Using the Wisconsin data, first make a total column. Then calculate everything as a percent of the total.
+
+Transpose it.
+
+Use Conditional Formatting to make sense of it. 
+
+
+# Indexing Population Change
+
+You're mostly aware of the [insane wealth of data available on FRED](http://research.stlouisfed.org/fred2/categories)
