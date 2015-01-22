@@ -39,3 +39,12 @@ Use Paste > Transpose to make a horizontal table. This is all pretty rational.
 
 Basically works much like a LOOKUP, but it is much more flexible (and complicated).
 <http://trumpexcel.com/2013/09/excel-index-formula-its-magical/>
+
+# LEFT, RIGHT, FIND, MID, LEN
+
+Using [Wisconsin Revenue Data](https://github.com/amandabee/workshops/blob/master/2015/Ravitch/data/wi_revenues.csv), we need to get county names that match the county names in the state shapefile. [starting point](http://dnr.wi.gov/maps/gis/geolibrary.html) | [actual download](ftp://dnrftp01.wi.gov/geodata/county_bnds/)
+
+* `=FIND("County",A2)` 
+* `=LEFT(A2,FIND("County",A2))`
+* `=TLEFT(A2,FIND("County",A2)-1)`
+* `=TRIM(LEFT(A2,FIND("County",A2)-1))`
