@@ -46,5 +46,5 @@ Using [Wisconsin Revenue Data](https://github.com/amandabee/workshops/blob/maste
 
 * `=FIND("County",A2)` 
 * `=LEFT(A2,FIND("County",A2))`
-* `=TLEFT(A2,FIND("County",A2)-1)`
+* `=LEFT(A2,FIND("County",A2)-1)`
 * `=TRIM(LEFT(A2,FIND("County",A2)-1))`
