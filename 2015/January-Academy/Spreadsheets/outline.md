@@ -61,15 +61,14 @@ Use Conditional Formatting to make sense of it.
 * classic ... format only cells that contain ... cell value ...greater than ... `.01`
 * classic ... format only cells that contain ... cell value ...between ... `.0001` and `.01`
 
-# Indexing Population Change
+# Indexing Unemployment Change
 
 You're mostly aware of the [insane wealth of data available on FRED](http://research.stlouisfed.org/fred2/categories)
 
 * Register
 * [All Data Series](https://research.stlouisfed.org/fred2/tags/series)
-* Concepts: unemployment  
+* Concepts: *unemployment, state, monthly*  
 * Select all and add to list. 
-* 
 
 Solve the first puzzle: commas? tabs? Unemployment? Seasonal? non seasonal? 
 
@@ -77,4 +76,4 @@ Solve the first puzzle: commas? tabs? Unemployment? Seasonal? non seasonal?
 + Describe the solution in the abstract
 + Find the right set of functions to solve the problem
 
-Then, index the data. 
+Then, index the data. (We didn't get to this!)
