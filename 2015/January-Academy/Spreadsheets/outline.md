@@ -63,3 +63,17 @@ Use Conditional Formatting to make sense of it.
 # Indexing Population Change
 
 You're mostly aware of the [insane wealth of data available on FRED](http://research.stlouisfed.org/fred2/categories)
+
+* Register
+* [All Data Series](https://research.stlouisfed.org/fred2/tags/series)
+* Concepts: unemployment  
+* Select all and add to list. 
+* 
+
+Solve the first puzzle: commas? tabs? Unemployment? Seasonal? non seasonal? 
+
++ Find the pattern
++ Describe the solution in the abstract
++ Find the right set of functions to solve the problem
+
+Then, index the data. 
