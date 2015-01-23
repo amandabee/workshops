@@ -9,6 +9,7 @@
 # Welcome
 Core principle: if you can describe it, there's a function for it. From pulling the three letters after the decimal in a string to calculating interest payments on a loan over time.
 
+[Some of my personal favorite](https://github.com/amandabee/cunyjdata/wiki/Tip-Sheet:-Spreadsheets)
 
 
 # VLOOKUP
