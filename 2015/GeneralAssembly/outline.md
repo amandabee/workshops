@@ -16,10 +16,48 @@ Last semester I had a student who was particularly interested in illegal convers
 
 So let's start by looking over that file:
 
-### [July DOB Complaints]()
+### [June DOB Complaints]()
+
+We're missing something pretty key here: I have no idea which of these are calls about illegal conversions.
 
 As it turns out, the city also publishes a table of [Complaint Categories](http://www.nyc.gov/html/dob/downloads/pdf/complaint_category.pdf) which is exactly what we need to make sense of the data. It took a little bit of monkeying around in [Tabula](http://tabula.technology/) to copy that cleanly into a spreadsheet but I've now got that for you.
 
+I went ahead and put them into tabs on the same spreadsheet so we can focus on the formulas we want.
+
+What we want is a single spreadsheet that includes a meaningful description of the actual complaint. Do we already have any strategies for that?
+
+#### Formula
+
+We're going to use my favorite formula: [=VLOOKUP()](https://help.libreoffice.org/Calc/Spreadsheet_Functions#VLOOKUP)
+
+Let's all work in column M, for the sake of our sanity.
+
+The code is in column H, so the search criterion is `H3`. Our lookup table is in Sheet2, `Sheet2.A2:C98`, and the value we actually want to see is in the second column of that lookup table, `2`:
+
+`=VLOOKUP(H3,Sheet2.A2:C98,2)`
+
+You should be seeing "Excessive Debris" as the first complaint. If you got something different let me know before we move on.
+
+Check: Everyone has "Excessive Debris"?
+
+#### Pulling it Down
+
+Hover on the lower right to pull the formula down. Don't bother copying it to more than 10 or 12 rows because we've got some more fun things to troubleshoot.
+
+First: what's going on with the automatic incrementation? How do we keep that from happening?
+
+`=VLOOKUP(H3,Sheet2.A$2:C$98,2)`
+
+Second: take a look at 83 Bowery (rows 11 and 14). Do some spot checking: is that value accurate?
+
+We can handle that a couple of ways. We could make it clear that this is unsorted:
+
+`=VLOOKUP(H3,Sheet2.A$2:C$98,2, 0)`
+
+Or, we could sort it. Either way, I recommend doing some spot checking whenever you use `=VLOOKUP()`
+
+### So What?
+So, who can tell me how many illegal conversion complaints the DOB received in June?
 
 
 # Four Functions
@@ -43,10 +81,4 @@ We're going to cover four functions today, one of them might be my favorite spre
 + returns: the number of the first row that matches the search criterion
 
 ## What about "type"?
-True: a lot of these functions have a fourth variable, sorted or not.
-
-# Why?
-
-Where else have I used this?
-
-My capoeira academy keeps a list of students who are registered for each class. We also have a master list of students with emergency contact info, nicknames (which are a big thing in capoeira).
+True: a lot of these functions have a fourth variable, sorted or not. We'll get to that.
