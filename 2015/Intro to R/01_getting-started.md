@@ -60,12 +60,12 @@ Some additional type that come up but aren't true classes:
 
 
 ### Attributes of Objects
-I have a hard time with the difference between "attributes" and "classes," even though the concept makes a lot of sense to me. I think the problem is that I'm never really sure whether being female is a class, or an attribute. Ditto, race. So analogies to real people tend to break down a little bit. However, some of the *attributes* that an object may have include:
+I have a hard time with the difference between "attributes" and "classes," even though the concepts make a lot of sense to me. I think the problem is that I'm never really sure whether being female is a class, or an attribute. Am in the class female? Or is my gender attribute female? I don't even know which one is a better application of the analogy. Perhaps someone will come along and explain it better one day. However, some of the *attributes* that an object may have include:
 + names
 + dimension names
 + dimensions (A matrix has some number of rows, columns. A multidimensional array has even more dimensions)
 + class (every object has a class, that class is one of the objects attributes.)
-+ length (the number of items in the array)
++ length (the number of items in an array)
 + metadatas (user defined attributes)
 
 
@@ -230,4 +230,4 @@ NaN is like NA, but specifically means "not a number". Set one of the values in 
 
 The output of `is.na()` or `is.nan()` is just a vector of logical values. For each item in demo.vector, we know whether or not it was NA. So how do we actually use that?
 
-Well...
+Well... <02_getting-busy.md>

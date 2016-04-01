@@ -10,3 +10,5 @@ m <- 1:20
 dim(m) <- c(4, 5)
 ```
 Subsetting a matrix: https://class.coursera.org/rprog-015/lecture/133
+
+<04_special-tasks.md>

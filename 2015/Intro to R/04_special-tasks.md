@@ -72,8 +72,10 @@ sapply(food.trucks, anyNA)
 lapply(food.trucks, anyNA)
 ```
 
-`sapply()` returns a **s**imple matix of results while `lapply()` returns a **l**ist of results. Eitehr one can tell you that your X and Y columns have some NA values.
+`sapply()` returns a **s**imple matix of results while `lapply()` returns a **l**ist of results. Either one can tell you that your X and Y columns have some NA values.
 
 # More Practice
 
 <http://ww2.coastal.edu/kingw/statistics/R-tutorials/text/quick&dirty_R_revised_090125.txt>
+
+<05_making-programs.md>

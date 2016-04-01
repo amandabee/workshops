@@ -118,3 +118,5 @@ You should start to see that data frame subsetting uses the first value to pick 
 
 
 Creating a logical vector and then extracting by it.
+
+<04_appendix.md>
