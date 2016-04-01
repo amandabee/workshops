@@ -16,7 +16,7 @@ Last semester I had a student who was particularly interested in illegal convers
 
 So let's start by looking over that file:
 
-### [June DOB Complaints]()
+### [June DOB Complaints](https://github.com/amandabee/workshops/blob/master/2015/VLookup/complaints_062015.xls)
 
 We're missing something pretty key here: I have no idea which of these are calls about illegal conversions.
 
