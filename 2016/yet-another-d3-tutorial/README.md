@@ -11,3 +11,11 @@ So, given an array like:
     var colors = ["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854", "#ffd92f", "#e5c494", "#b3b3b3"];
 
 How would you create a row of boxes?  Think it over, describe it, and then see if what you came up with looks anything like [what I came up with](color_array.html).
+
+# Stacked Columns
+
+I found a half dozen different examples and walk throughs. 
+
++ <http://chimera.labs.oreilly.com/books/1230000000345/ch11.html#_stack_layout>
++ <https://bl.ocks.org/mbostock/3886208>
++ <http://www.verisi.com/resources/d3-tutorial-basic-charts.htm#s6>
