@@ -16,6 +16,6 @@ How would you create a row of boxes?  Think it over, describe it, and then see i
 
 I found a half dozen different examples and walk throughs. 
 
-+ <http://chimera.labs.oreilly.com/books/1230000000345/ch11.html#_stack_layout>
++ <http://chimera.labs.oreilly.com/books/1230000000345/ch11.html#_stack_layout> | <https://jsfiddle.net/oa7hho9q/8/>
 + <https://bl.ocks.org/mbostock/3886208>
 + <http://www.verisi.com/resources/d3-tutorial-basic-charts.htm#s6>
