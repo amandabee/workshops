@@ -17,52 +17,53 @@
 
 <h1>We can use an Array</h1>
 <svg id="array_chart" class="chart"></svg>
- 
+
 <h1>or a Scale</h1>
 
 <svg id="scale_chart" class="chart"></svg>
 
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
+<script>
 //You can define an array of hexidecimal color values
 var color_array = ["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854", "#ffd92f", "#e5c494", "#b3b3b3"];
 
-// Or use an ordinal scale. 
+// Or use an ordinal scale.
 var color_scale = d3.scale.category10();
 
-// Either way, define some basic variables. In this case the width varialble is based on 
+// Either way, define some basic variables. In this case the width varialble is based on
 // the length (or number of records) in the color scale.
 var barHeight = 50,
     barWidth =50,
     width = (barWidth + 5) * color_scale.range().length;
-    
+
 // you can always check variables by echoing them back to the console.
 console.log(color_scale.range().length)
-console.log(width)    
+console.log(width)
 
 // To start, you want to select the DOM object that we're going to build the chart on.
 // set the width to ensure that it will accomodate all the colors.
 var svg_scale = d3.select("#scale_chart").
 	attr("width", width);
 
-// Select All Rectangles gets you no rectangles until you start adding them, which seems cryptic. But that's how D3 works. 
+// Select All Rectangles gets you no rectangles until you start adding them, which seems cryptic. But that's how D3 works.
 svg_scale.selectAll("rect").data(color_scale.range())
   	.enter().append("rect")
      .attr("width", barWidth)
      .attr("height", barHeight)
-     .attr("x",function(d,i) { return i * barWidth; })     
+     .attr("x",function(d,i) { return i * barWidth; })
      .attr("y", 0)
      .style("fill", function(d) { return d; });
-    
-// See above: we're starting by selecting all text objects. Of which there are 0.    
+
+// See above: we're starting by selecting all text objects. Of which there are 0.
 svg_scale.selectAll("text").data(color_scale.range())
-	.enter().append("text")  
+	.enter().append("text")
   .attr("x", function(d,i) { return i * barWidth; })
   .attr("y", barHeight + 10)
   .attr("class", "block")
   .text(function(d) {return d;});
-  
-// to use the array, instead, well ... see for yourself. 
+
+// to use the array, instead, well ... see for yourself.
 
 var svg_array = d3.select("#array_chart").
 	attr("width", width);
@@ -71,18 +72,18 @@ svg_array.selectAll("rect").data(color_array)
   	.enter().append("rect")
      .attr("width", barWidth)
      .attr("height", barHeight)
-     .attr("x",function(d,i) { return i * barWidth; })     
+     .attr("x",function(d,i) { return i * barWidth; })
      .attr("y", 0)
      .style("fill", function(d) { return d; });
-    
-     
+
+
 svg_array.selectAll("text").data(color_array)
-	.enter().append("text")  
+	.enter().append("text")
   .attr("x", function(d,i) { return i * barWidth; })
   .attr("y", barHeight + 10)
   .attr("class", "block")
   .text(function(d) {return d;});
-  
+
   </script>
 
 
