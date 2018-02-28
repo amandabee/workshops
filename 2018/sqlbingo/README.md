@@ -14,8 +14,10 @@ You need [meta commands](https://www.postgresql.org/docs/9.4/static/app-psql.htm
 /dt
 
 /l to show all databases
-/connect dbname ## to connect to a database. 
+/connect dbname ## to connect to a database.
 
 ## Setup notes
 
 * add a postgres user for myself: amanda; pgAdmin 3 needed that user to have a password which is stupid but I did it.
+
+* [csvkit](http://csvkit.readthedocs.io/en/1.0.2/scripts/csvsql.html?highlight=sql) will generate "create" statements, which is incredible. `csvsql -i postgresql ./students.csv`
