@@ -1,2 +1,0 @@
-﻿SELECT first_name FROM students WHERE last_name = "Cruz";
-

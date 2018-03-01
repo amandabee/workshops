@@ -1,4 +1,4 @@
-SID,First,Last,Cohort
+sid,first,last,cohort
 16-001,Abdullah,Cruz,2018
 16-002,Angela,Lee,2018
 16-003,Carlos,Walker,2018
@@ -6,7 +6,6 @@ SID,First,Last,Cohort
 16-005,Cat,Shaffer,2018
 16-006,Charlotte,Sheppard,2018
 16-007,Chenwei,Reilly,2018
-16-008,Chloe,Chruz,2018
 16-009,Eddie,Deng,2018
 16-010,Hadassah,Schultz,2018
 16-011,James,Tian,2018
@@ -27,3 +26,6 @@ SID,First,Last,Cohort
 17-012,Waylon,Morris,2019
 17-013,Arlo,Cruz,2019
 17-014,Yutao,Henderson,2019
+15-009,Jordan,Mendelson,2017
+15-003,Ted,Han,2017
+16-008,Chloe,Cruz,2018
