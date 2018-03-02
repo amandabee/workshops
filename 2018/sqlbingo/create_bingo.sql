@@ -23,5 +23,6 @@ CREATE TABLE students (
 
 CREATE TABLE registration (
   sid CHAR(6),
-  course_id INT
+  course_id INT,
+  PRIMARY KEY (sid, course_id)
 );
