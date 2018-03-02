@@ -22,6 +22,6 @@ CREATE TABLE students (
 );
 
 CREATE TABLE registration (
-
-
+  sid CHAR(6),
+  course_id INT
 );

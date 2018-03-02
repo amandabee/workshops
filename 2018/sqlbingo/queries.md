@@ -34,4 +34,18 @@ SELECT instructor_first FROM courses WHERE category LIKE '%Background';
 
 -------------------------------------
 
-Okay, so what if we want to find all the students who are enrolled in 5 unit classes? 
+Okay, so what if we want to find all the students who are enrolled in 5 unit classes?
+
+```
+SELECT first_name FROM students
+	LEFT JOIN registration ON students.sid = registration.sid
+	LEFT JOIN courses ON registration.course_id = courses.course_id
+	WHERE courses.units = 5 ORDER BY students.sid;
+
+```
+
+"Abdullah"
+"Angela"
+"Caron"
+"Caron"
+"Cat"
