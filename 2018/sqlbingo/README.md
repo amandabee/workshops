@@ -1,3 +1,5 @@
+[Slides](https://docs.google.com/presentation/d/1qsd1hZsd6U6b0sZJCoshFvjXnGcVy9yqafNlWe3SsB4/edit?usp=sharing)
+
 This is the foundation for a nice little game to get students thinking about SQL as a language.
 
 There are more notes at <https://github.com/amandabee/CUNY-data-storytelling/wiki/Tip-Sheet:-SQL>
