@@ -2,18 +2,20 @@
 
 We can talk about "good" design, or bad design but ...
 
+Let's look at what makes NYT Charts work. I'm 100% open to design innovation but there are some pretty good established formulas that we can lean on.
+https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html
 
 Good Charts: http://www.pewresearch.org/fact-tank/2018/02/08/ice-arrests-went-up-in-2017-with-biggest-increases-in-florida-northern-texas-oklahoma/
 
 Bad charts: https://www.ice.gov/features/100-days
 
-Starting with some basic questions: what does this chart show? 
+Starting with some basic questions: what does this chart show?
 
-What is 38%? 52%? What do those represent? 
+What is 38%? 52%? What do those represent?
 
-What does the grey represent? 
+What does the grey represent?
 
-What you do in a presentation is your business, but if you're writing, or charting, for public consumption, your goal is to highlight the numbers that matter and clarify them. It isn't to show everyone that you can do cool 3d things. 
+What you do in a presentation is your business, but if you're writing, or charting, for public consumption, your goal is to highlight the numbers that matter and clarify them. It isn't to show everyone that you can do cool 3d things.
 
 FWIW, what the ICE chart is showing that toal arrests were up 37.6% in 2017. Convicted criminal arrests were up 18.2% and at-large arrests up 52.6% (their math is a little off).
 
