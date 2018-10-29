@@ -1,7 +1,7 @@
 ---
 title     : Rows, Columns and Charts
 layout    : page
-category  : Advanced Media Institute
+category  : advanced_media_institute
 tagline   : Tuesday, 30 Oct 2018 6-9PM
 year      : 2018
 tags      : [chart, 2018]
@@ -62,7 +62,6 @@ Secretly, Workbench's charting is a little wonky, so I'd move over to another ch
 Note that this demo makes use of [regular expressions](http://velociraptor.info/talks/2014/NICAR/regex) which are awesome and also [exasperating](https://www.xkcd.com/1171/). [Rubular](http://rubular.com/) and [Regex101](https://regex101.com/) might make your regular expression journey more sane.
 
 **Challenge:** The state of California publishes data on who gave money to support or oppose individual ballot measures. Find and tidy the Prop 10 donors.
-
 
 # Making A Simple Chart
 
