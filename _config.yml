@@ -1,9 +1,9 @@
 theme: jekyll-theme-minimal
-permalink: /:categories/:title.html
+permalink: /:year/:category/:title.html
 
 exclude: ["notes"]
 highlighter: rouge
 
 title : Workshops
-description: Mostly just walkthroughs
+description: Berkeley Advanced Media Institute
 logo: assets/logo-blue-retina.png
