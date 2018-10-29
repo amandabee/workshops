@@ -17,7 +17,7 @@ What does the grey represent?
 
 What you do in a presentation is your business, but if you're writing, or charting, for public consumption, your goal is to highlight the numbers that matter and clarify them. It isn't to show everyone that you can do cool 3d things.
 
-FWIW, what the ICE chart is showing that toal arrests were up 37.6% in 2017. Convicted criminal arrests were up 18.2% and at-large arrests up 52.6% (their math is a little off).
+FWIW, what the ICE chart is showing that total arrests were up 37.6% in 2017. Convicted criminal arrests were up 18.2% and at-large arrests up 52.6% (their math is a little off).
 
 Thc charts are also just inaccurate if you look at the Y-axis and compare that to the numbers.
 
