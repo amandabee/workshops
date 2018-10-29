@@ -71,7 +71,15 @@ Look at what makes NYT Charts work. I'm 100% open to design innovation but there
 
 [![Chart: The Declining Value of Low-Income Housing Tax Credits](nyt_housing.png) (https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html)
 
-## Not Making Bad Charts
+## ICE vs Pew
+[![ICE Chart](ice_enforcement.png)](https://www.ice.gov/features/100-days) **Questions:** What does this chart show? What is 38%? 52%? What do those represent?  What does the grey represent?
+
+[![Pew Chart](pew_ice.png)](http://www.pewresearch.org/fact-tank/2018/02/08/ice-arrests-went-up-in-2017-with-biggest-increases-in-florida-northern-texas-oklahoma/) Pew covered the same numbers but added context and specificity to their chart (and ommitted the 3D renderings).
+
+<!--FWIW, what the ICE chart is showing that total arrests were up 37.6% in 2017. Convicted criminal arrests were up 18.2% and at-large arrests up 52.6% (their math is a little off).-->
+
+## Don't Make Bad Charts
+
 Are millenials really having fewer children? The answer is probably "duh, of course they are". But looking at stories about the data there are a lot of examples of y-axis shenanigans:
 
 * This writer cribbed his charts from Business Insider, but check out the y-axis in [the chart he included](https://www.linkedin.com/pulse/why-many-millennials-wont-have-children-michael-spencer/).  Bonus: what is wrong with his x-axis?
@@ -94,6 +102,20 @@ Using the data at <https://app.workbenchdata.com/workflows/6631/> (which I pulle
 4. Look at the raw chart.
 5. Back to Step 2 ("Check and Describe") to select individual columns that we want to hide from the visualization.
 6. Refine, Annotate and Design it. We've got 3 different takes on this data to crib from. Set up a title, a description, any notes that you think are appropriate. When you're happy with your work, publish it and share the URL, with your name, at <https://etherpad.opennews.org/p/maps_and_charts>
+
+## One More
+I manually copied out the data from the ICE chart above. You can paste it into Datawrapper:
+
+```
+2016	2017	Percent Change
+Total Arrests	30028	41318	37.6%
+Convicted Criminals	25786	30473	18.2%
+At-Large Arrests	8381	12786	52.6%
+```
+Spend some time in Datawrapper experimenting with how you want to display this data. 
+
+Here's my version of those same numbers:
+<iframe id="datawrapper-chart-Ztj22" src="//datawrapper.dwcdn.net/Ztj22/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="240"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["Ztj22"]={},window.datawrapper["Ztj22"].embedDeltas={"100":605,"200":360,"300":300,"400":283,"500":240,"700":223,"800":223,"900":223,"1000":223},window.datawrapper["Ztj22"].iframe=document.getElementById("datawrapper-chart-Ztj22"),window.datawrapper["Ztj22"].iframe.style.height=window.datawrapper["Ztj22"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["Ztj22"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("Ztj22"==b)window.datawrapper["Ztj22"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
 
 ## More to Look at
 A few of my favorite recent charts:
