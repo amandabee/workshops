@@ -69,14 +69,7 @@ Note that this demo makes use of [regular expressions](http://velociraptor.info/
 
 Look at what makes NYT Charts work. I'm 100% open to design innovation but there are some pretty good established formulas that we can lean on:
 
-[![Chart: The Declining Value of Low-Income Housing Tax Credits](nyt_housing.png) (https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html)
-
-## ICE vs Pew
-[![ICE Chart](ice_enforcement.png)](https://www.ice.gov/features/100-days) **Questions:** What does this chart show? What is 38%? 52%? What do those represent?  What does the grey represent?
-
-[![Pew Chart](pew_ice.png)](http://www.pewresearch.org/fact-tank/2018/02/08/ice-arrests-went-up-in-2017-with-biggest-increases-in-florida-northern-texas-oklahoma/) Pew covered the same numbers but added context and specificity to their chart (and ommitted the 3D renderings).
-
-<!--FWIW, what the ICE chart is showing that total arrests were up 37.6% in 2017. Convicted criminal arrests were up 18.2% and at-large arrests up 52.6% (their math is a little off).-->
+[![Chart: The Declining Value of Low-Income Housing Tax Credits](nyt_housing.png)] (https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html)
 
 ## Don't Make Bad Charts
 
@@ -104,6 +97,14 @@ Using the data at <https://app.workbenchdata.com/workflows/6631/> (which I pulle
 6. Refine, Annotate and Design it. We've got 3 different takes on this data to crib from. Set up a title, a description, any notes that you think are appropriate. When you're happy with your work, publish it and share the URL, with your name, at <https://etherpad.opennews.org/p/maps_and_charts>
 
 ## One More
+
+[![ICE Chart](ice_enforcement.png)](https://www.ice.gov/features/100-days) **Questions:** What does this chart show? What is 38%? 52%? What do those represent?  What does the grey represent?
+
+Pew covered the same numbers but added context and specificity to their chart (and ommitted the 3D renderings).
+[![Pew Chart](pew_ice.png)](http://www.pewresearch.org/fact-tank/2018/02/08/ice-arrests-went-up-in-2017-with-biggest-increases-in-florida-northern-texas-oklahoma/)
+
+<!--FWIW, what the ICE chart is showing that total arrests were up 37.6% in 2017. Convicted criminal arrests were up 18.2% and at-large arrests up 52.6% (their math is a little off).-->
+
 I manually copied out the data from the ICE chart above. You can paste it into Datawrapper:
 
 ```
@@ -112,44 +113,60 @@ Total Arrests	30028	41318	37.6%
 Convicted Criminals	25786	30473	18.2%
 At-Large Arrests	8381	12786	52.6%
 ```
-Spend some time in Datawrapper experimenting with how you want to display this data. 
+Spend some time in Datawrapper experimenting with how you want to display this data.
 
 Here's my version of those same numbers:
 <iframe id="datawrapper-chart-Ztj22" src="//datawrapper.dwcdn.net/Ztj22/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="240"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["Ztj22"]={},window.datawrapper["Ztj22"].embedDeltas={"100":605,"200":360,"300":300,"400":283,"500":240,"700":223,"800":223,"900":223,"1000":223},window.datawrapper["Ztj22"].iframe=document.getElementById("datawrapper-chart-Ztj22"),window.datawrapper["Ztj22"].iframe.style.height=window.datawrapper["Ztj22"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["Ztj22"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("Ztj22"==b)window.datawrapper["Ztj22"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
 
 ## More to Look at
 A few of my favorite recent charts:
-+ [80,000 Americans died of the flu last winter. Get your flu shot.](https://www.vox.com/platform/amp/2018/9/27/17910318/80000-americans-died-last-year-get-your-flu-shot), Vox (2018) is still on my list because I would swear it included a good chart.
++ [80,000 Americans died of the flu last winter. Get your flu shot.](https://www.vox.com/platform/amp/2018/9/27/17910318/80000-americans-died-last-year-get-your-flu-shot) *Vox*, October 19, 2018; is still on my list because I would swear it included a good chart.
+
++ [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G) *Reuters*, October 9, 2018 has a nice clean chart of the sort that's in our wheelhouse.
 
 
+### Charts to Discuss
+[Californians: Here’s why your housing costs are so high](https://calmatters.org/articles/housing-costs-high-california/) *CALMatters*, August 21, 2017
 
-https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G
+[Why is Sacramento failing its black students?](http://www.newsreview.com/sacramento/why-is-sacramento-failing-its/content?oid=26402481) *Sacramento News and Review*, June 14, 2018
 
-https://calmatters.org/articles/housing-costs-high-california/#If-not-in-your-backyard-then-whose <-- redesign?
-
-http://www.newsreview.com/sacramento/why-is-sacramento-failing-its/content?oid=26402481
-
-
-Ice detainers
-
-
-https://www.occrp.org/en/other-articles/7753-biya-s-private-travels-the-story-behind-the-story
-
-http://r.mediapusher.eu/cqnoa8v5s2cnf.html
-
-https://jsvine.github.io/intro-to-visidata/
-
-Quick and easy re-design
-
-https://arstechnica.com/tech-policy/2018/09/new-bill-would-finally-tear-down-federal-judiciarys-ridiculous-paywall/
-
-
-
+<!-- Not sure why this is here
+[Biya’s private travels: The story behind the story](https://www.occrp.org/en/other-articles/7753-biya-s-private-travels-the-story-behind-the-story) *OCCRP*, March 12, 2018 -->
 
 # Homework, Due Thursday
-Re-make the following chart in Datawrapper:
+Re-make the *Ars Technica* chart in Datawrapper:
 
-Pay attention not only to the data, but also to the framing.
+[New bill would finally tear down federal judiciary’s ridiculous paywall](https://arstechnica.com/tech-policy/2018/09/new-bill-would-finally-tear-down-federal-judiciarys-ridiculous-paywall/) *Ars Technica*, September 17, 2018
+
+*Ars Technica* cribbed their chart from the Free Law Project, [How Much Money Does PACER Make?](https://free.law/2016/11/14/how-much-money-does-pacer-make/) *Free Law Project*, November 14, 2016 and the Free Law Project shared the source of their data. You can pull [the xls url](https://free.law/xlsx/pacer-revenue-over-time.xlsx) into Workbench or just copy and paste the data (it's not huge.)
+![chart from arstechnica](arstechnica_pacer.png)
+
+```
+Year	PACER Revenue (Millions)
+1995	5
+1996	7
+1997	8
+1998	11
+1999	14
+2000	14
+2001	12
+2002	18
+2003	28
+2004	38
+2005	46
+2006	62
+2007	65
+2008	78
+2009	89
+2010	103
+2011	114
+2012	124
+2013	148
+2014	145
+2015	145
+```
+
+For extra credit, look at the notes from the Free Law Project and see if you can find 2016 and 2017 figures. Pay attention not only to the data, but also to the framing. Give your chart a title, think about the labels you do and don't want to include.
 
 Identify at least three data sources that you're interested in working with. One should be about places. Pull each into Workbench and make them Public. Share the URLs with me.
 
@@ -158,7 +175,9 @@ Identify at least three data sources that you're interested in working with. One
 + [NICAR-L](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/)
 + [NICAR and IRE conferences](http://ire.org/conferences/)
 + Stack Exchange
-+ [Nathan Yau's tutorials](http://flowingdata.com/)
++ [Nathan Yau's tutorials](http://flowingdata.com/) are great.
++ Jeremy Singer Vine's [Intro to VisiData](https://jsvine.github.io/intro-to-visidata/) is a nice intro to a great tool for summary visualizations
++ [Conversations with Data](http://r.mediapusher.eu/cqnoa8v5s2cnf.html) and [Data is Plural](https://tinyletter.com/data-is-plural/archive) are great newsletters
 
 If you don't have a copy of Sarah Cohen's [Numbers in the Newsroom](http://store.ire.org/products/numbers-in-the-newsroom-using-math-and-statistics-in-news-second-edition) get one. Read it through. She covers a lot of vital information about working with and writing about numbers.
 
