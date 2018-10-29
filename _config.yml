@@ -5,6 +5,6 @@ permalink: /:year/:category/:title.html
 exclude: ["notes"]
 highlighter: rouge
 
-title : Workshops
+title : Data, Charts and Maps
 description: Berkeley Advanced Media Institute
 logo: assets/logo-blue-retina.png
