@@ -1,22 +1,19 @@
 ---
-title     : Rows, Columns and Charts
+title     : Maps and Mapping
 layout    : page
 category  : Advanced Media Institute
-tagline   : Tuesday, 30 Oct 2018 6-8PM
+tagline   : Thursday, 1 November 2018 6-9PM
 year      : 2018
-tags      : [chart, 2018]
+tags      : [map, 2018]
 ---
 
-If you haven't already created accounts on both [Workbench](https://app.workbenchdata.com/account/signup/) and [Datawrapper](https://app.datawrapper.de/signin) please go ahead and do that.
+# Homework review
 
-# Finding and Cleaning Data
+# Why maps?
 
+# Making a map in Datawrapper
 
-
-
-# Making A Simple Chart
-
-# Making Really Good Charts
+# Making a map in Fusion Tables 
 
 # Homework, Due Thursday
 Re-make the following chart in Datawrapper:
