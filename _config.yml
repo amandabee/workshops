@@ -2,9 +2,9 @@ theme: jekyll-theme-minimal
 baseurl: "/workshops"
 permalink: /:year/:category/:title.html
 
-exclude: ["notes"]
+# exclude: ["notes"]
 highlighter: rouge
 
 title : Data, Charts and Maps
-description: Berkeley Advanced Media Institute
+description: Amanda Hickman, Berkeley Advanced Media Institute
 logo: assets/advanced_media_inst.png
