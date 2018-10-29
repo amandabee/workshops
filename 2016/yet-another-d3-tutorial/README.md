@@ -1,10 +1,8 @@
-Many have come before, but this is mine. 
-
-I'm working through my first real D3 project and I can't stop thinking like a teacher. So here's what we have:
+I'm working through my first real D3 project and I can't stop thinking like a teacher. So these are rough notes towards a walkthrough:
 
 # Color Array
 
-My first project is a fairly basic [stacked column chart](http://www.verisi.com/resources/d3-tutorial-basic-charts.htm#s6), but while I was working on it I was having trouble troubleshooting because I couldn't even quite tell where it was breaking because I didn't know which color was meant to be which. So I thought I'd take a step back and see if I couldn't do something even more basic: color a row of rectangles using an array of hexidecimal codes. 
+My first project is a fairly basic [stacked column chart](http://www.verisi.com/resources/d3-tutorial-basic-charts.htm#s6), but while I was working on it I was having trouble troubleshooting because I couldn't even quite tell where it was breaking because I didn't know which color was meant to be which. So I thought I'd take a step back and see if I couldn't do something even more basic: color a row of rectangles using an array of hexidecimal codes.
 
 So, given an array like:
 
@@ -14,7 +12,7 @@ How would you create a row of boxes?  Think it over, describe it, and then see i
 
 # Stacked Columns
 
-I found a half dozen different examples and walk throughs. 
+I found a half dozen different examples and walk throughs.
 
 + <http://chimera.labs.oreilly.com/books/1230000000345/ch11.html#_stack_layout> | <https://jsfiddle.net/oa7hho9q/8/>
 + <https://bl.ocks.org/mbostock/3886208>
