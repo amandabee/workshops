@@ -69,7 +69,9 @@ Note that this demo makes use of [regular expressions](http://velociraptor.info/
 
 Look at what makes NYT Charts work. I'm 100% open to design innovation but there are some pretty good established formulas that we can lean on:
 
-[![Chart: The Declining Value of Low-Income Housing Tax Credits](nyt_housing.png)] (https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html)
+![Chart: The Declining Value of Low-Income Housing Tax Credits](nyt_housing.png)
+
+[These 95 Apartments Promised Affordable Rent in San Francisco. Then 6,580 People Applied.](https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html) *New York Times*, May 12, 2018
 
 ## Don't Make Bad Charts
 
