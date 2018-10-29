@@ -8,7 +8,11 @@ tags      : [chart, 2018]
 ---
 
 If you haven't already created accounts on both [Workbench](https://app.workbenchdata.com/account/signup/) and [Datawrapper](https://app.datawrapper.de/signin) please go ahead and do that.
+
 # Finding and Cleaning Data
+
+
+
 
 # Making A Simple Chart
 
