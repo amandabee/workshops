@@ -1,6 +1,6 @@
 ---
 title     : Rows, Columns and Charts
-layout    : page
+layout    : default
 category  : advanced_media_institute
 tagline   : Tuesday, 30 Oct 2018 6-9PM
 year      : 2018
