@@ -1,0 +1,24 @@
+
+header {
+ float:none;
+}
+header ul {
+ height:unset;
+ background: #FFF;
+ border:0;
+}
+header li {
+ width:unset;
+ float:unset;
+ border:0px
+ height:unset;
+}
+header ul a {
+ display:inline;
+}
+header ul li+li+li {
+ border-right:none;
+}
+header ul a strong {
+ display:inline;
+}

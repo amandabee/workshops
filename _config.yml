@@ -1,0 +1,9 @@
+theme: jekyll-theme-minimal
+permalink: /:categories/:title.html
+
+exclude: ["notes"]
+highlighter: rouge
+
+title : Workshops
+description: Mostly just walkthroughs
+logo: assets/logo-blue-retina.png
