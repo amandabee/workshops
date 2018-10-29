@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
+
+baseurl: "/workshops"
 permalink: /:year/:category/:title.html
 
 exclude: ["notes"]
