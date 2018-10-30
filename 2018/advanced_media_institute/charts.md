@@ -64,8 +64,9 @@ Note that this demo makes use of [regular expressions](http://velociraptor.info/
 **Challenge:** The state of California publishes data on who gave money to support or oppose individual ballot measures. Find and tidy the Prop 10 donors.
 
 # Making Really Good Charts
-[Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories
- that can inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
+[Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories that ought to inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
+
+[![animated step-by-step guide to improving bar charts from Dark Horse Analytics](dark_horse_analytics-data-ink.gif)](https://www.darkhorseanalytics.com/portfolio/data-looks-better-naked-bar-charts)
 
 Look at what makes NYT Charts work. I'm 100% open to design innovation but there are some pretty good established formulas that we can lean on:
 
@@ -83,7 +84,8 @@ Are millenials really having fewer children? The answer is probably "duh, of cou
 
 * If you look at the same data with a wider Y-axis spread, you see something that looks a lot more like a steady trend, as in an [NPR piece](https://www.npr.org/sections/health-shots/2016/01/14/462816458/average-age-of-first-time-moms-keeps-climbing-in-the-u-s) about the same data [or the CDC report](https://www.cdc.gov/nchs/data/databriefs/db232.pdf) that precipitated the coverage.
 
-![](births_cdc.png) | ![](births_npr.png)
+![](births_cdc.png)
+![](births_npr.png)
 
 **Discussion:** let's talk about what data would get at that question, and go look at the data. We want two things: mean age at first birth, and birth rate. And we want to know whether millenials stand out or are just being consistent with long-standing trends.
 
@@ -120,14 +122,14 @@ Spend some time in Datawrapper experimenting with how you want to display this d
 Here's my version of those same numbers:
 <iframe id="datawrapper-chart-Ztj22" src="//datawrapper.dwcdn.net/Ztj22/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="240"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["Ztj22"]={},window.datawrapper["Ztj22"].embedDeltas={"100":605,"200":360,"300":300,"400":283,"500":240,"700":223,"800":223,"900":223,"1000":223},window.datawrapper["Ztj22"].iframe=document.getElementById("datawrapper-chart-Ztj22"),window.datawrapper["Ztj22"].iframe.style.height=window.datawrapper["Ztj22"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["Ztj22"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("Ztj22"==b)window.datawrapper["Ztj22"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
 
-## More Recent Examples 
+## More Recent Examples
 
 <!-- + [80,000 Americans died of the flu last winter. Get your flu shot.](https://www.vox.com/platform/amp/2018/9/27/17910318/80000-americans-died-last-year-get-your-flu-shot) *Vox*, October 19, 2018; is still on my list because I would swear it included a good chart. -->
- 
+
 + [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G) *Reuters*, October 9, 2018 has a nice clean chart of the sort that's in our wheelhouse.
 
 ## Charts to Discuss
-+ [Homelessness in the Bay Area](https://www.spur.org/publications/urbanist-article/2017-10-23/homelessness-bay-area) *Spur: The Urbanist*, October 23, 2017 
++ [Homelessness in the Bay Area](https://www.spur.org/publications/urbanist-article/2017-10-23/homelessness-bay-area) *Spur: The Urbanist*, October 23, 2017
 + [Californians: Here’s why your housing costs are so high](https://calmatters.org/articles/housing-costs-high-california/) *CALMatters*, August 21, 2017
 + [Why is Sacramento failing its black students?](http://www.newsreview.com/sacramento/why-is-sacramento-failing-its/content?oid=26402481) *Sacramento News and Review*, June 14, 2018
 
