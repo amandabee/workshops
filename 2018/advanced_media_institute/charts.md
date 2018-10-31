@@ -143,12 +143,12 @@ Here's my version of those same numbers:
 
 Read [New bill would finally tear down federal judiciary’s ridiculous paywall](https://arstechnica.com/tech-policy/2018/09/new-bill-would-finally-tear-down-federal-judiciarys-ridiculous-paywall/) *Ars Technica*, September 17, 2018
 
-The article includes 
+The article includes a chart that shows just how much PACER's revenue has grown in the 30 years since it was founded. It's a perfectly good chart but we can definitely apply some of the basic design guidelines we looked at in class to improve on it.
 
 *Ars Technica* cribbed their chart from the Free Law Project, [How Much Money Does PACER Make?](https://free.law/2016/11/14/how-much-money-does-pacer-make/) *Free Law Project*, November 14, 2016 and the Free Law Project shared the source of their data. You can pull [the xls url](https://free.law/xlsx/pacer-revenue-over-time.xlsx) into Workbench or just copy and paste the data. If copy and paste is acting wonky, you can also [use this csv](pacer_revenue.csv).
 ![chart from arstechnica](arstechnica_pacer.png)
 
-Re-make the *Ars Technica* chart in Datawrapper:
+Re-make or re-design the *Ars Technica* chart in Datawrapper:
 
 ```
 Year	PACER Revenue (Millions)
@@ -174,6 +174,7 @@ Year	PACER Revenue (Millions)
 2014	145
 2015	145
 ```
+
 Post a link to your chart at: <https://etherpad.opennews.org/p/maps_and_charts>
 
 For extra credit, look at the notes from the Free Law Project and see if you can find 2016 and 2017 figures. Pay attention not only to the data, but also to the framing. Give your chart a title, think about the labels you do and don't want to include.
@@ -184,16 +185,19 @@ Identify at least three data sources that you're interested in working with. One
 
 # Resources to Keep Learning
 
-+ [NICAR-L](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/)
-+ [NICAR and IRE conferences](http://ire.org/conferences/)
-+ Stack Exchange
-+ [Nathan Yau's tutorials](http://flowingdata.com/) are great.
-+ Jeremy Singer Vine's [Intro to VisiData](https://jsvine.github.io/intro-to-visidata/) is a nice intro to a great tool for summary visualizations
-+ [Conversations with Data](http://r.mediapusher.eu/cqnoa8v5s2cnf.html) and [Data is Plural](https://tinyletter.com/data-is-plural/archive) are great newsletters
-
 If you don't have a copy of Sarah Cohen's [Numbers in the Newsroom](http://store.ire.org/products/numbers-in-the-newsroom-using-math-and-statistics-in-news-second-edition) get one. Read it through. She covers a lot of vital information about working with and writing about numbers.
 
 If you don't already feel comfortable with spreadsheets, you should work through the exercises in AMI's [Spreadsheet Basics](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheet-basics/). If you don't have Safari or want additional refreshers, take a look at...
 + Peter Aldhous's [Interviewing Data](http://paldhous.github.io/ucb/2016/intro-data/week3.html) lesson plan from J200
 + [Spreadsheet Refresher](https://ucb-dataj.github.io/2018/week3.html#spreadsheets) from J298
 + [Spreadsheet Skills](http://amandabee.github.io/CUNY-data-skills/hands-on/spreadsheets.html)
+
+If you're ready to do more with the data and charts...
+
++ Source publishes some fantastic [guides to wrangling data](https://source.opennews.org/guides/working-data/) and [making charts](https://source.opennews.org/guides/making-charts/), and their [Things You Made](https://source.opennews.org/articles/tags/roundup/) series is a great place to find ideas and inspiration.
++ [NICAR-L](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/)
++ [NICAR and IRE conferences](http://ire.org/conferences/)
++ Stack Exchange
++ [Nathan Yau's tutorials](http://flowingdata.com/) are great.
++ Jeremy Singer Vine's [Intro to VisiData](https://jsvine.github.io/intro-to-visidata/) is a nice intro to a great tool for summary visualizations
++ [Conversations with Data](http://r.mediapusher.eu/cqnoa8v5s2cnf.html) and [Data is Plural](https://tinyletter.com/data-is-plural/archive) are great newsletters
