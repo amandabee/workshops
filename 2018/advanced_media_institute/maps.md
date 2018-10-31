@@ -160,6 +160,7 @@ We'll play with this together until we have points on a map. And you can embed t
 Pick one of the data sets you identified and map it!
 
 # Resources
+* Source's guide to [Better Mapping](https://source.opennews.org/guides/better-mapping/) is a fantastic round up of articles. 
 
 * We use **QGIS** and **PostGIS** in the data investigations class because it is much more powerful analytical tool. The learning curve is a bit steep, however, and QGIS doesn't produce  interactive maps. QGIS will generate SVG files that you can style in Illustrator or any other vector graphics editor for publication.
 * **R** is powerful statistical software and not easy to learn. These [Dutch election maps](https://multimedia.tijd.be/2018/verkiezingen2018/) were made in ggplot2 (an R package) -- working from [a comprehensive tutorial tutorial](https://timogrossenbacher.ch/2016/12/beautiful-thematic-maps-with-ggplot2-only/#more-intuitive-legend). Like QGIS, R will generate SVG files that you can style in Adobe Illustrator or any other vector graphics editor.
