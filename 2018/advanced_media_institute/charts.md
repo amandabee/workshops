@@ -109,7 +109,7 @@ Pew covered the same numbers but added context and specificity to their chart (a
 
 <!--FWIW, what the ICE chart is showing that total arrests were up 37.6% in 2017. Convicted criminal arrests were up 18.2% and at-large arrests up 52.6% (their math is a little off).-->
 
-I manually copied out the data from the ICE chart above. You can paste it into Datawrapper:
+I manually copied out the data from the ICE chart above. You can paste it straight into Datawrapper:
 
 ```
 2016	2017	Percent Change
@@ -117,6 +117,9 @@ Total Arrests	30028	41318	37.6%
 Convicted Criminals	25786	30473	18.2%
 At-Large Arrests	8381	12786	52.6%
 ```
+
+*note:* If copy and paste aren't working for some reason, you can also grab the [data in a CSV](ice_arrests.csv). Right click to grab the URL for the data, or download it and upload it to Datawrapper.
+
 Spend some time in Datawrapper experimenting with how you want to display this data.
 
 Here's my version of those same numbers:
@@ -137,12 +140,15 @@ Here's my version of those same numbers:
 [Biya’s private travels: The story behind the story](https://www.occrp.org/en/other-articles/7753-biya-s-private-travels-the-story-behind-the-story) *OCCRP*, March 12, 2018 -->
 
 # Homework, Due Thursday
-Re-make the *Ars Technica* chart in Datawrapper:
 
-[New bill would finally tear down federal judiciary’s ridiculous paywall](https://arstechnica.com/tech-policy/2018/09/new-bill-would-finally-tear-down-federal-judiciarys-ridiculous-paywall/) *Ars Technica*, September 17, 2018
+Read [New bill would finally tear down federal judiciary’s ridiculous paywall](https://arstechnica.com/tech-policy/2018/09/new-bill-would-finally-tear-down-federal-judiciarys-ridiculous-paywall/) *Ars Technica*, September 17, 2018
 
-*Ars Technica* cribbed their chart from the Free Law Project, [How Much Money Does PACER Make?](https://free.law/2016/11/14/how-much-money-does-pacer-make/) *Free Law Project*, November 14, 2016 and the Free Law Project shared the source of their data. You can pull [the xls url](https://free.law/xlsx/pacer-revenue-over-time.xlsx) into Workbench or just copy and paste the data (it's not huge.)
+The article includes 
+
+*Ars Technica* cribbed their chart from the Free Law Project, [How Much Money Does PACER Make?](https://free.law/2016/11/14/how-much-money-does-pacer-make/) *Free Law Project*, November 14, 2016 and the Free Law Project shared the source of their data. You can pull [the xls url](https://free.law/xlsx/pacer-revenue-over-time.xlsx) into Workbench or just copy and paste the data. If copy and paste is acting wonky, you can also [use this csv](pacer_revenue.csv).
 ![chart from arstechnica](arstechnica_pacer.png)
+
+Re-make the *Ars Technica* chart in Datawrapper:
 
 ```
 Year	PACER Revenue (Millions)
@@ -168,10 +174,13 @@ Year	PACER Revenue (Millions)
 2014	145
 2015	145
 ```
+Post a link to your chart at: <https://etherpad.opennews.org/p/maps_and_charts>
 
 For extra credit, look at the notes from the Free Law Project and see if you can find 2016 and 2017 figures. Pay attention not only to the data, but also to the framing. Give your chart a title, think about the labels you do and don't want to include.
 
-Identify at least three data sources that you're interested in working with. One should be about places. Pull each into Workbench and make them Public. Share the URLs with me.
+Identify at least three data sources that you're interested in working with. One should be about places. Pull each into Workbench and make them Public. Share the URLs at:
+<https://etherpad.opennews.org/p/maps_and_charts>
+
 
 # Resources to Keep Learning
 
