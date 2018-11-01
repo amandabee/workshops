@@ -9,3 +9,7 @@ Workshop material is all copyright me, Amanda Hickman. License: [by-nc-sa 4.0](h
 + **Berkeley Advanced Media Institute**, Berkeley, CA
   + [Rows, Columns and Charts](2018/advanced_media_institute/charts.html)
   + [Maps, Mapping and Geography](2018/advanced_media_institute/maps.html)
+
++ **J200 Data Bootcamp**, Berkeley, CA
+  + [About Maps](2018/j200/maps.html)
+  + [Making a Map](2018/j200/maps_handson.html)
