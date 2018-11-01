@@ -9,7 +9,6 @@ tags      : [map, 2018]
 
 # Homework Review
 
-
 [The Age That Women Have Babies: How a Gap Divides America](https://www.nytimes.com/interactive/2018/08/04/upshot/up-birth-age-gap.html), *New York Times* 4 August 2018.
 
 *New York Times* went even deeper on the data we were playing with last week: they found and animated the spread over each year. They also mapped the average age for first time mothers for every county in the US, and broke first time mothers into a few categories:
