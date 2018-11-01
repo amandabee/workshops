@@ -15,7 +15,7 @@ tags      : [map, 2018]
 
 ![NYT map of first time mothers by US county](nyt_maternal-age-county.png)
 
-![NYT map of first time mothers by education and marriage](nyt_maternal-age-multi.png)
+![NYT map of first time mothers by education and marriage](nyt_maternal-age-mult.png)
 
 # Why maps?
 
@@ -124,27 +124,27 @@ The Washington Post collected data on more than 52,000 criminal homicides over t
 Question: Is this data points, lines, or shapes?
 
 
-1. Find the URL for the cleaned and filtered CSV in Workbench. Copy that.
+**Step 1:** Find the URL for the cleaned and filtered CSV in Workbench. Copy that.
 
-1. Create a new spreadsheet. Populate it with the `=IMPORTDATA()` function. What does the help menu say about how to use `=IMPORTDATA()`?
+**Step 2:** Create a new spreadsheet. Populate it with the `=IMPORTDATA()` function. What does the help menu say about how to use `=IMPORTDATA()`?
 
-2. Format the `reported_date` column so it reads as dates.
+**Step 3:** Format the `reported_date` column so it reads as dates.
 
-3. Create a new column and calculate the number of days the case has been open with  `=DAYS(TODAY(),D2)` -- stop and read what `=DAYS()` and `=TODAY()` do. What do they do?
+**Step 4:** Create a new column and calculate the number of days the case has been open with  `=DAYS(TODAY(),D2)` -- stop and read what `=DAYS()` and `=TODAY()` do. What do they do?
 
-4. 🤔 What is wrong with this picture? (Hint: it's in the `disposition` column.) Not all of these homicides are "unsolved". Keep this in mind as we keep working.
+**Step 5:** 🤔 What is wrong with this picture? (Hint: it's in the `disposition` column.) Not all of these homicides are "unsolved". Keep this in mind as we keep working.
 
-4. Create a new Fusion Table. Go to Google Drive and select *New > More > Google Fusion Tables* (you might have to connect Fusion Tables as an app).
+**Step 6:** Create a new Fusion Table. Go to Google Drive and select *New > More > Google Fusion Tables* (you might have to connect Fusion Tables as an app).
 
-5. Which column contains our location? We actually need a "two column location" which could be more intuitive than it is.
+**Step 7:** Which column contains our location? We actually need a "two column location" which could be more intuitive than it is.
 
-7. This data actually contains all homicides, open and closed. So let's play with a few ways to handle that.  
+**Step 8:** This data actually contains all homicides, open and closed. So let's play with a few ways to handle that.  
   * Filter out the solved homicides.
   * [Style the map by disposition](https://support.google.com/fusiontables/answer/2476954?hl=en&ref_topic=2575652) -- a process that should be easier than Google makes it.
 
-9. Last step, *Tools > Publish*
+**Step 9:** Last step, *Tools > Publish*
 
-Note: [New Media Report](https://newmedia.report/tutorials/google-maps/) includes a nice Google Map tutorial if you want to keep playing with Google Maps.
+*Note:* [New Media Report](https://newmedia.report/tutorials/google-maps/) includes a nice Google Map tutorial if you want to keep playing with Google Maps.
 
 ## Mapbox
 
