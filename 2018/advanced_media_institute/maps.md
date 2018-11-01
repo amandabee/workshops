@@ -9,6 +9,15 @@ tags      : [map, 2018]
 
 # Homework Review
 
+
+[The Age That Women Have Babies: How a Gap Divides America](https://www.nytimes.com/interactive/2018/08/04/upshot/up-birth-age-gap.html), *New York Times* 4 August 2018.
+
+*New York Times* went even deeper on the data we were playing with last week: they found and animated the spread over each year. They also mapped the average age for first time mothers for every county in the US, and broke first time mothers into a few categories:
+
+![NYT map of first time mothers by US county](nyt_maternal-age-county.png)
+
+![NYT map of first time mothers by education and marriage](nyt_maternal-age-multi.png)
+
 # Why maps?
 
 We use maps to understand the data, to find a story, to tell a story. Some of my favorite examples:
@@ -160,7 +169,7 @@ We'll play with this together until we have points on a map. And you can embed t
 Pick one of the data sets you identified and map it!
 
 # Resources
-* Source's guide to [Better Mapping](https://source.opennews.org/guides/better-mapping/) is a fantastic round up of articles. 
+* Source's guide to [Better Mapping](https://source.opennews.org/guides/better-mapping/) is a fantastic round up of articles.
 
 * We use **QGIS** and **PostGIS** in the data investigations class because it is much more powerful analytical tool. The learning curve is a bit steep, however, and QGIS doesn't produce  interactive maps. QGIS will generate SVG files that you can style in Illustrator or any other vector graphics editor for publication.
 * **R** is powerful statistical software and not easy to learn. These [Dutch election maps](https://multimedia.tijd.be/2018/verkiezingen2018/) were made in ggplot2 (an R package) -- working from [a comprehensive tutorial tutorial](https://timogrossenbacher.ch/2016/12/beautiful-thematic-maps-with-ggplot2-only/#more-intuitive-legend). Like QGIS, R will generate SVG files that you can style in Adobe Illustrator or any other vector graphics editor.
