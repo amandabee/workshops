@@ -1,7 +1,7 @@
 ---
 title     : Making a Map
-layout    : post
-category  : hands-on
+layout    : default
+category  : j200
 tags      : [maps]
 author    : Amanda Hickman
 ---
@@ -14,7 +14,7 @@ Take a look at the legend. The sizes on those buckets are wild. The darkest has 
 
 Luckily, BuzzFeed News actually links to the original report -- the raw data is available in the CDC's [original report](https://www.cdc.gov/vitalsigns/suicide/infographic.html#graphic1) which appeared in the [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html). To avoid hiccups in the copy and paste process, I went ahead and pulled the numbers for you. Question: is this data organized into points, lines or shapes?
 
-<https://app.workbenchdata.com/workflows/5852> ([csv](/j200/assets/mapping_exercise/cdc_suicide.csv))
+<https://app.workbenchdata.com/workflows/5852> ([csv](cdc_suicide.csv))
 
 Workbench is still a work in progress but one thing it does well is show the transformations I applied to the original data.
 
@@ -22,7 +22,7 @@ Workbench is still a work in progress but one thing it does well is show the tra
 
 **Step 1:** Log into Datawrapper and choose "Create a map". We want a choropleth.
 
-![create a map](/j200/assets/mapping_exercise/dw1.png)
+![create a map](dw1.png)
 
 **Step 2:** (Datawrapper thinks of this as Step 1), search for "USA States" under "What type of map do you want to create?".
 
@@ -34,7 +34,7 @@ The Washington Post did some deeper reporting asking why North Dakota stands out
 
 Once you've uploaded your data, read through the next screen, too.
 
-![pay attention](/j200/assets/mapping_exercise/columns.png)
+![pay attention](columns.png)
 
 As you step through these dialog windows, they should make sense!
 
@@ -59,7 +59,7 @@ Fun Question that came up Week 3 -- *If these rates are both based on the 2000 p
 ## Unsolved Homicides
 
 The Washington Post collected data on more than 52,000 criminal homicides over the past decade in 50 of the largest American cities. I filtered out two local cities so we could take a closer look.
-[Homicides in Oakland](https://app.workbenchdata.com/workflows/5840) ([csv](/j200/assets/mapping_exercise/oakland_homicide.csv) \ [Homicides in San Francisco](https://app.workbenchdata.com/workflows/5853/) ([csv](/j200/assets/mapping_exercise/sf_homicide.csv)) . We could map these in Datawrapper but we're going to get frustrated with their built in maps.
+[Homicides in Oakland](https://app.workbenchdata.com/workflows/5840) ([csv](oakland_homicide.csv)) \ [Homicides in San Francisco](https://app.workbenchdata.com/workflows/5853/) ([csv](sf_homicide.csv)) . We could map these in Datawrapper but we're going to get frustrated with their built in maps.
 
 Question: Is this data points, lines, or shapes?
 

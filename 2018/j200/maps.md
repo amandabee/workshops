@@ -1,7 +1,7 @@
 ---
 title     : Mapping
-layout    : post
-category  : thursday
+layout    : default
+category  : j200
 tagline   : A basic introduction to making maps.
 tags      : [maps]
 author    : Amanda Hickman
@@ -57,7 +57,7 @@ The [Shapefiles Tip Sheet](https://github.com/amandabee/cunyjdata/wiki/Where-to-
 
 # Making a Map
 
-We're going to [make our first map in Datawrapper](https://ucb-dataj.github.io/j200/hands-on/mapping_activity.html) and if that's easy we'll power through to Mapbox.
+We're going to [make our first map in Datawrapper](maps_handson.md) and if that's easy we'll power through to Fusion Tables and Mapbox.
 
 # More Resources
 
