@@ -149,7 +149,7 @@ Question: Is this data points, lines, or shapes?
   *c.* Fusion Tables actually recognizes [200 different map markers](https://fusiontables.google.com/data?docid=1BDnT5U1Spyaes0Nj3DXciJKa_tuu7CzNRXWdVA#map:id=3) but we're going to stick with `small_red` and `small_green`.  
   *d.* Create a new Fusion Table from your spreadsheet tab.  
   *e.* Head back to your original map of homicides and use *File > Find Table to Merge With* to merge them.  
-  *f.* On your map, look at "Change feature styles..." and find the "Column" tab. 
+  *f.* On your map, look at "Change feature styles..." and find the "Column" tab.
 
   I wound up with a table that looks like this:
 
@@ -163,6 +163,21 @@ Question: Is this data points, lines, or shapes?
 **Step 9:** Last step, *Tools > Publish*
 
 *Note:* [New Media Report](https://newmedia.report/tutorials/google-maps/) includes a nice Google Map tutorial if you want to keep playing with Google Maps.
+
+## Mapping Polygons in Fusion Tables
+
+Fusion Tables makes it a little harder to merge data into a boundary file, but they do maintain a good collection of boundary files. We can select the US States data from their [boundary files](https://support.google.com/fusiontables/answer/1182141?hl=en) and merge it with our CDC data.
+
+We're going to have to walk through a few steps:
+
+**Step 1:** Upload the csv of CDC data directly to a new fusion table.
+
+**Step 2:** Open the [USA State Boundaries](https://support.google.com/fusiontables/answer/1182141?hl=en) shape file.
+
+**Step 3:** Use "Find table to merge with" to find your CDC table.
+
+**Step 4:** Merge -- remember we need to make sure we've got an apples to apples merge.
+
 
 ## Mapbox
 
