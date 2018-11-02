@@ -102,8 +102,10 @@ You've already got a much cleaner map. But we're going to hit `Proceed` and make
 **Step 4:** Customize your gradient and your tooltips. The average nationwide was a 25.4% increase. You could reasonably center your buckets there. Or you can keep the default gradient. And make some tooltips.
 
 ```
-\{\{ Increase_Decrease }} of {{ Overall_Percent_Change }}%
+{{ Increase_Decrease }} of {{ Overall_Percent_Change }}%
 ```
+
+Play with the colors. [ProPublica recommends](https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/) to find safe colors and test for color blindness. It takes some setup so for now we're going to use [Color Brewer](http://colorbrewer2.org/) becasue it's fast.    
 
 **Step 5:** Add your title and description. Never skip the metadata.
 
@@ -128,19 +130,35 @@ Question: Is this data points, lines, or shapes?
 
 **Step 2:** Create a new spreadsheet. Populate it with the `=IMPORTDATA()` function. What does the help menu say about how to use `=IMPORTDATA()`?
 
-**Step 3:** Format the `reported_date` column so it reads as dates.
+**Step 3:** Format the `reported_date` column so it reads as dates. We have to do this in our spreadsheet before we get to Fusion Tables.
 
 **Step 4:** Create a new column and calculate the number of days the case has been open with  `=DAYS(TODAY(),D2)` -- stop and read what `=DAYS()` and `=TODAY()` do. What do they do?
 
-**Step 5:** 🤔 What is wrong with this picture? (Hint: it's in the `disposition` column.) Not all of these homicides are "unsolved". Keep this in mind as we keep working.
+**Step 5:** 🤔 What is wrong with this picture? (Hint: it's in the `disposition` column.) Not all of these homicides are "unsolved". So we're going to filter out only the open cases and apply our "days open" function to them.
 
 **Step 6:** Create a new Fusion Table. Go to Google Drive and select *New > More > Google Fusion Tables* (you might have to connect Fusion Tables as an app).
 
 **Step 7:** Which column contains our location? We actually need a "two column location" which could be more intuitive than it is.
 
-**Step 8:** This data actually contains all homicides, open and closed. So let's play with a few ways to handle that.  
+**Step 8:** This data contains all homicides, open and closed. So let's play with a few ways to handle that.  
   * Filter out the solved homicides.
-  * [Style the map by disposition](https://support.google.com/fusiontables/answer/2476954?hl=en&ref_topic=2575652) -- a process that should be easier than Google makes it.
+  * [Style the map by disposition](https://support.google.com/fusiontables/answer/2476954?hl=en&ref_topic=2575652) -- a process that should be easier than Google makes it.  
+
+  *a.* Make a new table with *File > New Table*  
+  *b.* We can use `=UNIQUE(Sheet1!L2:L947)` to get the exact values we need.  
+  *c.* Fusion Tables actually recognizes [200 different map markers](https://fusiontables.google.com/data?docid=1BDnT5U1Spyaes0Nj3DXciJKa_tuu7CzNRXWdVA#map:id=3) but we're going to stick with `small_red` and `small_green`.  
+  *d.* Create a new Fusion Table from your spreadsheet tab.  
+  *e.* Head back to your original map of homicides and use *File > Find Table to Merge With* to merge them.  
+  *f.* On your map, look at "Change feature styles..." and find the "Column" tab. 
+
+  I wound up with a table that looks like this:
+
+| Disposition      | icon name   |
+|------------------|-------------|
+| Closed by arrest | small_green |
+| Open/No arrest   | small_red   |
+
+
 
 **Step 9:** Last step, *Tools > Publish*
 
