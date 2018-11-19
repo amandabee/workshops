@@ -14,6 +14,8 @@ If you don't already have a [Datawrapper](https://www.datawrapper.de/) account, 
 
 We use maps to understand the data, to find a story, to tell a story. Some of my favorite examples:
 
+* [Persuasive Maps](https://persuasivemaps.library.cornell.edu/)
+
 * [The Age That Women Have Babies: How a Gap Divides America](https://www.nytimes.com/interactive/2018/08/04/upshot/up-birth-age-gap.html), *New York Times* 4 August 2018.
 * [The Expanding News Desert](http://www.usnewsdeserts.com/), UNC (2018)
 * [How we mapped Homan Square](https://source.opennews.org/articles/how-we-made-homan-square-portrait/), Source + The Guardian  (2018)
