@@ -21,7 +21,7 @@ We use maps to understand the data, to find a story, to tell a story. Some of my
 * [How we mapped Homan Square](https://source.opennews.org/articles/how-we-made-homan-square-portrait/), Source + The Guardian  (2018)
 * [Something in the water](https://signalhfx.ca/deadly-water/), King’s College School of Journalism (2017)
 * [Visualize Transit-Rich Housing](https://transitrichhousing.org/), Sasha Aickin's personal project (Spring 2018)
-* [Murder with Impunity](https://www.washingtonpost.com/graphics/2018/investigations/unsolved-homicide-database/?utm_term=.e4a4e1dd6d60), Washington Post (2018)
+* [Murder with Impunity](https://www.washingtonpost.com/graphics/2018/investigations/unsolved-homicide-database/), Washington Post (2018)
 * [Fatal Force](https://www.washingtonpost.com/graphics/national/police-shootings-2016), Washingon Post (2016)
 * [How fast is LAFD where you live?](http://graphics.latimes.com/how-fast-is-lafd/#10/33.9661/-118.6201), LA Times (2012)
 * [Poisoned Place](https://www.npr.org/series/142000896/poisoned-places-toxic-air-neglected-communities), NPR (2011) / [map](https://www.npr.org/news/graphics/2011/10/toxic-air/#4.00/39.00/-84.00) / [about the data](https://www.npr.org/2011/11/07/142024951/poisoned-places-about-the-data) /
@@ -32,6 +32,12 @@ We use maps to understand the data, to find a story, to tell a story. Some of my
 * [Borderlands](http://apps.npr.org/borderland/#_/about), NPR (2014)
 * CALmatters mapped [all the housing initiatives on the June 2018 ballot](https://calmatters.org/articles/map-how-we-voted-on-housing-issues-up-and-down-the-state/)¸CALmatters (2018)
 * [A quick caveat about normalization.](https://xkcd.com/1138/)
+
+
+### California Fires (2018)
+
+* https://projects.sfchronicle.com/2018/fire-tracker/
+
 
 ### North Bay Fires (2017)
 * [KQED Property and Structures Damage](http://ww2.kqed.org/news/2017/10/19/map-cal-fire-maps-homes-damaged-or-destroyed-in-north-bay-fires/) was the most visited during the fires.
