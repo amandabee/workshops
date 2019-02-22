@@ -9,7 +9,22 @@ tags      : [chart, 2019]
 
 If you haven't already created accounts on both [Workbench](https://app.workbenchdata.com/account/signup/) and [Datawrapper](https://app.datawrapper.de/signin) please go ahead and do that.
 
+This week we're going to cover finding data, cleaning it, and presenting it in chart form. When I come back on April 4, we'll tackle mapping.
+
+I'm assuming you did indeed work through either Paul Grabowicz's [Spreadsheet Tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/) or the [Berkeley AMI interactive tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheet-basics) -- the latter only works on Safari unfortunately but Paul's walk-through works anywhere.
+
+## First, Some Skepticism
+
+!["Data is people."]({{site.baseurl}}/assets/imgs/itspeople.jpg)
+
+What is the fastest way to reduce the number of murders in a single precinct?
+
+<!-- Answer: start categorizing them as something else. -->
+
 # Finding and Cleaning Data
+
+
+
 
 Good starting points for finding data:
 + [Tips on Searching for Data](https://github.com/amandabee/workshops/wiki/Where-to-Find-Data:-Search-Tips)
@@ -18,14 +33,6 @@ Good starting points for finding data:
 [Peter Aldhous](https://www.peteraldhous.com/) has some fantastic tips for getting creative in his [lesson plan](http://paldhous.github.io/ucb/2016/dataviz/week5.html) from his Data Visualization course.
 
 [Mago Torres](https://www.magotorres.net/) has a few great stories about the benefit of a little creativity if you're working on an international story. If the US won't give you details of a meeting between US and Mexican officials, don't assume you can't get what you need from the Mexican government.
-
-## It's People!
-
-!["Data is people."]({{site.baseurl}}/assets/imgs/itspeople.jpg)
-
-Quiz: what is the fastest way to reduce the number of murders in a single precinct?
-
-<!-- Answer: start categorizing them as something else. -->
 
 
 ## Using Workbench to Clean Data
