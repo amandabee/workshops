@@ -29,8 +29,10 @@
 
       </section>
       <footer>
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% if category == "advanced_media_inst" %}
+          <img src="{{site.logo_ami | relative_url}}" alt="Logo" />
+        {% elsif page.category == "j200"}
+          <img src="{{site.logo_j200 | relative_url}}" alt="Logo" />
         {% endif %}
 
         {% if site.github.is_project_page %}

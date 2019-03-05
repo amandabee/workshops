@@ -5,6 +5,7 @@ permalink: /:year/:category/:title.html
 # exclude: ["notes"]
 highlighter: rouge
 
-title : Data, Charts and Maps
-description: Amanda Hickman, Berkeley Advanced Media Institute
-logo: assets/advanced_media_inst.png
+title : Workshops
+description: Amanda Hickman
+logo_ami: assets/advanced_media_inst.png
+logo_j200: assets/ucb_journ.png
