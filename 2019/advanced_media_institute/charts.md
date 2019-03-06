@@ -5,6 +5,7 @@ category  : advanced_media_institute
 tagline   : Thursday, 21 March 2019 6-9PM
 year      : 2019
 tags      : [chart, 2019]
+toc       : true
 ---
 
 If you haven't already created accounts on both [Workbench](https://app.workbenchdata.com/account/signup/) and [Datawrapper](https://app.datawrapper.de/signin) please go ahead and do that.

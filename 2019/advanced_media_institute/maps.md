@@ -5,6 +5,7 @@ category  : advanced_media_institute
 tagline   : Thursday, 4 April 2019 6-9PM
 year      : 2019
 tags      : [map, 2019]
+toc       : true
 ---
 
 # Homework Review
