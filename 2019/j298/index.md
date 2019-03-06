@@ -1,7 +1,7 @@
 ---
 title     : Some Maps, Some CSVkit
 layout    : default
-category  : j298
+category  : ucb
 tagline   : Friday, 8 March 2019 1-4PM
 year      : 2019
 tags      : [map, csvkit, 2019]

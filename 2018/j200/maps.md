@@ -1,7 +1,7 @@
 ---
 title     : Mapping
 layout    : default
-category  : j200
+category  : ucb
 tagline   : A basic introduction to making maps.
 tags      : [maps]
 author    : Amanda Hickman

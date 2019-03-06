@@ -1,7 +1,7 @@
 ---
 title     : Making a Map
 layout    : default
-category  : j200
+category  : ucb
 tags      : [maps]
 author    : Amanda Hickman
 ---
