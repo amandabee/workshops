@@ -8,6 +8,30 @@ tags      : [map, csvkit, 2019]
 toc       : true
 ---
 
+# First a Map
+
+Maps are a powerful reporting tool, and they can be a powerful storytelling tool. We're just going to dabble at the edges today.
+
+## Making a map in Datawrapper
+
+Pull from AMI
+
+## A few maps I like
+
+Pull from notes
+
+### Maps as navigation
+
+### Maps as storytelling
+
+### Maps that never see print
+
+## Where to keep learning
+
+# Break: 2:30 - 2:40 PM
+
+# On to the command line
+
 
 If I had a TOC, it'd be like
 
@@ -32,4 +56,4 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 
 #### found Copyright (c) 2018 Copyright Holder All Rights Reserved.
 
-Autocomplete takes you some weird ass places. 
+Autocomplete takes you some weird ass places.
