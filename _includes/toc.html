@@ -28,7 +28,7 @@
     {% endcomment %}
 
     {% capture my_toc %}{% endcapture %}
-    {% assign orderedList = include.ordered | default: false %}
+    {% assign orderedList = include.ordered | default: true %}
     {% assign minHeader = include.h_min | default: 1 %}
     {% assign maxHeader = include.h_max | default: 6 %}
     {% assign nodes = include.html | split: '<h' %}

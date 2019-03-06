@@ -16,6 +16,9 @@ header ul a, header ul a strong  {
 }
 
 
+header ul li:before{
+   content: '> ';
+}
 
 header ul li+li+li {
  border-right:none;
