@@ -1,4 +1,3 @@
-
 header {
  float:none;
 }
@@ -24,6 +23,25 @@ header ul li+li+li {
  border-right:none;
 }
 
+header ol {
+list-style-type: upper-roman;
+margin: 0 10;
+padding: 0;
+}
+
+header ol ol {
+list-style-type: none;
+padding: 0;
+}
+
+header ol ol li:before {
+content: '» ';
+}
+
+
+header a, header a:hover {
+  color: #333;
+}
 header h1 a {
   font-family: monospace;
   color: chartreuse;
