@@ -21,14 +21,9 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 	       <!-- {_% include post_lists %_} -->
          {% if page.toc %}
-          <h5>TOC tho</h5>
+             {% include toc.html html=content ordered=true h_max=2  %}
          {% endif %}
 
-         {% if page.toc == true %}
-          <h5>truth</h5>
-         {% endif %}
-
-        {% include toc.html html=content ordered=true h_max=2  %}
 
       </header>
       <section>
