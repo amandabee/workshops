@@ -80,11 +80,11 @@ The Washington Post [wrote more about why suicides](https://www.washingtonpost.c
 {{ Increase_Decrease }} of {{ Overall_Percent_Change }}%
 ```
 
-Play with the colors. [ProPublica recommends](https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/) to find safe colors and test for color blindness. It takes some setup so for now we're going to use [Color Brewer](http://colorbrewer2.org/) becasue it's fast.    
+Play with the colors. [ProPublica recommends](https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/) to find web safe colors and test for color blindness. ColorOracle takes some setup so for now use [Color Brewer](http://colorbrewer2.org/).
 
-**Step 5:** Add your title and description. Never skip the metadata.
+**Step 5:** Add a title and description. Fill in the rest of the metadata.
 
-**Title:** What is the takeaway here? In the story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016"
+**Title:** What is the takeaway here? In the BuzzFeed story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016" -- in reporting and story telling, your chart title should tell readers what they're looking for in the chart. 
 
 **Caption:** Tell your readers more about what we're looking at. "A recent CDC report found that there is just one state in the union -- Nevada -- where suicides did  not rise between 1999 and 2016."
 
