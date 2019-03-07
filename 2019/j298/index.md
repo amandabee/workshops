@@ -17,7 +17,7 @@ Maps are a powerful reporting tool, and they can be a powerful storytelling tool
 ### Shapes, points, and lines
 
 #### Points
-"Geocoding" refers to the process of identifying an individual latitude/longitude pair for an address or other location description. To actually plot a location on a map, you need the location's latitude and longitude. `219 West 40th Street` means nothing without coordinates.
+"Geocoding" refers to the process of identifying an individual latitude/longitude pair for an address or other location description. To actually plot a location on a map, you need the location's latitude and longitude. `906 Washington` means nothing without coordinates.
 
 Geocoding is often challenging because there aren't great free resources for doing batch jobs or processing many addresses at once. The [Geocoding Tip Sheet](https://github.com/amandabee/workshops/wiki/Tip-Sheet:-Geocoding) is a round up of good options, but often public data sources already include coordinates.
 
@@ -84,15 +84,13 @@ Play with the colors. [ProPublica recommends](https://github.com/propublica/guid
 
 **Step 5:** Add a title and description. Fill in the rest of the metadata.
 
-**Title:** What is the takeaway here? In the BuzzFeed story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016" -- in reporting and story telling, your chart title should tell readers what they're looking for in the chart. 
+**Title:** What is the takeaway here? In the BuzzFeed story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016" -- in reporting and story telling, your chart title should tell readers what they're looking for in the chart.
 
 **Caption:** Tell your readers more about what we're looking at. "A recent CDC report found that there is just one state in the union -- Nevada -- where suicides did  not rise between 1999 and 2016."
 
 **Step 6:** Embed it!
 
 Fun Question that came up Week 3 -- *If these rates are both based on the 2000 population, how much does this map just reflect population growth?* One answer, from the Census, is that between 2000 and 2010 [Nevada was the US state with the the highest growth](https://www.census.gov/newsroom/blogs/random-samplings/2011/03/population-distribution-and-change-2000-to-2010.html).
-
-
 
 ## A few maps I like
 
@@ -122,3 +120,13 @@ Pull from notes
 ![Break Time](/assets/imgs/break.gif)
 
 # On to the command line
+
+Getting under the hood of your computer kind of a super power.
+
+## How to find your terminal
+
+## CSVkit
+
+R is powerful but sometimes you just want to examine a CSV without R. Sometimes you want to subset it or sort it or see the unique values in a particular column.
+
+[Install](/workshops.wiki/Tutorial:-Installing-CSVKit.md) | [Use](/workshops.wiki/Tutorial:-Using-CSVKit.md)
