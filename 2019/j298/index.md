@@ -12,19 +12,19 @@ toc       : true
 
 Maps are a powerful reporting tool, and they can be a powerful storytelling tool. We're just going to dabble at the edges today, but there are some great resources under "Where to keep learning" if you want to do more mapping.
 
-## Core Concepts
+## Core concepts
 
-### Shapes, Points, and Lines
+### Shapes, points, and lines
 
-#### Mapping Points
+#### Points
 "Geocoding" refers to the process of identifying an individual latitude/longitude pair for an address or other location description. To actually plot a location on a map, you need the location's latitude and longitude. `219 West 40th Street` means nothing without coordinates.
 
 Geocoding is often challenging because there aren't great free resources for doing batch jobs or processing many addresses at once. The [Geocoding Tip Sheet](https://github.com/amandabee/workshops/wiki/Tip-Sheet:-Geocoding) is a round up of good options, but often public data sources already include coordinates.
 
-### Mapping Lines
-We use lines pretty rarely in intro maps, but a line is  a series of two or more points connected together.
+#### Lines
+A line is a series of two or more points connected together -- you learned that in Geometry. Think bus routes and flight paths.
 
-### Mapping Polygons
+#### Polygons
 Counties, council districts, police precincts -- these are all polygons. But not zipcodes. [Zipcodes aren't shapes](https://github.com/iandees/wtf-zipcodes).
 [Lyzi "Bonecrusher" Diamond@lyzidiamond](https://twitter.com/lyzidiamond/status/1071627800967139328)
 > Y'all. ZIP codes are not defined areas. Addresses have ZIP codes. The definition of a "ZIP code" is a list of addresses. And there are lots of different ways to take a bunch of points and turn them into a polygon.
@@ -37,42 +37,44 @@ The [Shapefiles Tip Sheet](https://github.com/amandabee/workshops/wiki/Tip-Sheet
 
 ## Making a map in Datawrapper
 
-This is a pretty straightforward, if disturbing, CDC report on [rising suicide rates nationwide](https://www.buzzfeed.com/carolinekee/suicide-rates-increase-us-2016-all-states). The map she included came directly from the CDC. It isn't a terrible map, but there are a few ways it could be much better. Can you tell at a glance **which states stand out** as having the most severe increase?
+This straightforward, if disturbing, BuzzFeed piece on a CDC report on [rising suicide rates nationwide](https://www.buzzfeed.com/carolinekee/suicide-rates-increase-us-2016-all-states) includes a map from the CDC. It isn't a terrible map, but there are a few ways it could be much better.
 
-Take a look at the legend. The sizes on those buckets are wild. The darkest has a 20 percentage pt spread, and the next has just a six percentage pt spread. These are quantiles: the CDC designed the buckets so that each would have 12 states in it. And then they chipped off Nevada which is the only state that saw a decrease.
+Can you tell at a glance **which states stand out** as having the most severe increase?
 
+Take a look at the legend. The sizes on those buckets are wild. The darkest has a 20 percentage pt spread, and the next has just a six percentage pt spread. These are quantiles: the CDC designed the buckets so that each would have ~12 states in it. And then they chipped off Nevada which is the only state that saw a decrease.
+
+I should be able to explain why epidemiologists prefer quantiles to equal intervals, but I haven't dug in deep enough to be able to explain it. I did find what appears at a glance to be [a scientific paper](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-12-21) arguing against the practice.
 
 ![CCD Suicide Data](buzzfeed_cdc_map.jpeg)
 
-Luckily, BuzzFeed News actually links to the original report -- the raw data is available in the CDC's [original report](https://www.cdc.gov/vitalsigns/suicide/infographic.html#graphic1) which appeared in the [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html). To avoid hiccups in the copy and paste process, I went ahead and pulled the numbers for you. Question: is this data organized into points, lines or shapes?
+BuzzFeed News helpfully links to the original report -- the raw data is available [from the CDC](https://www.cdc.gov/vitalsigns/suicide/infographic.html#graphic1) in the [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html).
 
-<https://app.workbenchdata.com/workflows/5852>
+**Question:** is this data organized into points, lines or shapes?
 
-Workbench is still a work in progress but one thing it does well is show the transformations I applied to the original data.
+To avoid hiccups in the copy and paste process, I went ahead and pulled the numbers for you. <https://app.workbenchdata.com/workflows/5852>
 
-**Step 0:** Download the csv from Workbench.
+Workbench bills itself as a "data journalism platform" which seems a bit excessive, but it is a great way to share data, especially if you did some work to transform it from its source.
 
-**Step 1:** Log into Datawrapper and choose "Create a map". We want a choropleth.
+**Step 0:** Log into Datawrapper and choose "Create a map". We want a choropleth. Fun thing I finally looked up: "choropleth" comes from the Greek words `chóros` (area or region) and `plíthos` (multitude).
 
 ![create a map](mapping_datawrapper.png)
 
-**Step 2:** (Datawrapper thinks of this as Step 1), search for "USA States" under "What type of map do you want to create?".
+**Step 1:** Search for "USA States" under "What type of map do you want to create?".
 
-Fun question that came up Week 1, that I couldn't answer off the top of my head: *Why is the electoral college hex map different from the population map?* It turns out there are a few reasons. First, as I noted, the census updates population estimates more often than the electoral college is redesigned. Second, the actual electors aren't based entirely on population. Each state gets one Elector for each senator (2) and one for each congress person (varies, maps are redrawn every 10 years). DC always gets 3 Electors (or, no more than the least populous state).
+Question that came up last time I taught mapping with Datawrapper: *Why is the electoral college hex map different from the population hex map?* It turns out there are a few reasons. First, the census updates population estimates more often than the electoral college is redesigned. Second, the actual electors aren't based entirely on population. Each state gets one Elector for each senator (2) and one for each congress person (varies, maps are redrawn every 10 years). DC always gets 3 Electors (or, no more than the least populous state). 🏅 if you already knew that.
 
-The Washington Post did some deeper reporting asking why North Dakota stands out so much.  [It's worth reading if you're interested in that question.](https://www.washingtonpost.com/news/to-your-health/wp/2018/06/07/u-s-suicide-rates-rise-sharply-across-the-country-new-report-shows/)
+**Step 3:** Download your data from Workbench and add it to Datawrapper.
 
-**Step 3:** Import your dataset. But get in the habit of reading pop up windows. Do we have ISO-Codes or Names here?
+Question: do we have ISO-Codes or Names in our data?
 
-Once you've uploaded your data, read through the next screen, too.
+Once you've uploaded your data, read through the next screen, too.As you step through these dialog windows, they should make sense.
 
 ![pay attention](mapping_exercise_columns.png)
 
-As you step through these dialog windows, they should make sense!
+You've already got a much cleaner map. And a single state that really stands out.
+The Washington Post [wrote more about why suicides](https://www.washingtonpost.com/news/to-your-health/wp/2018/06/07/u-s-suicide-rates-rise-sharply-across-the-country-new-report-shows/) have risen so much. They note how much ND stands out, but they don't have an explanation either.
 
-You've already got a much cleaner map. But we're going to hit `Proceed` and make it better.
-
-**Step 4:** Customize your gradient and your tooltips. The average nationwide was a 25.4% increase. You could reasonably center your buckets there. Or you can keep the default gradient. And make some tooltips.
+**Step 4:** Customize your gradient and your tooltips. The average nationwide was a 25.4% increase. You could reasonably center your buckets there. Or you can keep the default gradient. Make some tooltips.
 
 ```
 {{ Increase_Decrease }} of {{ Overall_Percent_Change }}%
