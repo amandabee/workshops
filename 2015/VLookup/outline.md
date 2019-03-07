@@ -1,6 +1,6 @@
 # Who am I?
 
-Currently, data editor at [San Francisco Public Press](http://sfpublicpress.org/), but I've been teaching data skills at [CUNY's Graduate School of Journalism](http://www.journalism.cuny.edu/) since 2011. I take pride in making sense of this stuff for folks who think that data is really hard.
+ I've been teaching data skills at [CUNY's Graduate School of Journalism](http:/www.journalism.cuny.edu/) since 2011. I take pride in making sense of this stuff for folks who think that data is really hard.
 
 So you're going to notice that my lens is very public policy focused and that I use a lot of NYC sample data.
 
