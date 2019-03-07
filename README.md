@@ -1,9 +1,9 @@
 workshops
 =========
 
-Handouts and hands-on activities from recent workshops.
+Handouts / hands-on from very recent workshops. 
 
-Workshop material is all copyright Amanda Hickman. License: [by-nc-sa 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) feel free to contact me to discuss commercial uses.
+
 
 <!-- ## 2019
 
@@ -24,3 +24,5 @@ Workshop material is all copyright Amanda Hickman. License: [by-nc-sa 4.0](http:
 + **J200 Data Bootcamp**, Berkeley, CA
   + [About Maps](2018/j200/maps.html)
   + [Making a Map](2018/j200/maps_handson.html)
+
+Copyright Amanda Hickman. License: [by-nc-sa 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/); contact me to discuss commercial uses.
