@@ -45,7 +45,14 @@ We use maps to understand the data, to find a story, to tell a story. Some of my
 
 ## Projections, Shapes, Points, and Lines
 
+
+##### Projections
+You know this, but we often forget it: the globe is round but maps are generally flat. So you have to make decisions about how to translate that sphere into two dimensions.
+
+We're actually going to accept some defaults but if you keep mapping this will come up so I'm including it.
+
 [![Projections, too](https://imgs.xkcd.com/comics/map_projections.png)](https://xkcd.com/977/)
+
 
 ### Mapping Points
 "Geocoding" refers to the process of identifying an individual latitude/longitude pair for an address or other location description. To actually plot a location on a map, you need the location's latitude and longitude. `219 West 40th Street` means nothing without coordinates.
