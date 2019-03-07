@@ -1,12 +1,15 @@
-theme: jekyll-theme-minimal
-baseurl: "/workshops"
-permalink: /:year/:category/:title.html
+theme       : jekyll-theme-minimal
+baseurl     : "/workshops"
+permalink   : /:year/:category/:title.html
 
 # exclude: ["notes"]
-highlighter: rouge
+highlighter : rouge
 
-title : Workshops
-description: Amanda Hickman
-logo_ami: assets/advanced_media_inst.png
-logo_ucb: assets/ucb_journ.png
-logo: assets/golden_poppy_bw.png
+title       : Workshops
+description : Amanda Hickman
+logo_ami    : assets/advanced_media_inst.png
+logo_ucb    : assets/ucb_journ.png
+logo        : assets/golden_poppy_bw.png
+
+# don't include TOC by default
+toc: false
