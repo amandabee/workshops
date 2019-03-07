@@ -21,7 +21,9 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
 	       <!-- {_% include post_lists %_} -->
-         {% include toc.html html=content %}
+         {% if page.toc == true %}
+          {% include toc.html html=content %}         
+         {% endif %}
 
       </header>
       <section>
