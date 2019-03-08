@@ -119,14 +119,84 @@ Pull from notes
 
 ![Break Time](/assets/imgs/break.gif)
 
-# On to the command line
+# Then came the command line
 
-Getting under the hood of your computer kind of a super power.
+Getting under the hood of your computer is kind of a super power.
 
 ## How to find your terminal
 
+It's in `Applications / Utilites`, or you can use Spotlight to surface it.
+
+Under `Terminal > Preferences` and set the default to "Homebrew" -- you can fuss with that on your own later if you'd like a different color scheme, but for now we should all feel like `l33t h@x0rz` for a bit.
+
+Add "open in terminal" to your finder  Right click in the finder and look for the `services > New Terminal` check box.
+
+### Bash, term, console: disambigution
+
+Some vocabulary: `Terminal` is an OSX app that provides you direct access the command line. `Command Line Interface` or `cli` is the interface you see in the terminal. The `shell` is the command line interpreter -- there are a few different shells, but `bash` is the most common. The `console` is a hardware interface -- the physical machine, but people sometimes use the term to apply generically to terminal applications. The `prompt` is the actual line in your shell that is waiting for input. Most of the time by default that is something like `$` -- mine is `amanda@mona:~$ `
+
+Technically this sentence is accurate: Terminal runs a shell, such as bash, that gives you access to a command line interface where you can use the command line to run commands by typing them at the command prompt.
+
+Functionally, the terms are interchangeable and anyone who tells you otherwise is an insufferable pedant and a gatekeeper and you don't need them in your life. [Just kidding](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line).
+
+### Baby steps
+
+Once you have a terminal prompt, let's look around.
+
+⚠️ Starting with a big loud warning. ⚠️
+
+You can make a terrible mess using the terminal. For instance this simple command:  `rm -r /` will ... wipe the contents of your entire computer if you run it as root. You shouldn't run any command at the terminal without knowing what it does.
+
+2. Try running `pwd` -- note that when I say "run `pwd`" what I mean is "type the command `pwd` at the prompt and hit <kbd>enter</kbd>". That command, "print working directory" will tell you what directory you are currently in.
+3. Try running `cd`. And then run `pwd` again.
+4. Type `cd Dow` and use tab completion to fill in the rest: it should populate with `Downloads`. Run it by hitting <kbd>enter</kbd>.
+5. Try running `ls` and `ls -al` -- `-a` and `-l` are "options" that extend the `ls` command.
+6. Run `man cat` -- what does the `cat` command do? If you run `cat` by itself it is going to hang, waiting for you to tell it what to concatenate. Use <kbd>ctrl</kbd><kbd>c</kbd> to escape.
+7. When you ran `ls` did you see any `csv` files? Try printing one to the screen with `cat {filename}.csv` -- `{filename}.csv` is an argument that extends the `cat` command. Those curly braces are a convention you'll see a fair bit, they indicate that you need to replace the `{generic term}` with a real term. You probably don't have anything called `filename.csv` but you have a few things that have a filename.
+
+We're going to stop there because all we really need right now is access to the command line in general, and a foolproof way to figure out what directory we're in.
+
+A word of advice: tab completion is your friend. Copy and paste is your sworn enemy.
+
+There are tools you can use at the command line to ☠️ destroy ☠️ your machine, so if someone tells you to "just run this command", always make sure you understand what the command does. `man {command}` is your friend here.
+
 ## CSVkit
 
-R is powerful but sometimes you just want to examine a CSV without R. Sometimes you want to subset it or sort it or see the unique values in a particular column.
+R is powerful but sometimes you just want to examine a CSV without R. Sometimes you want to subset it or sort it or see the unique values in a particular column. The [CSVkit manual](https://csvkit.readthedocs.io/en/latest/) has an overview of functionality.
 
-[Install](/workshops.wiki/Tutorial:-Installing-CSVKit.md) | [Use](/workshops.wiki/Tutorial:-Using-CSVKit.md)
+### Install Party
+
+You do need to know your way around the command line to  [install csvkit](/workshops.wiki/Tutorial:-Installing-CSVKit.md). Start by trying `which pip` -- if `pip` is installed, you'll see the path to your `pip` instance. If it isn't, you'll just get a new command prompt.
+
+If `pip` is installed, you can do `pip install csvkit` and you'll be good to go. You might need to install as root, which means running `sudo pip install csvkit`
+
+If it isn't, you'll need to [take a step back](https://csvkit.readthedocs.io/en/latest/tricks.html#installation) and install Homebrew first. We'll use [their instructions](https://csvkit.readthedocs.io/en/latest/tricks.html#installation).
+
+#### ⚠️ Never, ever, ever run a command that starts with `sudo` unless you trust the person guiding you or know exactly what the command will do. ⚠️
+
+We're going to use the [CSVkit tutorial](https://csvkit.readthedocs.io/en/latest/tutorial/1_getting_started.html) from their manual because it is well tested and uses genuinely interesting data.
+
+**Step 1:** In the finder, open the folder where you keep your work for this course. Control click and open your terminal. Check your location with `pwd`.
+
+Create a new directory for our walk-through with `mkdir csvkit_walkthrough`
+
+Move into it with `cd csvkit_walkthrough`. Check you're in the right place with `pwd`
+
+**Step 2:** Pull the raw CSV into your folder with `wget 2019/j298/ne_1033_data.csv`
+
+ | [Use](/workshops.wiki/Tutorial:-Using-CSVKit.md)
+
+
+### More handy uses for CSVkit
+
+* [csvsql](https://csvkit.readthedocs.io/en/1.0.3/scripts/csvsql.html) will generate a CREATE statement if you need to pull a CSV into a database.
+
+## Where to keep learning
+
+**Command Line** Noah Veltman has an [excellent resource](https://github.com/veltman/clmystery/blob/master/cheatsheet.md) for learning your way around the command line, or this [2015 NICAR Workshop](https://github.com/chrislkeller/nicar15-command-line-basics) is a great place to start.
+
+**CSVkit**
+IRE has a few tipsheets from [2012](https://www.ire.org/resource-center/tipsheets/3683/) and [2016](https://www.ire.org/resource-center/tipsheets/4654/) or there are a few NICAR workshops online, including:
+
+* Dan Nguyen's tutorial on [using `t` and `csvkit` to quickly collect and analyze #nicar16 tweets from the command-line](https://gist.github.com/dannguyen/7c592c4559ee64f753e5)
+* Christian McDonald's [2018 NICAR workshop](https://github.com/utdata/csvkit-nicar2018/)
