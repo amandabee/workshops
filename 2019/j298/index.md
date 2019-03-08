@@ -69,7 +69,7 @@ Question: do we have ISO-Codes or Names in our data?
 
 Once you've uploaded your data, read through the next screen, too.As you step through these dialog windows, they should make sense.
 
-![pay attention](mapping_exercise_columns.png)
+![pay attention](/workshops/2018/advanced_media_institute/mapping_exercise_columns.png)
 
 You've already got a much cleaner map. And a single state that really stands out.
 The Washington Post [wrote more about why suicides](https://www.washingtonpost.com/news/to-your-health/wp/2018/06/07/u-s-suicide-rates-rise-sharply-across-the-country-new-report-shows/) have risen so much. They note how much ND stands out, but they don't have an explanation either.
@@ -77,7 +77,7 @@ The Washington Post [wrote more about why suicides](https://www.washingtonpost.c
 **Step 4:** Customize your gradient and your tooltips. The average nationwide was a 25.4% increase. You could reasonably center your buckets there. Or you can keep the default gradient. Make some tooltips.
 
 ```
-{{ Increase_Decrease }} of {{ Overall_Percent_Change }}%
+  {{ Increase_Decrease }} of {{ Overall_Percent_Change }}%
 ```
 
 Play with the colors. [ProPublica recommends](https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/) to find web safe colors and test for color blindness. ColorOracle takes some setup so for now use [Color Brewer](http://colorbrewer2.org/).
