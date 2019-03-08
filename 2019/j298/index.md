@@ -12,6 +12,10 @@ toc       : true
 
 Maps are a powerful reporting tool, and they can be a powerful storytelling tool. We're just going to dabble at the edges today, but there are some great resources under "Keep learning" if you want to do more mapping.
 
+[![Image: How Harvey Hurt Houston, in 10 Maps](propublica_harvey.png)](https://projects.propublica.org/graphics/harvey-maps)
+<sup><sub>ProPublica, Reveal and The Texas Tribune collaborated to map a series of stories about [Hurricane Harvey's impact in Houston](https://projects.propublica.org/graphics/harvey-maps).
+Credit: Al Shaw and Lisa Song, *ProPublica*; Kiah Collier, *The Texas Tribune*; Neena Satija, *The Texas Tribune* and *Reveal*, January 3, 2018.</sub></sup>
+
 ## Core concepts
 
 ### Shapes, points, and lines
@@ -28,7 +32,7 @@ A line is a series of two or more points connected together -- you learned that 
 Counties, council districts, police precincts -- these are all polygons. But not zipcodes. [Zipcodes aren't shapes](https://github.com/iandees/wtf-zipcodes).
 
 
-> Y'all. ZIP codes are not defined areas. Addresses have ZIP codes. The definition of a "ZIP code" is a list of addresses. And there are lots of different ways to take a bunch of points and turn them into a polygon. --[Lyzi "Bonecrusher" Diamond (https://twitter.com/lyzidiamond/status/1071627800967139328)
+> Y'all. ZIP codes are not defined areas. Addresses have ZIP codes. The definition of a "ZIP code" is a list of addresses. And there are lots of different ways to take a bunch of points and turn them into a polygon. --[Lyzi "Bonecrusher" Diamond](https://twitter.com/lyzidiamond/status/1071627800967139328)
 
 Geographic polygons are usually defined in one of two specialized file formats -- a "Shapefile" or a "KML" file. The syntax of the file types varies, but they contain basically the same information -- a series of lat/lon pairs that connect to form the shape.
 
@@ -40,17 +44,18 @@ The [Shapefiles Tip Sheet](https://github.com/amandabee/workshops/wiki/Tip-Sheet
 
 This straightforward, if disturbing, BuzzFeed piece on a CDC report on [rising suicide rates nationwide](https://www.buzzfeed.com/carolinekee/suicide-rates-increase-us-2016-all-states) includes a map from the CDC. It isn't a terrible map, but there are a few ways it could be much better.
 
+![CCD Suicide Data](/workshops/2018/advanced_media_institute/buzzfeed_cdc_map.jpeg)
+
 Can you tell at a glance **which states stand out** as having the most severe increase?
 
 Take a look at the legend. The sizes on those buckets are wild. The darkest has a 20 percentage pt spread, and the next has just a six percentage pt spread. These are quantiles: the CDC designed the buckets so that each would have ~12 states in it. And then they chipped off Nevada which is the only state that saw a decrease.
 
 I should be able to explain why epidemiologists prefer quantiles to equal intervals, but I haven't dug in deep enough to be able to explain it. I did find what appears at a glance to be [a scientific paper](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-12-21) arguing against the practice.
 
-![CCD Suicide Data](/workshops/2018/advanced_media_institute/buzzfeed_cdc_map.jpeg)
 
 BuzzFeed News helpfully links to the original report -- the raw data is available [from the CDC](https://www.cdc.gov/vitalsigns/suicide/infographic.html#graphic1) in the [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html).
 
-**Question:** is this data organized into points, lines or shapes?
+» *Question:* is this data organized into points, lines or shapes?
 
 To avoid hiccups in the copy and paste process, I went ahead and pulled the numbers for you. <https://app.workbenchdata.com/workflows/5852>
 
@@ -66,7 +71,7 @@ Question that came up last time I taught mapping with Datawrapper: *Why is the e
 
 **Step 3:** Download your data from Workbench and add it to Datawrapper.
 
-Question: do we have ISO-Codes or Names in our data?
+» *Question:* do we have ISO-Codes or Names in our data?
 
 Once you've uploaded your data, read through the next screen, too.As you step through these dialog windows, they should make sense.
 
@@ -77,15 +82,17 @@ The Washington Post [wrote more about why suicides](https://www.washingtonpost.c
 
 **Step 4:** Customize your gradient and your tooltips. The average nationwide was a 25.4% increase. You could reasonably center your buckets there. Or you can keep the default gradient. Add tooltips.
 
+{% raw %}
 `{{ Increase_Decrease }} of {{ Overall_Percent_Change }}%`
+{% endraw %}
 
 Play with the colors. [ProPublica recommends](https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/) to find web safe colors and test for color blindness. ColorOracle takes some setup so for now use [Color Brewer](http://colorbrewer2.org/).
 
 **Step 5:** Add a title and description. Fill in the rest of the metadata.
 
-**Title:** What is the takeaway here? In the BuzzFeed story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016" -- in reporting and story telling, your chart title should tell readers what they're looking for in the chart.
+» *Title:* What is the takeaway here? In the BuzzFeed story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016" -- in reporting and story telling, your chart title should tell readers what they're looking for in the chart.
 
-**Caption:** Tell your readers more about what we're looking at. "A recent CDC report found that there is just one state in the union -- Nevada -- where suicides did  not rise between 1999 and 2016."
+» *Caption:* Tell your readers more about what we're looking at. "A recent CDC report found that there is just one state in the union -- Nevada -- where suicides did  not rise between 1999 and 2016."
 
 **Step 6:** Embed it!
 
@@ -123,9 +130,10 @@ FT mapped [broadband speeds in Britain](https://ig.ft.com/gb-broadband-speed-map
 * You can create interactive maps in **D3**. Mike Bostock has a [solid tutorial](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c) available.
 
 
-# Break: 2:30 - 2:40 PM
+# Break
 
 ![Break Time](/workshops/assets/imgs/break.gif)
+## 2:30 - 2:40 PM
 
 # Then came the command line
 
@@ -205,8 +213,16 @@ csvcut -c 2,5,6 ne_1033_data.csv
 
 csvcut -c county,item_name,quantity ne_1033_data.csv
 
+csvcut -c 1,2 ne_1033_data.csv | csvstat --unique
+
+csvcut -c 1,2 ne_1033_data.csv | sort | uniq -c
+
 csvcut -c county,acquisition_cost,ship_date  ne_1033_data.csv | csvstat
 ```
+
+» *Question:* The `|` or pipe is a bash operator. So is `>` -- what do you think they do?
+
+» *Question:* `less`, `sort`, and 'uniq' are bash built ins -- how could you find out what they do? 
 
 Keep going with [Examining the data](https://csvkit.readthedocs.io/en/latest/tutorial/2_examining_the_data.html), keeping in mind that tab completion is your friend while copy and paste is your sworn enemy.
 

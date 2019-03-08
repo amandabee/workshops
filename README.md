@@ -1,10 +1,10 @@
 workshops
 =========
 
-Handouts / hands-on from very recent workshops. Not everything is here. Some things are elsewhere. 🤷
+Handouts / hands-on from very recent workshops. Not everything is here. Some things are elsewhere. `¯\_(ツ)_/¯`
 
 
- ## 2019
+## 2019
 
 <!-- + **Berkeley Advanced Media Institute**, Berkeley, CA
   + March 21: [Rows, Columns and Charts](2019/advanced_media_institute/charts.html)
