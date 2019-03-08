@@ -224,3 +224,7 @@ IRE has a few tipsheets from [2012](https://www.ire.org/resource-center/tipsheet
 * Dan Nguyen's tutorial on [using `t` and `csvkit` to quickly collect and analyze #nicar16 tweets from the command-line](https://gist.github.com/dannguyen/7c592c4559ee64f753e5)
 * Christian McDonald's [2018 NICAR workshop](https://github.com/utdata/csvkit-nicar2018/)
 * I have [two more tutorials](https://github.com/amandabee/workshops/wiki/Tutorial:-Using-CSVkit) that are worth walking through if you really want to get the hang of CSVkit.
+
+# Every NICAR 2019 Workshop
+
+All of them, in one [searchable place](http://www.machlis.com/nicar19.html). Being there is definitely better but this is still a great resource. 
