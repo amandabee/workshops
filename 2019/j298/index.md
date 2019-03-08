@@ -117,7 +117,7 @@ Pull from notes
 
 # Break: 2:30 - 2:40 PM
 
-![Break Time](/assets/imgs/break.gif)
+![Break Time](/workshops/assets/imgs/break.gif)
 
 # Then came the command line
 
@@ -182,7 +182,9 @@ Create a new directory for our walk-through with `mkdir csvkit_walkthrough`
 
 Move into it with `cd csvkit_walkthrough`. Check you're in the right place with `pwd`
 
-**Step 2:** Pull the raw CSV into your folder with `wget 2019/j298/ne_1033_data.csv`
+**Step 2:** Pull the raw CSV into your folder with `wget http://amandabee.github.io/workshops/2019/j298/ne_1033_data.csv`
+
+
 
  | [Use](/workshops.wiki/Tutorial:-Using-CSVKit.md)
 
