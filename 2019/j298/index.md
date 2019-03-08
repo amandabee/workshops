@@ -90,9 +90,9 @@ Play with the colors. [ProPublica recommends](https://github.com/propublica/guid
 
 **Step 5:** Add a title and description. Fill in the rest of the metadata.
 
-**Title:** What is the takeaway here? In the BuzzFeed story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016" -- in reporting and story telling, your chart title should tell readers what they're looking for in the chart.
+» *Title:* What is the takeaway here? In the BuzzFeed story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016" -- in reporting and story telling, your chart title should tell readers what they're looking for in the chart.
 
-**Caption:** Tell your readers more about what we're looking at. "A recent CDC report found that there is just one state in the union -- Nevada -- where suicides did  not rise between 1999 and 2016."
+» *Caption:* Tell your readers more about what we're looking at. "A recent CDC report found that there is just one state in the union -- Nevada -- where suicides did  not rise between 1999 and 2016."
 
 **Step 6:** Embed it!
 
@@ -213,8 +213,16 @@ csvcut -c 2,5,6 ne_1033_data.csv
 
 csvcut -c county,item_name,quantity ne_1033_data.csv
 
+csvcut -c 1,2 ne_1033_data.csv | csvstat --unique
+
+csvcut -c 1,2 ne_1033_data.csv | sort | uniq -c
+
 csvcut -c county,acquisition_cost,ship_date  ne_1033_data.csv | csvstat
 ```
+
+» *Question:* The `|` or pipe is a bash operator. So is `>` -- what do you think they do?
+
+» *Question:* `less`, `sort`, and 'uniq' are bash built ins -- how could you find out what they do? 
 
 Keep going with [Examining the data](https://csvkit.readthedocs.io/en/latest/tutorial/2_examining_the_data.html), keeping in mind that tab completion is your friend while copy and paste is your sworn enemy.
 
