@@ -16,7 +16,7 @@ header ul a, header ul a strong  {
 
 
 header ul li:before{
-   content: '> ';
+   content: '» ';
 }
 
 header ul li+li+li {
