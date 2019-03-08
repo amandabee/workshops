@@ -10,7 +10,7 @@ toc       : true
 
 # First a Map
 
-Maps are a powerful reporting tool, and they can be a powerful storytelling tool. We're just going to dabble at the edges today, but there are some great resources under "Where to keep learning" if you want to do more mapping.
+Maps are a powerful reporting tool, and they can be a powerful storytelling tool. We're just going to dabble at the edges today, but there are some great resources under "Keep learning" if you want to do more mapping.
 
 ## Core concepts
 
@@ -26,8 +26,9 @@ A line is a series of two or more points connected together -- you learned that 
 
 #### Polygons
 Counties, council districts, police precincts -- these are all polygons. But not zipcodes. [Zipcodes aren't shapes](https://github.com/iandees/wtf-zipcodes).
-[Lyzi "Bonecrusher" Diamond@lyzidiamond](https://twitter.com/lyzidiamond/status/1071627800967139328)
-> Y'all. ZIP codes are not defined areas. Addresses have ZIP codes. The definition of a "ZIP code" is a list of addresses. And there are lots of different ways to take a bunch of points and turn them into a polygon.
+
+
+> Y'all. ZIP codes are not defined areas. Addresses have ZIP codes. The definition of a "ZIP code" is a list of addresses. And there are lots of different ways to take a bunch of points and turn them into a polygon. --[Lyzi "Bonecrusher" Diamond (https://twitter.com/lyzidiamond/status/1071627800967139328)
 
 Geographic polygons are usually defined in one of two specialized file formats -- a "Shapefile" or a "KML" file. The syntax of the file types varies, but they contain basically the same information -- a series of lat/lon pairs that connect to form the shape.
 
@@ -107,7 +108,7 @@ National Geographic's [interactive map of bird migrations](https://www.nationalg
 
 FT mapped [broadband speeds in Britain](https://ig.ft.com/gb-broadband-speed-map/) and wrote about [how they built it](https://source.opennews.org/articles/how-we-made-our-broadband-map-using-mapbox/)
 
-## Where to keep learning
+## Keep learning
 
 * Source's guide to [Better Mapping](https://source.opennews.org/guides/better-mapping/) is a fantastic round up of articles.
 
@@ -191,16 +192,29 @@ Move into it with `cd csvkit_walkthrough`. Check you're in the right place with 
 
 **Step 2:** Pull the raw CSV into your folder with `wget http://amandabee.github.io/workshops/2019/j298/ne_1033_data.csv`
 
+**Step 3:** Now we're ready to explore a little bit.
 
+```
+csvlook ne_1033_data.csv
 
- | [Use](/workshops.wiki/Tutorial:-Using-CSVKit.md)
+csvlook ne_1033_data.csv | less -S
 
+csvcut -n ne_1033_data.csv
+
+csvcut -c 2,5,6 ne_1033_data.csv
+
+csvcut -c county,item_name,quantity ne_1033_data.csv
+
+csvcut -c county,acquisition_cost,ship_date  ne_1033_data.csv | csvstat
+```
+
+Keep going with [Examining the data](https://csvkit.readthedocs.io/en/latest/tutorial/2_examining_the_data.html), keeping in mind that tab completion is your friend while copy and paste is your sworn enemy.
 
 ### More handy uses for CSVkit
 
 * [csvsql](https://csvkit.readthedocs.io/en/1.0.3/scripts/csvsql.html) will generate a CREATE statement if you need to pull a CSV into a database.
 
-## Where to keep learning
+## Keep learning
 
 **Command Line** Noah Veltman has an [excellent resource](https://github.com/veltman/clmystery/blob/master/cheatsheet.md) for learning your way around the command line, or this [2015 NICAR Workshop](https://github.com/chrislkeller/nicar15-command-line-basics) is a great place to start.
 
