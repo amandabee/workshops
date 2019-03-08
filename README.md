@@ -4,14 +4,14 @@ workshops
 Handouts / hands-on from very recent workshops. Not everything is here. Some things are elsewhere. 🤷
 
 
-<!-- ## 2019
+ ## 2019
 
-+ **Berkeley Advanced Media Institute**, Berkeley, CA
-  + [Rows, Columns and Charts](2019/advanced_media_institute/charts.html)
-  + [Maps, Mapping and Geography](2019/advanced_media_institute/maps.html)
+<!-- + **Berkeley Advanced Media Institute**, Berkeley, CA
+  + March 21: [Rows, Columns and Charts](2019/advanced_media_institute/charts.html)
+  + April 4: [Maps, Mapping and Geography](2019/advanced_media_institute/maps.html) -->
 
-  + **J298 Guest Instructor**, Berkeley, CA
-    + [Maps and CSVkit](2019/j298) -->
+  + **J298 Data Journalism**, Berkeley, CA
+    + [Maps + CSVkit](2019/j298)
 
 
 ## 2018
