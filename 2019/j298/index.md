@@ -130,9 +130,10 @@ FT mapped [broadband speeds in Britain](https://ig.ft.com/gb-broadband-speed-map
 * You can create interactive maps in **D3**. Mike Bostock has a [solid tutorial](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c) available.
 
 
-# Break: 2:30 - 2:40 PM
+# Break
 
 ![Break Time](/workshops/assets/imgs/break.gif)
+## 2:30 - 2:40 PM
 
 # Then came the command line
 

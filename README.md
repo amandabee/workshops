@@ -1,7 +1,7 @@
 workshops
 =========
 
-Handouts / hands-on from very recent workshops. Not everything is here. Some things are elsewhere. 🤷
+Handouts / hands-on from very recent workshops. Not everything is here. Some things are elsewhere. `¯\_(ツ)_/¯`
 
 
 ## 2019
