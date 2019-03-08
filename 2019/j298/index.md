@@ -44,17 +44,18 @@ The [Shapefiles Tip Sheet](https://github.com/amandabee/workshops/wiki/Tip-Sheet
 
 This straightforward, if disturbing, BuzzFeed piece on a CDC report on [rising suicide rates nationwide](https://www.buzzfeed.com/carolinekee/suicide-rates-increase-us-2016-all-states) includes a map from the CDC. It isn't a terrible map, but there are a few ways it could be much better.
 
+![CCD Suicide Data](/workshops/2018/advanced_media_institute/buzzfeed_cdc_map.jpeg)
+
 Can you tell at a glance **which states stand out** as having the most severe increase?
 
 Take a look at the legend. The sizes on those buckets are wild. The darkest has a 20 percentage pt spread, and the next has just a six percentage pt spread. These are quantiles: the CDC designed the buckets so that each would have ~12 states in it. And then they chipped off Nevada which is the only state that saw a decrease.
 
 I should be able to explain why epidemiologists prefer quantiles to equal intervals, but I haven't dug in deep enough to be able to explain it. I did find what appears at a glance to be [a scientific paper](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-12-21) arguing against the practice.
 
-![CCD Suicide Data](/workshops/2018/advanced_media_institute/buzzfeed_cdc_map.jpeg)
 
 BuzzFeed News helpfully links to the original report -- the raw data is available [from the CDC](https://www.cdc.gov/vitalsigns/suicide/infographic.html#graphic1) in the [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html).
 
-**Question:** is this data organized into points, lines or shapes?
+» *Question:* is this data organized into points, lines or shapes?
 
 To avoid hiccups in the copy and paste process, I went ahead and pulled the numbers for you. <https://app.workbenchdata.com/workflows/5852>
 
@@ -70,7 +71,7 @@ Question that came up last time I taught mapping with Datawrapper: *Why is the e
 
 **Step 3:** Download your data from Workbench and add it to Datawrapper.
 
-Question: do we have ISO-Codes or Names in our data?
+» *Question:* do we have ISO-Codes or Names in our data?
 
 Once you've uploaded your data, read through the next screen, too.As you step through these dialog windows, they should make sense.
 
@@ -81,7 +82,9 @@ The Washington Post [wrote more about why suicides](https://www.washingtonpost.c
 
 **Step 4:** Customize your gradient and your tooltips. The average nationwide was a 25.4% increase. You could reasonably center your buckets there. Or you can keep the default gradient. Add tooltips.
 
+{% raw %}
 `{{ Increase_Decrease }} of {{ Overall_Percent_Change }}%`
+{% endraw %}
 
 Play with the colors. [ProPublica recommends](https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/) to find web safe colors and test for color blindness. ColorOracle takes some setup so for now use [Color Brewer](http://colorbrewer2.org/).
 
