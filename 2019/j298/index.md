@@ -92,15 +92,19 @@ Play with the colors. [ProPublica recommends](https://github.com/propublica/guid
 
 Fun Question that came up Week 3 -- *If these rates are both based on the 2000 population, how much does this map just reflect population growth?* One answer, from the Census, is that between 2000 and 2010 [Nevada was the US state with the the highest growth](https://www.census.gov/newsroom/blogs/random-samplings/2011/03/population-distribution-and-change-2000-to-2010.html).
 
-## A few maps I like
+## A few maps
+Mago Torres and her colleagues spent over a year compiling data
+on mass graves across Mexico while reporting on mass graves in Mexico. Their project [A dónde van los desaparecidos](https://adondevanlosdesaparecidos.org/) is available in English on The Intercept -- [2,000 Clandestine Graves: How a Decade of the Drug War Turned Mexico Into a Burial Ground](https://theintercept.com/2018/12/13/mexico-drug-war-mass-graves/).
 
-Pull from notes
+Capital Public Radio's [history of California wildfires](http://projects.capradio.org/california-fire-history/#6/38.58/-121.49) looks at a question that ought to be on everyone's mind after two years in a row of devastating fall wildfires. They wrote about [how they did it](https://source.opennews.org/articles/how-we-mapped-more-100-years-california-wildfire-h/) on [Source](https://source.opennews.org/). A few more fire maps:
+* [KQED Property and Structures Damage](http://ww2.kqed.org/news/2017/10/19/map-cal-fire-maps-homes-damaged-or-destroyed-in-north-bay-fires/) was the most visited during the fires.
+* [KQED](https://ww2.kqed.org/science/2017/10/31/map-see-if-you-live-in-a-high-risk-fire-zone-and-what-that-means/) looks at fire hazard zones, which are public record. Most of the devastating 2017 Napa and Sonomoa fires were in "moderate" fire hazard zones.
 
-### Maps as navigation
+* [Something in the water](https://signalhfx.ca/deadly-water/), King’s College School of Journalism (2017)
 
-### Maps as storytelling
+https://source.opennews.org/articles/how-we-made-billions-birds-migrate/
 
-### Maps that never see print
+https://source.opennews.org/articles/how-we-made-our-broadband-map-using-mapbox/
 
 ## Where to keep learning
 
