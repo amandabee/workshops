@@ -198,7 +198,7 @@ Create a new directory for our walk-through with `mkdir csvkit_walkthrough`
 
 Move into it with `cd csvkit_walkthrough`. Check you're in the right place with `pwd`
 
-**Step 2:** Pull the raw CSV into your folder with `wget http://amandabee.github.io/workshops/2019/j298/ne_1033_data.csv`
+**Step 2:** Pull the raw CSV into your folder with `wget http://amandabee.github.io/workshops/2019/j298/ne_1033_data.csv` Note: you might have to use `curl http://amandabee.github.io/workshops/2019/j298/ne_1033_data.csv > ne_1033_data.csv` -- we can talk about why if you're curious.
 
 **Step 3:** Now we're ready to explore a little bit.
 
@@ -222,13 +222,29 @@ csvcut -c county,acquisition_cost,ship_date  ne_1033_data.csv | csvstat
 
 » *Question:* The `|` or pipe is a bash operator. So is `>` -- what do you think they do?
 
-» *Question:* `less`, `sort`, and 'uniq' are bash built ins -- how could you find out what they do? 
+» *Question:* `less`, `sort`, and `uniq` are bash built ins -- how could you find out what they do?
+
+If we wanted to look at what kind of clothing police departments are buying surplus from the military, I'd do:
+
+`csvgrep -c 11 -m 84 ne_1033_data.csv | csvsort -c 6,9 | csvlook`
+
+or better yet
+
+`csvgrep -c 11 -m 84 ne_1033_data.csv | csvsort -c 6,9 | csvcut -c 2,1,5,6,8,9,10,12,14 | csvlook`
+
+If we wanted to know what the most expensive purchases were, we could use
+
+`csvsort -c 8,9 ne_1033_data.csv | csvcut -c 2,1,5,6,8,9,10,12,14 | csvlook`
 
 Keep going with [Examining the data](https://csvkit.readthedocs.io/en/latest/tutorial/2_examining_the_data.html), keeping in mind that tab completion is your friend while copy and paste is your sworn enemy.
 
 ### More handy uses for CSVkit
 
+* [in2csv](https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html) will transform an XLS or JSON file into a CSV. Even a locked XLS file with hidden columns.
+
 * [csvsql](https://csvkit.readthedocs.io/en/1.0.3/scripts/csvsql.html) will generate a CREATE statement if you need to pull a CSV into a database.
+
+* [csvclean](https://csvkit.readthedocs.io/en/latest/scripts/csvclean.html) and [csvformat](https://csvkit.readthedocs.io/en/latest/scripts/csvformat.html) will tidy files.
 
 ## Keep learning
 
@@ -243,4 +259,4 @@ IRE has a few tipsheets from [2012](https://www.ire.org/resource-center/tipsheet
 
 # Every NICAR 2019 Workshop
 
-All of them, in one [searchable place](http://www.machlis.com/nicar19.html). Being there is definitely better but this is still a great resource. 
+All of them, in one [searchable place](http://www.machlis.com/nicar19.html). Being there is definitely better but this is still a great resource.
