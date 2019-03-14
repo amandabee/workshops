@@ -8,13 +8,14 @@ tags      : [chart, 2019]
 toc       : true
 ---
 
+# Start here
 If you haven't already created accounts on both [Workbench](https://app.workbenchdata.com/account/signup/) and [Datawrapper](https://app.datawrapper.de/signin) please go ahead and do that.
 
 This week we're going to cover finding data, cleaning it, and presenting it in chart form. When I come back on April 4, we'll tackle mapping.
 
-I'm assuming you did indeed work through either Paul Grabowicz's [Spreadsheet Tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/) or the [Berkeley AMI interactive tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheet-basics) -- the latter only works on Safari unfortunately but Paul's walk-through works anywhere.
+I'm assuming everyone has worked through either Paul Grabowicz's [Spreadsheet Tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/) or the [Berkeley AMI interactive tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheet-basics) -- the latter only works on Safari, but Paul's walk-through works anywhere.
 
-## First, Some Skepticism
+## Data isn't magic
 
 !["Data is people."]({{site.baseurl}}/assets/imgs/itspeople.jpg)
 
@@ -74,11 +75,11 @@ Note that this demo makes use of [regular expressions](http://velociraptor.info/
 # Making Really Good Charts
 [Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories that ought to inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
 
-[![animated step-by-step guide to improving bar charts from Dark Horse Analytics](dark_horse_analytics-data-ink.gif)](https://www.darkhorseanalytics.com/portfolio/data-looks-better-naked-bar-charts)
+[![animated step-by-step guide to improving bar charts from Dark Horse Analytics]({{site.baseurl}}/2018/advanced_media_institute/dark_horse_analytics-data-ink.gif)](https://www.darkhorseanalytics.com/portfolio/data-looks-better-naked-bar-charts)
 
 Look at what makes NYT Charts work. I'm 100% open to design innovation but there are some pretty good established formulas that we can lean on:
 
-![Chart: The Declining Value of Low-Income Housing Tax Credits](nyt_housing.png)
+![Chart: The Declining Value of Low-Income Housing Tax Credits](/{{site.baseurl}}/2018/advanced_media_institute/nyt_housing.png)
 
 [These 95 Apartments Promised Affordable Rent in San Francisco. Then 6,580 People Applied.](https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html) *New York Times*, May 12, 2018
 
@@ -88,12 +89,12 @@ Are millenials really having fewer children? The answer is probably "duh, of cou
 
 * This writer cribbed his charts from Business Insider, but check out the y-axis in [the chart he included](https://www.linkedin.com/pulse/why-many-millennials-wont-have-children-michael-spencer/).  Bonus: what is wrong with his x-axis?
 
-![](births_linkedin.jpeg)
+![]({{site.baseurl}}/2018/advanced_media_institute/births_linkedin.jpeg)
 
 * If you look at the same data with a wider Y-axis spread, you see something that looks a lot more like a steady trend, as in an [NPR piece](https://www.npr.org/sections/health-shots/2016/01/14/462816458/average-age-of-first-time-moms-keeps-climbing-in-the-u-s) about the same data [or the CDC report](https://www.cdc.gov/nchs/data/databriefs/db232.pdf) that precipitated the coverage.
 
-![](births_cdc.png)
-![](births_npr.png)
+![]({{site.baseurl}}/2018/advanced_media_institute/births_cdc.png)
+![]({{site.baseurl}}/2018/advanced_media_institute/births_npr.png)
 
 **Discussion:** let's talk about what data would get at that question, and go look at the data. We want two things: mean age at first birth, and birth rate. And we want to know whether millenials stand out or are just being consistent with long-standing trends.
 
@@ -110,10 +111,10 @@ Using the data at <https://app.workbenchdata.com/workflows/6631/> (which I pulle
 
 ## One More
 
-[![ICE Chart](ice_enforcement.png)](https://www.ice.gov/features/100-days) **Questions:** What does this chart show? What is 38%? 52%? What do those represent?  What does the grey represent?
+[![ICE Chart]({{site.baseurl}}/2018/advanced_media_institute/ice_enforcement.png)](https://www.ice.gov/features/100-days) **Questions:** What does this chart show? What is 38%? 52%? What do those represent?  What does the grey represent?
 
 Pew covered the same numbers but added context and specificity to their chart (and ommitted the 3D renderings).
-[![Pew Chart](pew_ice.png)](http://www.pewresearch.org/fact-tank/2018/02/08/ice-arrests-went-up-in-2017-with-biggest-increases-in-florida-northern-texas-oklahoma/)
+[![Pew Chart]({{site.baseurl}}/2018/advanced_media_institute/pew_ice.png)](http://www.pewresearch.org/fact-tank/2018/02/08/ice-arrests-went-up-in-2017-with-biggest-increases-in-florida-northern-texas-oklahoma/)
 
 <!--FWIW, what the ICE chart is showing that total arrests were up 37.6% in 2017. Convicted criminal arrests were up 18.2% and at-large arrests up 52.6% (their math is a little off).-->
 
@@ -154,7 +155,7 @@ Read [New bill would finally tear down federal judiciary’s ridiculous paywall]
 The article includes a chart that shows just how much PACER's revenue has grown in the 30 years since it was founded. It's a perfectly good chart but we can definitely apply some of the basic design guidelines we looked at in class to improve on it.
 
 *Ars Technica* cribbed their chart from the Free Law Project, [How Much Money Does PACER Make?](https://free.law/2016/11/14/how-much-money-does-pacer-make/) *Free Law Project*, November 14, 2016 and the Free Law Project shared the source of their data. You can pull [the xls url](https://free.law/xlsx/pacer-revenue-over-time.xlsx) into Workbench or just copy and paste the data. If copy and paste is acting wonky, you can also [use this csv](pacer_revenue.csv).
-![chart from arstechnica](arstechnica_pacer.png)
+![chart from arstechnica]({{site.baseurl}}/2018/advanced_media_institute/arstechnica_pacer.png)
 
 Re-make or re-design the *Ars Technica* chart in Datawrapper:
 
