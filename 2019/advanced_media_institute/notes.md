@@ -22,6 +22,13 @@ https://www.gislounge.com/free-introduction-to-gis-in-r-online-course/
 
 https://pudding.cool/2019/02/dress-code-sexualization/
 
+basic Charts https://calmatters.org/articles/homelessness-data-housing-charts/ or
+
+This data has some problems:
+https://calmatters.org/articles/homeless-in-california-what-the-data-reveals/
+
+
+Can we take the data from https://calmatters.org/articles/commentary/california-corporate-tax/ and adjust it for inflation? 
 
 https://theintercept.com/2018/12/13/mexico-drug-war-mass-graves/
 

@@ -80,9 +80,9 @@ You can see my finished work on Workbench: <https://app.workbenchdata.com/workfl
 
 [![Workbench Screenshot](/{{site.baseurl}}/2019/advanced_media_institute/workbench_create_workflow.png)](https://app.workbenchdata.com/workflows/)
 
-1. Import the CSV -- you can either download it and then upload it to Workbench or give Workbench a URL for the data we want to work with: <https://amandabee.github.io/workshops/2019/advanced_media_institute/world_oil_production.csv>
+2. Import the CSV -- you can either download it and then upload it to Workbench or give Workbench a URL for the data we want to work with: <https://amandabee.github.io/workshops/2019/advanced_media_institute/world_oil_production.csv>
 
-2. Transform it into a functional spreadsheet using ...
+3. Transform it into a functional spreadsheet using ...
   * "Delete Rows" to delete rows 1-3 and 5-8
   * Edit the cell that is missing a header
   * "Rows to Header" to move the header where we want them
@@ -90,20 +90,29 @@ You can see my finished work on Workbench: <https://app.workbenchdata.com/workfl
   `delete me, region, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017`
   * Use the context menu on the first column, or "Select Columns" to delete it.
 
-3. Once we've got the data cleaned up, we can actually reshape it into something we might be able to chart.
+4. Once we've got the data cleaned up, we can actually reshape it into something we might be able to chart.
   * Select "Reshape" and then "Transpose" to transpose the data
   * Use "Rename" to label the "year" column
   * "Convert to Date and Time"
   * "Line Chart"
 
-Secretly, Workbench's charting is a little wonky, so I'd move over to another charting tool if I wanted to see this visualized.
+Workbench's charting is great for a quick glance but you'll want to move over to another tool to do your actual visualization.
 
-## More Cleaning in Workbench
-[USA Spending](https://www.usaspending.gov/#/) tracks federal government spending. We can use their [Advanced Search](https://www.usaspending.gov/#/) to pull up a list of [grants to DUNS 9214214 and 124726725](https://www.usaspending.gov/#/search/fc06ccc70169c1f2695f1db9c5f9ba4b), aka Berkeley and Stanford. The data they provide is a lot cleaner than it was in 2014, but you can see an example of the kind of filtering you can do in my demo at <https://app.workbenchdata.com/workflows/5912/>
+## More cleaning in workbench
+[USA Spending](https://www.usaspending.gov/#/) tracks federal government spending. We can use their [Advanced Search](https://www.usaspending.gov/#/) to pull up a list of [grants to DUNS 9214214 and 124726725](https://www.usaspending.gov/#/search/fc06ccc70169c1f2695f1db9c5f9ba4b), aka Berkeley and Stanford. The data they provide is a lot cleaner than it was in 2014, but you can see an example of the kind of filtering you can do at <https://app.workbenchdata.com/workflows/5912/>/
 
-Note that this demo makes use of [regular expressions](http://velociraptor.info/talks/2014/NICAR/regex) which are awesome and also [exasperating](https://www.xkcd.com/1171/). [Rubular](http://rubular.com/) and [Regex101](https://regex101.com/) might make your regular expression journey more sane.
+This demo makes use of [regular expressions](https://velociraptor.info/talks/2014/NICAR/regex) which are awesome and also [exasperating](https://www.xkcd.com/1171/). [Rubular](http://rubular.com/) and [Regex101](https://regex101.com/) might make your regular expression journey more sane.
 
-**Challenge:** The state of California publishes data on who gave money to support or oppose individual ballot measures. Find and tidy the Prop 10 donors.
+Workbench provides a case study and [tutorial on cleaning data](https://app.workbenchdata.com/courses/intro-to-data-journalism/clean-campaign-finance-data)
+
+Christian McDonald's 2019 NICAR workshop walks through [cleaning data with regular expressions](https://docs.google.com/document/d/1DvAM4lnGJLefo9skD8GgM-_9S1BEhpjJfV86yhJavI0/edit).
+
+If you want to get fancy, David Montgomery's 2019 NICAR workshop walks through [cleaning a csv in R](https://github.com/dhmontgomery/nicar19/blob/master/r3.md).
+
+# Break
+
+![Break Time](/workshops/assets/imgs/break.gif)
+## 7:30 - 7:40 PM
 
 # Making Really Good Charts
 [Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories that ought to inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
