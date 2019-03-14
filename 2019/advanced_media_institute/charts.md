@@ -11,7 +11,7 @@ toc       : true
 # Start here
 If you haven't already created accounts on both [Workbench](https://app.workbenchdata.com/account/signup/) and [Datawrapper](https://app.datawrapper.de/signin) please go ahead and do that.
 
-This week we're going to cover finding data, cleaning it, and presenting it in chart form. When I come back on April 4, we'll tackle mapping.
+This week we're going to cover finding data, cleaning it up, and presenting it in chart form. When I come back on April 4, we'll tackle mapping.
 
 I'm assuming everyone has worked through either Paul Grabowicz's [Spreadsheet Tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/) or the [Berkeley AMI interactive tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheet-basics) -- the latter only works on Safari, but Paul's walk-through works anywhere.
 
@@ -21,33 +21,66 @@ I'm assuming everyone has worked through either Paul Grabowicz's [Spreadsheet Tu
 
 What is the fastest way to reduce the number of murders in a single precinct?
 
+Data is only as good as the people who enter it. Before you rely on data for your reporting you need to know who generated it and how the data you’re looking at got into the database.
+
+Data is almost always entered by people. The fastest way to reduce the number of felony robberies in a single police precinct is to start [classifying incidents as misdemeanors](https://www.nytimes.com/2003/06/20/nyregion/west-side-crime-statistics-were-softened-police-say.html), and there’s good evidence that New York Police Department precincts did exactly that when the commissioner started rewarding precincts that got their serious crime rates down.  
+
+It isn’t clear why Baltimore County Police Department has more “unfounded” rape complaints than most departments nationwide, but [BuzzFeed News found](https://www.buzzfeednews.com/article/alexcampbell/unfounded) that many of those “unfounded” complaints were never really investigated.
+Sometimes there are just quirks in the way data gets recorded --  one report found that coroners don’t have solid standards about how to decide whether to record a gun death as [accident or homicide](https://www.nytimes.com/2013/09/29/us/children-and-guns-the-hidden-toll.html) and as a result, accidental homicides are split between the two categories, making it hard to track down reliable data.
+
+Data is powerful but it is never a substitute for picking up the phone and making some calls. If you’re just starting to think about where data fits in  your reporting process, Samantha Sunne wrote an excellent introduction to the [challenges and possible pitfalls of data journalism](https://www.americanpressinstitute.org/publications/reports/strategy-studies/challenges-data-journalism/), and how you can you avoid them.  
+
 <!-- Answer: start categorizing them as something else. -->
 
-# Finding and Cleaning Data
+# Finding and cleaning data
 
+Data is a powerful reporting tool. It lets us scrutinize public spending and policy outcomes, challenge conventional wisdom and participate more fully in public conversations. A decade of open data activism has left reporters and the general public with unprecedented access to public payrolls, traffic reports, police data and much more. All of it allows us to hold policy makers accountable and understand the world in ways we couldn’t without access to the numbers.
 
+Whether you’re a seasoned data journalist or brand new to thinking about data as a source in your reporting, there are exceptional places to find data that you may  never have considered.
 
+Who has data now, and how can you get your hands on it?
 
-Good starting points for finding data:
-+ [Tips on Searching for Data](https://github.com/amandabee/workshops/wiki/Where-to-Find-Data:-Search-Tips)
-+ [Where to Find Data](https://github.com/amandabee/workshops/wiki/Where-to-Find-Data)
+The best way to start looking for data you need is almost always to ask yourself who could collect this data and look at where they might share it. Are there city, county, state, or national agencies that collect data? Do they publish it? If they don't publish data, what happens when you ask for it? Sometimes all you have to do is ask, sometimes you have to file a more formal freedom of information request for the data.
 
-[Peter Aldhous](https://www.peteraldhous.com/) has some fantastic tips for getting creative in his [lesson plan](http://paldhous.github.io/ucb/2016/dataviz/week5.html) from his Data Visualization course.
+Are there private research organizations or non-profits that keep data on the subject you're researching?
 
-[Mago Torres](https://www.magotorres.net/) has a few great stories about the benefit of a little creativity if you're working on an international story. If the US won't give you details of a meeting between US and Mexican officials, don't assume you can't get what you need from the Mexican government.
+Once you've exhausted the direct approach, or you're just interested in sparking some inspiration, there are a few more great places to look for data and ideas.Lots of newsrooms push cleaned data (and [code](https://source.opennews.org/code/)) to **github** but there's not a unified way to find it all. [Washington Post](https://github.com/washingtonpost/) has released a collection of data on school shootings, police involved shootings, and unsolved homicides, along with valuable context about how the data was collected and processed. [BuzzFeed News](https://github.com/BuzzFeedNews) maintains an [indexed overview](https://github.com/BuzzFeedNews/everything) of all the data they've published to github, as does [538](https://github.com/fivethirtyeight/data).  Here are a few more:
 
+*   [Asbury Park Press](http://php.app.com/agent/) (Asbury Park, NJ)
+*   [Arizona Central](https://www.azcentral.com/local/data/) recently launched a data hub.
+*   [BuzzFeed News](https://github.com/BuzzFeedNews)
+*   [Courier Journal](https://www.courier-journal.com/data/) (Louisville, KY)
+*   [Naples Daily News](https://data.naplesnews.com/) (Naples, FL)
+*   [New Jersey Advance](https://data.world/njdotcom) publishes their data on data.world
+*   [New York Times](https://github.com/NYTimes) maintains a repository that's mostly code. They also publish some data via [The Upshot](https://github.com/TheUpshot)
+*   [News Press](https://data.news-press.com/) (Cape Coral, FL)
+*   [NPR Visuals](https://github.com/nprapps) publishes mostly code.
+*   [ProPublica](https://www.propublica.org/datastore/) ([their GitHub repository](https://github.com/propublica) includes more data as well as a fair amount of reusable code)
+*   [Quartz](https://github.com/Quartz) includes data along with a ton of helpful code in their GitHub repository.
+*   [Tallahassee Democrat](https://data.tallahassee.com/) (Tallahassee, FL)
+*   [Vancouver Sun](https://github.com/chadskelton/data)
+*   [Washington Post](https://github.com/washingtonpost/)
+*   [538](https://github.com/fivethirtyeight/data)
 
-## Using Workbench to Clean Data
+[Chicago Data Collaborative](https://chicagodatacollaborative.org/) includes data that newsrooms, academics and advocates have compiled to better understand criminal justice in Chicago.
 
-Peter Aldhous has a great walk through that will show you how to [use OpenRefine](http://paldhous.github.io/ucb/2016/dataviz/week5.html) to clean up data.
+[Wireservice's Lookup](https://github.com/wireservice/lookup/) repository is a collection of very useful lookup tables for BLS, IPUMS and some Fed data. (Wireservice is a collaboration between a number of US newsroom developers and data reporters.)
 
-We're going to use Workbench, only because I think it does a nice job of providing an easy to read audit trail. The two tools aren't exactly interchangeable but knowing what is possible is the first step.
+More tips on [searching for data](https://github.com/amandabee/workshops/wiki/Where-to-Find-Data:-Search-Tips) and suggestions about [where to find it](https://github.com/amandabee/workshops/wiki/Where-to-Find-Data) are on my [Workshop Wiki](https://github.com/amandabee/workshops/wiki/). [Peter Aldhous](https://www.peteraldhous.com/) has some fantastic tips for getting creative in his [lesson plan](http://paldhous.github.io/ucb/2016/dataviz/week5.html) from his Data Visualization course. [Mago Torres](https://www.magotorres.net/) has a few great stories about the benefit of a little creativity if you're working on an international story. If the US won't give you details of a meeting between US and Mexican officials, don't assume you can't get what you need from the Mexican government.
 
-I replicated those data cleaning exercises so we can walk through them and explore Workbench. The first uses a CSV of data from the [U.S. Energy Information Administration](http://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm?tid=5&pid=53&aid=1&cid=regions,&syid=2000&eyid=2014&unit=TBPD) on regional oil production. The numbers given are thousands of barrels per day. (Specifically, I used their data browser to get ["Total Petroleum and Other Liquids" from 2000 to 2017](https://www.eia.gov/beta/international/data/browser/#/?pa=000gfs0000000000000000000000000000vg&c=4100000002000060000000000000g000200000000000000001&ct=2&tl_id=5-A&vs=INTL.53-1-AFRC-TBPD.A&cy=2014&vo=0&v=H&end=2017))
+## Cleaning data
 
-You can see my work at: <https://app.workbenchdata.com/workflows/5908/> but don't use "duplicate" -- we're going to walk through this from scratch.
+Once you have data, you'll often find you have to do a bit of work to get it to a place where you can actually use it. Peter Aldhous has a great walk through that will show you how to [use OpenRefine](http://paldhous.github.io/ucb/2016/dataviz/week5.html) to clean up data.  We're going to use Workbench, only because I think it does a nice job of providing an easy to read audit trail. Workbench recently launched a [mini intro to data journalism](https://app.workbenchdata.com/courses/intro-to-data-journalism) that is a great way to go deeper with Workbench.
 
-1. Start by duplicating my workflow: <https://app.workbenchdata.com/workflows/6630/>
+We're going to start with a CSV from the [U.S. Energy Information Administration](http://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm?tid=5&pid=53&aid=1&cid=regions,&syid=2000&eyid=2014&unit=TBPD) on regional oil production. The numbers given are thousands of barrels per day. (Specifically, I used their data browser to get ["Total Petroleum and Other Liquids" from 2000 to 2017](https://www.eia.gov/beta/international/data/browser/#/?pa=000gfs0000000000000000000000000000vg&c=4100000002000060000000000000g000200000000000000001&ct=2&tl_id=5-A&vs=INTL.53-1-AFRC-TBPD.A&cy=2014&vo=0&v=H&end=2017))
+
+You can see my finished work on Workbench: <https://app.workbenchdata.com/workflows/5908/> but don't use "duplicate" -- we're going to walk through this from scratch.
+
+1. Start with an empty workflow.
+
+[![Workbench Screenshot](/{{site.baseurl}}/2019/advanced_media_institute/workbench_create_workflow.png)](https://app.workbenchdata.com/workflows/)
+
+1. Import the CSV -- you can either download it and then upload it to Workbench or give Workbench a URL for the data we want to work with: <https://amandabee.github.io/workshops/2019/advanced_media_institute/world_oil_production.csv>
 
 2. Transform it into a functional spreadsheet using ...
   * "Delete Rows" to delete rows 1-3 and 5-8
@@ -192,7 +225,7 @@ Identify at least three data sources that you're interested in working with. One
 <https://etherpad.opennews.org/p/maps_and_charts>
 
 
-# Resources to Keep Learning
+# Keep learning
 
 If you don't have a copy of Sarah Cohen's [Numbers in the Newsroom](http://store.ire.org/products/numbers-in-the-newsroom-using-math-and-statistics-in-news-second-edition) get one. Read it through. She covers a lot of vital information about working with and writing about numbers.
 

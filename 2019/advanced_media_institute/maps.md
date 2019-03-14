@@ -14,9 +14,9 @@ toc       : true
 
 *New York Times* went even deeper on the data we were playing with last week: they found and animated the spread over each year. They also mapped the average age for first time mothers for every county in the US, and broke first time mothers into a few categories:
 
-![NYT map of first time mothers by US county](nyt_maternal-age-county.png)
+![NYT map of first time mothers by US county]({{site.baseurl}}/2018/advanced_media_institute/nyt_maternal-age-county.png)
 
-![NYT map of first time mothers by education and marriage](nyt_maternal-age-mult.png)
+![NYT map of first time mothers by education and marriage]({{site.baseurl}}/2018/advanced_media_institute/nyt_maternal-age-mult.png)
 
 # Why maps?
 
@@ -77,7 +77,7 @@ Caroline Kee covered a pretty straightforward, if disturbing, CDC report on [ris
 Take a look at the legend. The sizes on those buckets are wild. The darkest has a 20 percentage pt spread, and the next has just a six percentage pt spread. These are quantiles: the CDC designed the buckets so that each would have 12 states in it. And then they chipped off Nevada which is the only state that saw a decrease.
 
 
-![CCD Suicide Data](buzzfeed_cdc_map.jpeg)
+![CCD Suicide Data]({{site.baseurl}}/2018/advanced_media_institute/buzzfeed_cdc_map.jpeg)
 
 Luckily, BuzzFeed News actually links to the original report -- the raw data is available in the CDC's [original report](https://www.cdc.gov/vitalsigns/suicide/infographic.html#graphic1) which appeared in the [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html). To avoid hiccups in the copy and paste process, I went ahead and pulled the numbers for you. Question: is this data organized into points, lines or shapes?
 
@@ -89,7 +89,7 @@ Workbench is still a work in progress but one thing it does well is show the tra
 
 **Step 1:** Log into Datawrapper and choose "Create a map". We want a choropleth.
 
-![create a map](mapping_datawrapper.png)
+![create a map]({{site.baseurl}}/2018/advanced_media_institute/mapping_datawrapper.png)
 
 **Step 2:** (Datawrapper thinks of this as Step 1), search for "USA States" under "What type of map do you want to create?".
 
@@ -101,7 +101,7 @@ The Washington Post did some deeper reporting asking why North Dakota stands out
 
 Once you've uploaded your data, read through the next screen, too.
 
-![pay attention](mapping_exercise_columns.png)
+![pay attention]({{site.baseurl}}/2018/advanced_media_institute/mapping_exercise_columns.png)
 
 As you step through these dialog windows, they should make sense!
 
