@@ -238,6 +238,19 @@ If we wanted to know what the most expensive purchases were, we could use
 
 Keep going with [Examining the data](https://csvkit.readthedocs.io/en/latest/tutorial/2_examining_the_data.html), keeping in mind that tab completion is your friend while copy and paste is your sworn enemy.
 
+### Why not just use Excel?
+
+In many cases you could, and it is always easier to learn a new tool on data you can digest without the tool -- it helps eliminate the "magic" factor because you can see the results of your work. I downloaded ballot measure [contribution data](http://powersearch.sos.ca.gov/advanced.php) from the CA Secretary of State, and needed to filter it by proposition. So I did the following:
+
+```
+csvcut -n data-2019-03-15-10-09.csv
+csvcut -c 7,8,9,12 data-2019-03-15-10-09.csv | csvstat
+csvcut -c 12 data-2019-03-15-10-09.csv | sort | uniq -c
+csvgrep -c 12 -m "PROPOSITION 010" data-2019-03-15-10-09.csv > prop_10-data-2019-03-15-10-09.csv
+```
+From there I pulled it into another tool where I could play with it. 
+
+
 ### More handy uses for CSVkit
 
 * [in2csv](https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html) will transform an XLS or JSON file into a CSV. Even a locked XLS file with hidden columns.
