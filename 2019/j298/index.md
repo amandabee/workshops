@@ -248,7 +248,7 @@ csvcut -c 7,8,9,12 data-2019-03-15-10-09.csv | csvstat
 csvcut -c 12 data-2019-03-15-10-09.csv | sort | uniq -c
 csvgrep -c 12 -m "PROPOSITION 010" data-2019-03-15-10-09.csv > prop_10-data-2019-03-15-10-09.csv
 ```
-From there I pulled it into another tool where I could play with it. 
+From there I pulled it into another tool where I could play with it.
 
 
 ### More handy uses for CSVkit
