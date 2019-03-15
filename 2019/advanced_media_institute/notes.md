@@ -1,52 +1,33 @@
-Data can be pretty simple: https://calmatters.org/articles/californians-struggle-to-get-mental-health-care/
 
-Is this adjusted for inflation? https://calmatters.org/articles/commentary/california-corporate-tax/ -- we could pick this a part but we could also look at how to make that chart.
+## Sorted
 
-NBER publishes recession dates: https://www.nber.org/cycles/cyclesmain.html
+Data visualization doesn't have to be data driven. This chart of [QZ Brexit paths](https://qz.com/1571189/what-happens-now-that-theresa-may-lost-her-brexit-deal-vote/) helps tell a chutes-and-ladders like story.
 
-Data to play with: https://trac.syr.edu/immigration/reports/530/
+Often charts are relatively simple. CalMatters ran a long report on [families struggling to get mental health care](https://calmatters.org/articles/californians-struggle-to-get-mental-health-care/) and included a couple of charts.
 
-
-https://qz.com/1571189/what-happens-now-that-theresa-may-lost-her-brexit-deal-vote/
-
-Pull from j298 maps, too.
-
-To review:
-https://www.latimes.com/local/lanow/la-me-ab626-immigrants-reality-20190218-htmlstory.html
+The Intercept dug into data on [terrorism prosecutions](https://trial-and-terror.theintercept.com/) in the US and looked at [sexual abuse of prisoners in ICE custody](https://theintercept.com/2018/04/11/immigration-detention-sexual-abuse-ice-dhs/). Both took some substantial digging.
 
 
-https://docs.google.com/spreadsheets/d/14GeIJFEXiR6aYq8EBkkMPl-i9mTnaVXnFXucEr8GPRc/edit#gid=0
 
 
-https://www.gislounge.com/free-introduction-to-gis-in-r-online-course/
+## Discussion: do these charts work? Do you want more?
 
-https://pudding.cool/2019/02/dress-code-sexualization/
+### For a future lesson plan?
 
-basic Charts https://calmatters.org/articles/homelessness-data-housing-charts/ or
+[TRAC looks at ICE detention](https://trac.syr.edu/immigration/reports/530/) -- most people detained by ICE haven't been convicted of a crime, and when they have been convicted it was often a relatively minor crime.
 
-This data has some problems:
-https://calmatters.org/articles/homeless-in-california-what-the-data-reveals/
+CalMatters ran a commentary arguing that the [corporation tax shouldn't be increased](https://calmatters.org/articles/commentary/california-corporate-tax/). His chart was interesting to me because it didn't provide any context.
 
+» *Question:* What context is missing here?
 
-Can we take the data from https://calmatters.org/articles/commentary/california-corporate-tax/ and adjust it for inflation? 
+We could adjust for inflation, or compare to the state economy as a whole.
 
-https://theintercept.com/2018/12/13/mexico-drug-war-mass-graves/
+I wanted to track down the data itself, so I looked at his sources. [NBER publishes data on recessions](https://www.nber.org/cycles/cyclesmain.html).
 
-## To sort
-* https://source.opennews.org/articles/how-we-mapped-more-100-years-california-wildfire-h/
+### Maps
 
-Add in: wnyc maps
+Sharon Lerner and Moiz Syed collaborated on a project looking at [drinking water contamination from firefighting foam](https://theintercept.com/2015/12/16/toxic-firefighting-foam-has-contaminated-u-s-drinking-water-with-pfcs/).
 
-https://source.opennews.org/articles/how-we-made-billions-birds-migrate/
+## Unsorted
 
-
-https://www.meetup.com/Hacks-Hackers-Berlin/events/259119561/
-
-https://source.opennews.org/articles/mapping-fiery-chaos-1968-riots/
-
-
-https://source.opennews.org/articles/how-we-made-our-broadband-map-using-mapbox/
-
-=----
-
-https://www.usatoday.com/in-depth/news/investigations/deadly-deliveries/2019/03/07/maternal-death-rates-secret-hospital-safety-records-childbirth-deaths/2953224002/
+USA Today mapped [maternal mortality](https://www.usatoday.com/in-depth/news/investigations/deadly-deliveries/2019/03/07/maternal-death-rates-secret-hospital-safety-records-childbirth-deaths/2953224002/) across the US.

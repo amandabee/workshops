@@ -78,7 +78,7 @@ You can see my finished work on Workbench: <https://app.workbenchdata.com/workfl
 
 1. Start with an empty workflow.
 
-[![Workbench Screenshot](/{{site.baseurl}}/2019/advanced_media_institute/workbench_create_workflow.png)](https://app.workbenchdata.com/workflows/)
+[![Workbench Screenshot]({{site.baseurl}}/2019/advanced_media_institute/workbench_create_workflow.png)](https://app.workbenchdata.com/workflows/)
 
 2. Import the CSV -- you can either download it and then upload it to Workbench or give Workbench a URL for the data we want to work with: <https://amandabee.github.io/workshops/2019/advanced_media_institute/world_oil_production.csv>
 
@@ -98,12 +98,12 @@ You can see my finished work on Workbench: <https://app.workbenchdata.com/workfl
 
 Workbench's charting is great for a quick glance but you'll want to move over to another tool to do your actual visualization.
 
-## More cleaning in workbench
+## Get more practice
 [USA Spending](https://www.usaspending.gov/#/) tracks federal government spending. We can use their [Advanced Search](https://www.usaspending.gov/#/) to pull up a list of [grants to DUNS 9214214 and 124726725](https://www.usaspending.gov/#/search/fc06ccc70169c1f2695f1db9c5f9ba4b), aka Berkeley and Stanford. The data they provide is a lot cleaner than it was in 2014, but you can see an example of the kind of filtering you can do at <https://app.workbenchdata.com/workflows/5912/>/
 
-This demo makes use of [regular expressions](https://velociraptor.info/talks/2014/NICAR/regex) which are awesome and also [exasperating](https://www.xkcd.com/1171/). [Rubular](http://rubular.com/) and [Regex101](https://regex101.com/) might make your regular expression journey more sane.
+The USA Spending demo makes use of [regular expressions](https://velociraptor.info/talks/2014/NICAR/regex) which are awesome and also [exasperating](https://www.xkcd.com/1171/). [Rubular](http://rubular.com/) and [Regex101](https://regex101.com/) might make your regular expression journey more sane.
 
-Workbench provides a case study and [tutorial on cleaning data](https://app.workbenchdata.com/courses/intro-to-data-journalism/clean-campaign-finance-data)
+Workbench provides a case study and [tutorial on cleaning data](https://app.workbenchdata.com/courses/intro-to-data-journalism/clean-campaign-finance-data).
 
 Christian McDonald's 2019 NICAR workshop walks through [cleaning data with regular expressions](https://docs.google.com/document/d/1DvAM4lnGJLefo9skD8GgM-_9S1BEhpjJfV86yhJavI0/edit).
 
@@ -117,15 +117,34 @@ If you want to get fancy, David Montgomery's 2019 NICAR workshop walks through [
 # Making Really Good Charts
 [Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories that ought to inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
 
+So what makes a chart good? In small groups I want you to look at and discuss these three charts. Do they work?
+
+[**AB 626**](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180AB626) amends the California Retail Food Code to accommodate microenterprise home kitchens. I think there are some holes in this story about [AB 626](https://www.latimes.com/local/lanow/la-me-ab626-immigrants-reality-20190218-htmlstory.html), but I know the founders of Josephine so I guess I'm a little biased. Still, they pulled out some interesting data about where the Los Angeles County Health Department hands out violations for home cooking.
+
+» *Question:* Does the data bear out the caption? Countywide, [40%](https://en.wikipedia.org/wiki/Demographics_of_Los_Angeles) of residents are foreign born.
+
+The Intercept looked at US Census tracts with [serious air pollution problems](https://theintercept.com/2019/02/24/epa-response-air-pollution-crisis-toxic-racial-divide/), many of them concentrated in a single community.
+
+» *Question:* Does the graphic add to the story? Does it help you understand the story?
+
+CalMatters rounded up a lot of data on [homelessness and renting in California](https://calmatters.org/articles/homelessness-data-housing-charts/).
+
+» *Question:* What do you take from the **Rent vs Renter Income** chart?
+
+## Less is more
+
 [![animated step-by-step guide to improving bar charts from Dark Horse Analytics]({{site.baseurl}}/2018/advanced_media_institute/dark_horse_analytics-data-ink.gif)](https://www.darkhorseanalytics.com/portfolio/data-looks-better-naked-bar-charts)
 
 Look at what makes NYT Charts work. I'm 100% open to design innovation but there are some pretty good established formulas that we can lean on:
 
-![Chart: The Declining Value of Low-Income Housing Tax Credits](/{{site.baseurl}}/2018/advanced_media_institute/nyt_housing.png)
+![Chart: The Declining Value of Low-Income Housing Tax Credits]({{site.baseurl}}/2018/advanced_media_institute/nyt_housing.png)
 
 [These 95 Apartments Promised Affordable Rent in San Francisco. Then 6,580 People Applied.](https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html) *New York Times*, May 12, 2018
 
 ## Don't Make Bad Charts
+
+Overall, there is some great reporting in CalMatter's 2018 report on [Homeless in California—what the data reveals](https://calmatters.org/articles/homeless-in-california-what-the-data-reveals/) but skim down to the charts. » *Question:* Do they hold up for you?
+
 
 Are millenials really having fewer children? The answer is probably "duh, of course they are". But looking at stories about the data there are a lot of examples of y-axis shenanigans:
 
