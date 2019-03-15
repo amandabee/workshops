@@ -135,33 +135,42 @@ CalMatters rounded up a lot of data on [homelessness and renting in California](
 
 [![animated step-by-step guide to improving bar charts from Dark Horse Analytics]({{site.baseurl}}/2018/advanced_media_institute/dark_horse_analytics-data-ink.gif)](https://www.darkhorseanalytics.com/portfolio/data-looks-better-naked-bar-charts)
 
-Look at what makes NYT Charts work. I'm 100% open to design innovation but there are some pretty good established formulas that we can lean on:
+Look at what makes NYT Charts work. Design innovation is great, but there are some pretty good established formulas that we can lean on:
 
 ![Chart: The Declining Value of Low-Income Housing Tax Credits]({{site.baseurl}}/2018/advanced_media_institute/nyt_housing.png)
 
-[These 95 Apartments Promised Affordable Rent in San Francisco. Then 6,580 People Applied.](https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html) *New York Times*, May 12, 2018
+Chart from: [These 95 Apartments Promised Affordable Rent in San Francisco. Then 6,580 People Applied.](https://www.nytimes.com/2018/05/12/upshot/these-95-apartments-promised-affordable-rent-in-san-francisco-then-6580-people-applied.html) *New York Times*, May 12, 2018
 
-## Don't Make Bad Charts
+This is a pretty solid example of the kind of chart that NYT does a great job with. What stands out?
+
+* The title tells you what they see in the chart.
+* Labels point you to key points
+* Axis labels are kept to a minimum, especially when we don't need them.
+* They cite their source, but it isn't in bold.
+
+## Don't make bad charts
 
 Overall, there is some great reporting in CalMatter's 2018 report on [Homeless in California—what the data reveals](https://calmatters.org/articles/homeless-in-california-what-the-data-reveals/) but skim down to the charts. » *Question:* Do they hold up for you?
 
 
-Are millenials really having fewer children? The answer is probably "duh, of course they are". But looking at stories about the data there are a lot of examples of y-axis shenanigans:
+Are **millenials really having fewer children**? The answer is probably "duh, of course they are". But looking at stories about the data there are a lot of examples of y-axis shenanigans:
 
-* This writer cribbed his charts from Business Insider, but check out the y-axis in [the chart he included](https://www.linkedin.com/pulse/why-many-millennials-wont-have-children-michael-spencer/).  Bonus: what is wrong with his x-axis?
+One writer cribbed his charts from Business Insider, but check out the y-axis in [the chart he included](https://www.linkedin.com/pulse/why-many-millennials-wont-have-children-michael-spencer/).  » *Question*: what is wrong with his x-axis?
 
-![]({{site.baseurl}}/2018/advanced_media_institute/births_linkedin.jpeg)
+![image]({{site.baseurl}}/2018/advanced_media_institute/births_linkedin.jpeg)
 
-* If you look at the same data with a wider Y-axis spread, you see something that looks a lot more like a steady trend, as in an [NPR piece](https://www.npr.org/sections/health-shots/2016/01/14/462816458/average-age-of-first-time-moms-keeps-climbing-in-the-u-s) about the same data [or the CDC report](https://www.cdc.gov/nchs/data/databriefs/db232.pdf) that precipitated the coverage.
+Look at the same data with a wider Y-axis spread, you see something that looks a lot more like a steady trend, as in an [NPR piece](https://www.npr.org/sections/health-shots/2016/01/14/462816458/average-age-of-first-time-moms-keeps-climbing-in-the-u-s) about the same data [or the CDC report](https://www.cdc.gov/nchs/data/databriefs/db232.pdf) that precipitated the coverage.
 
-![]({{site.baseurl}}/2018/advanced_media_institute/births_cdc.png)
-![]({{site.baseurl}}/2018/advanced_media_institute/births_npr.png)
+![image]({{site.baseurl}}/2018/advanced_media_institute/births_cdc.png)
+![image]({{site.baseurl}}/2018/advanced_media_institute/births_npr.png)
 
-**Discussion:** let's talk about what data would get at that question, and go look at the data. We want two things: mean age at first birth, and birth rate. And we want to know whether millenials stand out or are just being consistent with long-standing trends.
+**Discussion:** What data would get at the question in the headline?  We want to know the mean age at first birth, and the birth rate. And we want to know whether millennials stand out or are consistent with long-standing trends.
 
-# Making A Simple Chart
+# Making a simple chart
 
-Using the data at <https://app.workbenchdata.com/workflows/6631/> (which I pulled from the CDC report cited in most of the pieces above), let's make a chart in Datawrapper.
+I grabbed the data from the CDC report cited in most of the pieces above. It's at [/age_at_birth.csv]({{site.baseurl}}/2018/advanced_media_institute/age_at_birth.csv) -- control-click or right click to copy the URL.
+
+You can see my process at <https://app.workbenchdata.com/workflows/6631/> -- start by giving Workbench the URL for the raw data. 
 
 1. Find the URL to download the csv from workbench or copy the live link.
 2. Make a new chart in Datawrapper. Use "Link External Dataset" to provide the URL. We could probably use workbench to serve the data but Datawrapper is a safer choice.
