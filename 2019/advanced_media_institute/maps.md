@@ -8,11 +8,11 @@ tags      : [map, 2019]
 toc       : true
 ---
 
-# Homework Review
+# Welcome back to data
 
 [The Age That Women Have Babies: How a Gap Divides America](https://www.nytimes.com/interactive/2018/08/04/upshot/up-birth-age-gap.html), *New York Times* 4 August 2018.
 
-*New York Times* went even deeper on the data we were playing with last week: they found and animated the spread over each year. They also mapped the average age for first time mothers for every county in the US, and broke first time mothers into a few categories:
+*New York Times* went even deeper on the data we were playing with in March: they found and animated the spread over each year. They also mapped the average age for first time mothers for every county in the US, and broke first time mothers into a few categories:
 
 ![NYT map of first time mothers by US county]({{site.baseurl}}/2018/advanced_media_institute/nyt_maternal-age-county.png)
 
@@ -20,115 +20,120 @@ toc       : true
 
 # Why maps?
 
+Maps are a powerful reporting tool, and they can be a powerful storytelling tool. We're just going to dabble at the edges today, but there are some great resources under "Keep learning" if you want to do more mapping.
+
+[![Image: How Harvey Hurt Houston, in 10 Maps](propublica_harvey.png)](https://projects.propublica.org/graphics/harvey-maps)
+<sup><sub>ProPublica, Reveal and The Texas Tribune collaborated to map a series of stories about [Hurricane Harvey's impact in Houston](https://projects.propublica.org/graphics/harvey-maps).
+Credit: Al Shaw and Lisa Song, *ProPublica*; Kiah Collier, *The Texas Tribune*; Neena Satija, *The Texas Tribune* and *Reveal*, January 3, 2018.</sub></sup>
+
+
 We use maps to understand the data, to find a story, to tell a story. Some of my favorite examples:
 
-https://www.seattletimes.com/seattle-news/times-watchdog/swedish-healths-ambitious-seattle-plans-involved-a-developer-with-a-stake-their-success/
+Mago Torres and her colleagues spent over a year compiling data
+on mass graves across Mexico while reporting on mass graves in Mexico. Their project [A dónde van los desaparecidos](https://adondevanlosdesaparecidos.org/) is available in English on The Intercept -- [2,000 Clandestine Graves: How a Decade of the Drug War Turned Mexico Into a Burial Ground](https://theintercept.com/2018/12/13/mexico-drug-war-mass-graves/).
 
-* [The Expanding News Desert](http://www.usnewsdeserts.com/), *UNC* (2018)
-* [How we mapped Homan Square](https://source.opennews.org/articles/how-we-made-homan-square-portrait/), *Source + The Guardian*  (2018)
-* [Something in the water](https://signalhfx.ca/deadly-water/), King’s College School of Journalism (2017)
-* [Visualize Transit-Rich Housing](https://transitrichhousing.org/), Sasha Aickin's personal project (Spring 2018)
-* [Murder with Impunity](https://www.washingtonpost.com/graphics/2018/investigations/unsolved-homicide-database/?utm_term=.e4a4e1dd6d60), *Washington Post* (2018)
-* [Fatal Force](https://www.washingtonpost.com/graphics/national/police-shootings-2016), *Washingon Post* (2016)
-* [How fast is LAFD where you live?](http://graphics.latimes.com/how-fast-is-lafd/#10/33.9661/-118.6201), *LA Times* (2012)
-* [Poisoned Place](https://www.npr.org/series/142000896/poisoned-places-toxic-air-neglected-communities), *NPR* (2011) / [map](https://www.npr.org/news/graphics/2011/10/toxic-air/#4.00/39.00/-84.00) / [about the data](https://www.npr.org/2011/11/07/142024951/poisoned-places-about-the-data) /
-* [At Risk in a Big Quake: 39 of San Francisco’s Top High Rises](https://www.nytimes.com/2018/06/14/us/california-earthquakes-high-rises.html), *New York Times* (2018)
-* *San Francisco Public Press* layered the map of un-retrofitted soft story buildings over the liquefaction map provided by the USGS to create a [very rough list of unsafe buildings](https://sfpublicpress.org/softstorylist) in San Francisco.
-*  [Mapping the Shoreline Building Boom as Seas Rise](https://sfpublicpress.org/news/searise/2017-04/mapping-the-shoreline-building-boom-as-seas-rise), San Francisco Public Press (2017)
-* [ProPublica &amp; The Lens: Losing Ground](http://projects.propublica.org/louisiana/), *ProPublica* (2017)
-* [Borderlands](http://apps.npr.org/borderland/#_/about), *NPR* (2014)
-* CALmatters mapped [all the housing initiatives on the June 2018 ballot](https://calmatters.org/articles/map-how-we-voted-on-housing-issues-up-and-down-the-state/), *CALmatters* (2018)
-* [A quick caveat about normalization.](https://xkcd.com/1138/), *XKCD*
+ProPublica's [Guide to Every Permitted Natural Gas Well in West Virginia](https://projects.propublica.org/graphics/wva-well-pads) powerfully illustrates the impact of a massive expansion in horizontal well permits.
 
-### North Bay Fires (2017)
+Capital Public Radio's [history of California wildfires](http://projects.capradio.org/california-fire-history/#6/38.58/-121.49) looks at a question that ought to be on everyone's mind after two years in a row of devastating fall wildfires. They wrote about [how they did it](https://source.opennews.org/articles/how-we-mapped-more-100-years-california-wildfire-h/) on [Source](https://source.opennews.org/). A few more fire maps:
 * [KQED Property and Structures Damage](http://ww2.kqed.org/news/2017/10/19/map-cal-fire-maps-homes-damaged-or-destroyed-in-north-bay-fires/) was the most visited during the fires.
-* [KQED](https://ww2.kqed.org/science/2017/10/31/map-see-if-you-live-in-a-high-risk-fire-zone-and-what-that-means/) looks at fire hazard zones, which are public record. Most of the devastating 2017 Napa and Sonomoa fires were in "moderate" fire hazard zones.
+* [Fire hazard zones](https://ww2.kqed.org/science/2017/10/31/map-see-if-you-live-in-a-high-risk-fire-zone-and-what-that-means/) are public record -- as the 2017 fires cooled down, KQED pointed out that most of the devastating 2017 Napa and Sonoma fires were in "moderate" fire hazard zones.
+* Peter Aldhous mapped [two decades of wildfires](https://www.buzzfeednews.com/article/peteraldhous/wildfire-risk-maps-search-your-home)
+
+[Something in the water](https://signalhfx.ca/deadly-water/), King’s College School of Journalism (2017) started as a mapping exercise and grew from there.
+
+National Geographic's [interactive map of bird migrations](https://www.nationalgeographic.com/magazine/2018/03/bird-migration-interactive-maps/) is stunning. They wrote about [how they built it](https://source.opennews.org/articles/how-we-made-billions-birds-migrate/), too.
+
+FT mapped [broadband speeds in Britain](https://ig.ft.com/gb-broadband-speed-map/) and wrote about [how they built it](https://source.opennews.org/articles/how-we-made-our-broadband-map-using-mapbox/)
+
+Sharon Lerner and Moiz Syed collaborated on a project looking at [drinking water contamination from firefighting foam](https://theintercept.com/2015/12/16/toxic-firefighting-foam-has-contaminated-u-s-drinking-water-with-pfcs/).
+
+USA Today mapped [maternal mortality](https://www.usatoday.com/in-depth/news/investigations/deadly-deliveries/2019/03/07/maternal-death-rates-secret-hospital-safety-records-childbirth-deaths/2953224002/) across the US.
+
+*The Seattle Times* put together a nice example of a Locator Map in their [reporting on Swedish Health](https://www.seattletimes.com/seattle-news/times-watchdog/swedish-healths-ambitious-seattle-plans-involved-a-developer-with-a-stake-their-success/).
+
+## Core concepts
+
+### Shapes, points, and lines
+
+#### Points
+"Geocoding" refers to the process of identifying an individual latitude/longitude pair for an address or other location description. To actually plot a location on a map, you need the location's latitude and longitude. `906 Washington` means nothing without coordinates.
+
+Geocoding is often challenging because there aren't great free resources for doing batch jobs or processing many addresses at once. The [Geocoding Tip Sheet](https://github.com/amandabee/workshops/wiki/Tip-Sheet:-Geocoding) is a round up of good options, but often public data sources already include coordinates.
+
+#### Lines
+A line is a series of two or more points connected together -- you learned that in Geometry. Think bus routes and flight paths.
+
+#### Polygons
+Counties, council districts, police precincts -- these are all polygons. But not zipcodes. [Zipcodes aren't shapes](https://github.com/iandees/wtf-zipcodes).
 
 
-## Projections, Shapes, Points, and Lines
+> Y'all. ZIP codes are not defined areas. Addresses have ZIP codes. The definition of a "ZIP code" is a list of addresses. And there are lots of different ways to take a bunch of points and turn them into a polygon. --[Lyzi "Bonecrusher" Diamond](https://twitter.com/lyzidiamond/status/1071627800967139328)
+
+Geographic polygons are usually defined in one of two specialized file formats -- a "Shapefile" or a "KML" file. The syntax of the file types varies, but they contain basically the same information -- a series of lat/lon pairs that connect to form the shape.
+
+If you have high school graduation rates by school district, and you want to map those, you need to find a shapefile that describes the outline of each school district, and then you need to combine that shapefile with your data, by identifying a column that the two tables have in common.
+
+The [Shapefiles Tip Sheet](https://github.com/amandabee/workshops/wiki/Tip-Sheet:-Shapefiles) has some excellent resources for finding shapefiles.
+
+## Datawrapper
+
+This straightforward, if disturbing, BuzzFeed piece on a CDC report on [rising suicide rates nationwide](https://www.buzzfeed.com/carolinekee/suicide-rates-increase-us-2016-all-states) includes a map from the CDC. It isn't a terrible map, but there are a few ways it could be much better.
+
+![CCD Suicide Data](/workshops/2018/advanced_media_institute/buzzfeed_cdc_map.jpeg)
+
+Can you tell at a glance **which states stand out** as having the most severe increase?
+
+Take a look at the legend. The sizes on those buckets are wild. The darkest has a 20 percentage pt spread, and the next has just a six percentage pt spread. These are quantiles: the CDC designed the buckets so that each would have ~12 states in it. And then they chipped off Nevada which is the only state that saw a decrease.
+
+I should be able to explain why epidemiologists prefer quantiles to equal intervals, but I haven't dug in deep enough to be able to explain it. I did find what appears at a glance to be [a scientific paper](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-12-21) arguing against the practice.
 
 
-##### Projections
-You know this, but we often forget it: the globe is round but maps are generally flat. So you have to make decisions about how to translate that sphere into two dimensions.
+BuzzFeed News helpfully links to the original report -- the raw data is available [from the CDC](https://www.cdc.gov/vitalsigns/suicide/infographic.html#graphic1) in the [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html).
 
-We're actually going to accept some defaults but if you keep mapping this will come up so I'm including it.
+» *Question:* is this data organized into points, lines or shapes?
 
-[![Projections, too](https://imgs.xkcd.com/comics/map_projections.png)](https://xkcd.com/977/)
+To avoid hiccups in the copy and paste process, I went ahead and pulled the numbers for you. <https://app.workbenchdata.com/workflows/5852>
 
+Workbench bills itself as a "data journalism platform" which seems a bit excessive, but it is a great way to share data, especially if you did some work to transform it from its source.
 
-### Mapping Points
-"Geocoding" refers to the process of identifying an individual latitude/longitude pair for an address or other location description. To actually plot a location on a map, you need the location's latitude and longitude. `219 West 40th Street` means nothing without coordinates.
+**Step 0:** Log into Datawrapper and choose "Create a map". We want a choropleth. Fun thing I finally looked up: "choropleth" comes from the Greek words `chóros` (area or region) and `plíthos` (multitude).
 
-Geocoding is often challenging because there aren't great free resources for doing batch jobs or processing many addresses at once. The [Geocoding Tip Sheet](https://github.com/amandabee/cunyjdata/wiki/Tip-Sheet:-Geocoding) is a round up of good options, but often public data sources already include coordinates.
+![create a map](/workshops/2018/advanced_media_institute/mapping_datawrapper.png)
 
-### Mapping Lines
-We use lines pretty rarely in intro maps, but a line is  a series of two or more points connected together.
+**Step 1:** Search for "USA States" under "What type of map do you want to create?".
 
-### Mapping Polygons
-Zipcodes, council districts, police precincts -- these are all polygons. Most of your maps will be in polygons. These polygons are defined in (usually) one of two specialized file formats -- a "Shapefile" or a "KML" file. The syntax of the file types varies, but they contain basically the same information -- the polygon called "Bronx CB 04" is defined by this series of lat/lon pairs.
+Question that came up last time I taught mapping with Datawrapper: *Why is the electoral college hex map different from the population hex map?* It turns out there are a few reasons. First, the census updates population estimates more often than the electoral college is redesigned. Second, the actual electors aren't based entirely on population. Each state gets one Elector for each senator (2) and one for each congress person (varies, maps are redrawn every 10 years). DC always gets 3 Electors (or, no more than the least populous state). 🏅 if you already knew that.
 
-Usually your data won't include a shapefile. If you have high school graduation rates by school district, and you want to map those, you need to find a shapefile that describes the outline of each school district, and then you need to combine that shapefile with your data, by identifying a column that the two tables have in common.
+**Step 3:** Download your data from Workbench and add it to Datawrapper.
 
-The [Shapefiles Tip Sheet](https://github.com/amandabee/cunyjdata/wiki/Where-to-Find-Shapefiles) has some excellent resources for finding shapefiles.
+» *Question:* do we have ISO-Codes or Names in our data?
 
-# Making a map in Datawrapper
+Once you've uploaded your data, read through the next screen, too.As you step through these dialog windows, they should make sense.
 
+![pay attention](/workshops/2018/advanced_media_institute/mapping_exercise_columns.png)
 
-Caroline Kee covered a pretty straightforward, if disturbing, CDC report on [rising suicide rates nationwide](https://www.buzzfeed.com/carolinekee/suicide-rates-increase-us-2016-all-states). The map she included came directly from the CDC. It isn't a terrible map, but there are a few ways it could be much better. Can you tell at a glance **which states stand out** as having the most severe increase?
+You've already got a much cleaner map. And a single state that really stands out.
+The Washington Post [wrote more about why suicides](https://www.washingtonpost.com/news/to-your-health/wp/2018/06/07/u-s-suicide-rates-rise-sharply-across-the-country-new-report-shows/) have risen so much. They note how much ND stands out, but they don't have an explanation either.
 
-Take a look at the legend. The sizes on those buckets are wild. The darkest has a 20 percentage pt spread, and the next has just a six percentage pt spread. These are quantiles: the CDC designed the buckets so that each would have 12 states in it. And then they chipped off Nevada which is the only state that saw a decrease.
+**Step 4:** Customize your gradient and your tooltips. The average nationwide was a 25.4% increase. You could reasonably center your buckets there. Or you can keep the default gradient. Add tooltips.
 
+{% raw %}
+`{{ Increase_Decrease }} of {{ Overall_Percent_Change }}%`
+{% endraw %}
 
-![CCD Suicide Data]({{site.baseurl}}/2018/advanced_media_institute/buzzfeed_cdc_map.jpeg)
+Play with the colors. [ProPublica recommends](https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/) to find web safe colors and test for color blindness. ColorOracle takes some setup so for now use [Color Brewer](http://colorbrewer2.org/).
 
-Luckily, BuzzFeed News actually links to the original report -- the raw data is available in the CDC's [original report](https://www.cdc.gov/vitalsigns/suicide/infographic.html#graphic1) which appeared in the [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html). To avoid hiccups in the copy and paste process, I went ahead and pulled the numbers for you. Question: is this data organized into points, lines or shapes?
+**Step 5:** Add a title and description. Fill in the rest of the metadata.
 
-<https://app.workbenchdata.com/workflows/5852>
+» *Title:* What is the takeaway here? In the BuzzFeed story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016" -- in reporting and story telling, your chart title should tell readers what they're looking for in the chart.
 
-Workbench is still a work in progress but one thing it does well is show the transformations I applied to the original data.
-
-**Step 0:** Download the csv from Workbench.
-
-**Step 1:** Log into Datawrapper and choose "Create a map". We want a choropleth.
-
-![create a map]({{site.baseurl}}/2018/advanced_media_institute/mapping_datawrapper.png)
-
-**Step 2:** (Datawrapper thinks of this as Step 1), search for "USA States" under "What type of map do you want to create?".
-
-Fun question that came up Week 1, that I couldn't answer off the top of my head: *Why is the electoral college hex map different from the population map?* It turns out there are a few reasons. First, as I noted, the census updates population estimates more often than the electoral college is redesigned. Second, the actual electors aren't based entirely on population. Each state gets one Elector for each senator (2) and one for each congress person (varies, maps are redrawn every 10 years). DC always gets 3 Electors (or, no more than the least populous state).
-
-The Washington Post did some deeper reporting asking why North Dakota stands out so much.  [It's worth reading if you're interested in that question.](https://www.washingtonpost.com/news/to-your-health/wp/2018/06/07/u-s-suicide-rates-rise-sharply-across-the-country-new-report-shows/)
-
-**Step 3:** Import your dataset. But get in the habit of reading pop up windows. Do we have ISO-Codes or Names here?
-
-Once you've uploaded your data, read through the next screen, too.
-
-![pay attention]({{site.baseurl}}/2018/advanced_media_institute/mapping_exercise_columns.png)
-
-As you step through these dialog windows, they should make sense!
-
-You've already got a much cleaner map. But we're going to hit `Proceed` and make it better.
-
-**Step 4:** Customize your gradient and your tooltips. The average nationwide was a 25.4% increase. You could reasonably center your buckets there. Or you can keep the default gradient. And make some tooltips.
-
-```
-{{ Increase_Decrease }} of {{ Overall_Percent_Change }}%
-```
-
-Play with the colors. [ProPublica recommends](https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/) to find safe colors and test for color blindness. It takes some setup so for now we're going to use [Color Brewer](http://colorbrewer2.org/) becasue it's fast.    
-
-**Step 5:** Add your title and description. Never skip the metadata.
-
-**Title:** What is the takeaway here? In the story, they captioned this "Suicide rates increased in almost all states between 1999 and 2016 — some by more than 30%.", but the chart uses "Figure. Percent change in annual suicide rate,* by state-- United States , from 1999/2001 to 2014/2016"
-
-**Caption:** Tell your readers more about what we're looking at. "A recent CDC report found that there is just one state in the union -- Nevada -- where suicides did  not rise between 1999 and 2016."
+» *Caption:* Tell your readers more about what we're looking at. "A recent CDC report found that there is just one state in the union -- Nevada -- where suicides did  not rise between 1999 and 2016."
 
 **Step 6:** Embed it!
 
-Fun Question that came up Week 3 -- *If these rates are both based on the 2000 population, how much does this map just reflect population growth?* One answer, from the Census, is that between 2000 and 2010 [Nevada was the US state with the the highest growth](https://www.census.gov/newsroom/blogs/random-samplings/2011/03/population-distribution-and-change-2000-to-2010.html).
+Question: -- *If these rates are both based on the 2000 population, how much does this map just reflect population growth?* It's a good question. According to the Census [Nevada was the US state with the the highest growth](https://www.census.gov/newsroom/blogs/random-samplings/2011/03/population-distribution-and-change-2000-to-2010.html) between 2000 and 2010, but suicides there dropped.
 
-
-# Making a Map in Fusion Tables
+## Another map
 
 The Washington Post collected data on more than 52,000 criminal homicides over the past decade in 50 of the largest American cities. I filtered out two local cities so we could take a closer look.
 [Homicides in Oakland](https://app.workbenchdata.com/workflows/5840) \ [Homicides in San Francisco](https://app.workbenchdata.com/workflows/5853/). We could map these in Datawrapper but we're going to get frustrated with their built in maps.
@@ -172,7 +177,6 @@ Question: Is this data points, lines, or shapes?
 
 **Step 9:** Last step, *Tools > Publish*
 
-*Note:* [New Media Report](https://newmedia.report/tutorials/google-maps/) includes a nice Google Map tutorial if you want to keep playing with Google Maps.
 
 ## Mapping Polygons in Fusion Tables
 
