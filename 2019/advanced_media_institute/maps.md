@@ -178,7 +178,7 @@ Question: Is this data points, lines, or shapes?
 **Step 9:** Last step, *Tools > Publish*
 
 
-## Mapping Polygons in Fusion Tables
+## Mapping polygons in fusion tables
 
 Fusion Tables makes it a little harder to merge data into a boundary file, but they do maintain a good collection of boundary files. We can select the US States data from their [boundary files](https://support.google.com/fusiontables/answer/1182141?hl=en) and merge it with our CDC data.
 
