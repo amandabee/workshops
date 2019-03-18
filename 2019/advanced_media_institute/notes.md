@@ -19,7 +19,3 @@ We could adjust for inflation, or compare to the state economy as a whole.
 I wanted to track down the data itself, so I looked at his sources. [NBER publishes data on recessions](https://www.nber.org/cycles/cyclesmain.html).
 
 ### Maps
-
-Sharon Lerner and Moiz Syed collaborated on a project looking at [drinking water contamination from firefighting foam](https://theintercept.com/2015/12/16/toxic-firefighting-foam-has-contaminated-u-s-drinking-water-with-pfcs/).
-
-USA Today mapped [maternal mortality](https://www.usatoday.com/in-depth/news/investigations/deadly-deliveries/2019/03/07/maternal-death-rates-secret-hospital-safety-records-childbirth-deaths/2953224002/) across the US.
