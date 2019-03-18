@@ -22,6 +22,8 @@ toc       : true
 
 We use maps to understand the data, to find a story, to tell a story. Some of my favorite examples:
 
+https://www.seattletimes.com/seattle-news/times-watchdog/swedish-healths-ambitious-seattle-plans-involved-a-developer-with-a-stake-their-success/
+
 * [The Expanding News Desert](http://www.usnewsdeserts.com/), *UNC* (2018)
 * [How we mapped Homan Square](https://source.opennews.org/articles/how-we-made-homan-square-portrait/), *Source + The Guardian*  (2018)
 * [Something in the water](https://signalhfx.ca/deadly-water/), King’s College School of Journalism (2017)

@@ -1,12 +1,6 @@
 
 ## Sorted
 
-Data visualization doesn't have to be data driven. This chart of [QZ Brexit paths](https://qz.com/1571189/what-happens-now-that-theresa-may-lost-her-brexit-deal-vote/) helps tell a chutes-and-ladders like story.
-
-Often charts are relatively simple. CalMatters ran a long report on [families struggling to get mental health care](https://calmatters.org/articles/californians-struggle-to-get-mental-health-care/) and included a couple of charts.
-
-The Intercept dug into data on [terrorism prosecutions](https://trial-and-terror.theintercept.com/) in the US and looked at [sexual abuse of prisoners in ICE custody](https://theintercept.com/2018/04/11/immigration-detention-sexual-abuse-ice-dhs/). Both took some substantial digging.
-
 
 
 
@@ -27,7 +21,5 @@ I wanted to track down the data itself, so I looked at his sources. [NBER publis
 ### Maps
 
 Sharon Lerner and Moiz Syed collaborated on a project looking at [drinking water contamination from firefighting foam](https://theintercept.com/2015/12/16/toxic-firefighting-foam-has-contaminated-u-s-drinking-water-with-pfcs/).
-
-## Unsorted
 
 USA Today mapped [maternal mortality](https://www.usatoday.com/in-depth/news/investigations/deadly-deliveries/2019/03/07/maternal-death-rates-secret-hospital-safety-records-childbirth-deaths/2953224002/) across the US.
