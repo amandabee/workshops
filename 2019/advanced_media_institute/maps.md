@@ -212,17 +212,18 @@ We'll play with this together until we have points on a map. And you can embed t
 
 
 # Homework
-Pick one of the data sets you identified and map it!
+*optional*: If you plan to include a map in your portfolio project, send me a pitch by next week -- let me know what data you plan to map, where you found it and how you think it moves your story forward. If I get a thoughtful pitch by April 10, I'll work with you to get your map into shape.
 
-# Resources
+## Keep learning
+
 * Source's guide to [Better Mapping](https://source.opennews.org/guides/better-mapping/) is a fantastic round up of articles.
 
-* We use **QGIS** and **PostGIS** in the data investigations class because it is much more powerful analytical tool. The learning curve is a bit steep, however, and QGIS doesn't produce  interactive maps. QGIS will generate SVG files that you can style in Illustrator or any other vector graphics editor for publication.
-* **R** is powerful statistical software and not easy to learn. These [Dutch election maps](https://multimedia.tijd.be/2018/verkiezingen2018/) were made in ggplot2 (an R package) -- working from [a comprehensive tutorial tutorial](https://timogrossenbacher.ch/2016/12/beautiful-thematic-maps-with-ggplot2-only/#more-intuitive-legend). Like QGIS, R will generate SVG files that you can style in Adobe Illustrator or any other vector graphics editor.
-* You can make maps in **D3**, but not without getting code on your hands. [Mike Bostock has a solid tutorial](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c)
-* For years, I taught students how to use **[Carto](https://carto.com/)** because it is easy to master and flexible. Unfortunately, they no longer offer a free tier to anyone but students, which means that if you're just publishing your first one or two maps, you have to commit to a paid account. They don't even publish the pricing for those accounts anymore. Sad trombone.
-* **Tableau** generates good maps. Peter Aldhous has a nice [Tableau walkthrough](http://paldhous.github.io/ucb/2016/intro-data/week4.html) from 2016. Unfortunately, I've never met a graphics editor who didn't have some kind of tableau horror story.
-* **[Mapbox](https://www.mapbox.com/)** is powerful if you're game to learn some javascript (or just to cut and paste). Lo Benichou has written some fantastic [Mapbox tutorials](https://www.mapbox.com/help/tutorials/). And if you don't want or need interactivity, Mapbox Studio will let you design gorgeous map tiles, no javascript needed.
+* **[Mapbox](https://www.mapbox.com/)** is powerful, but not nearly as cut and paste as Datawrapper. Lo Benichou has written some fantastic [Mapbox tutorials](https://www.mapbox.com/help/tutorials/).
 
-## Other good tutorial options
-* [Dan Nguyen has a nice roundup](http://www.padjo.org/tutorials/#mapping) of his tutorials.
+* **QGIS** plays nicely with **PostGIS** and in combination the two can be a powerful geographic analytical tool. QGIS doesn't output interactive maps but you can run much more complex queries like [measuring distance](https://postgis.net/docs/ST_Distance.html) or identifying all the [points inside](https://postgis.net/docs/ST_Within.html) of a given shape. QGIS will generate SVG files that you can style in a vector graphics editor (eg. Inkscape, Illustrator) for publication. This is what I use.
+
+* These [Dutch election maps](https://multimedia.tijd.be/2018/verkiezingen2018/) were made in **ggplot2** (an **R** package), working from [a comprehensive tutorial tutorial](https://timogrossenbacher.ch/2016/12/beautiful-thematic-maps-with-ggplot2-only/#more-intuitive-legend). You can definitely do powerful geographic analysis inside of R.
+
+* Andrew B Tran publishes his NICAR workshops on Github including his session on [Mapping with R](https://github.com/andrewbtran/NICAR/tree/master/2019)
+
+* You can create interactive maps in **D3**. Mike Bostock has a [solid tutorial](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c) available.
