@@ -23,12 +23,20 @@ I wanted to track down the data itself, so I looked at his sources. [NBER publis
 Datawrapper will let you use anything for a basemap, but it has to be in TopoJSON or GeoJSON format, and meet [a few other requirements](https://academy.datawrapper.de/article/145-how-to-upload-your-own-map).
 
 TIGER from https://data.ca.gov/dataset/ca-geographic-boundaries
+
+Actually used:
 Better map, clipped to shoreline https://geodata.lib.berkeley.edu/catalog/ark28722-s7hs4j
 
 Place maps https://geodata.lib.berkeley.edu/catalog/ark28722-s7bp4z
 
+
+
 Mapshaper Commands:
 
-`proj wgs84`
+`proj wgs84` (for each layer)
+with california_place_clipped selected, do `clip bayarea_county` to drop all the places outside of bay area counties.
 
-`filter '"Marin, Contra Costa, Alameda, San Francisco, Santa Clara, San Mateo".indexOf(NAME) > -1' `
+Not sure I can
+
+Could do:
+`filter '"Marin, Contra Costa, Alameda, San Francisco, Santa Clara, San Mateo".indexOf(COUNTY) > -1' `
