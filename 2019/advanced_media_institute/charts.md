@@ -217,6 +217,8 @@ You can see my process at <https://app.workbenchdata.com/workflows/6631/> -- sta
 
 ## Make a second chart
 
+In the Spring of 2017, ICE published a [report](https://www.ice.gov/features/100-days) (it's really just a press release) on their enforcement operations over the first 100 days of 2017.  They included a chart in their report -- what they say in the report, but not the chart, is that violent crimes including murder, rape and assault account for less than 10% of the "convicted criminals" in their data: 
+
 [![ICE Chart]({{site.baseurl}}/2018/advanced_media_institute/ice_enforcement.png)](https://www.ice.gov/features/100-days)
 
 » *Question:* What does this chart show? What is 38%? 52%? What do those represent?  What does the grey represent?
