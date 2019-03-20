@@ -133,12 +133,7 @@ Christian McDonald's 2019 NICAR workshop walks through [cleaning data with regul
 
 If you want to get fancy, David Montgomery's 2019 NICAR workshop walks through [cleaning a csv in R](https://github.com/dhmontgomery/nicar19/blob/master/r3.md).
 
-# Break
-
-![Break Time](/workshops/assets/imgs/break.gif)
-## 7:30 - 7:40 PM
-
-# Making Really Good Charts
+# Making charts
 [Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories that ought to inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
 
 So what makes a chart good? In small groups I want you to look at and discuss these three charts. Do they work?
@@ -155,7 +150,12 @@ CalMatters rounded up a lot of data on [homelessness and renting in California](
 
 » *Question:* What do you take from the **Rent vs Renter Income** chart?
 
-## Less is more
+# Break
+
+![Break Time](/workshops/assets/imgs/break.gif)
+## 7:30 - 7:40 PM
+
+# Making good charts: less is more
 
 [![animated step-by-step guide to improving bar charts from Dark Horse Analytics]({{site.baseurl}}/2018/advanced_media_institute/dark_horse_analytics-data-ink.gif)](https://www.darkhorseanalytics.com/portfolio/data-looks-better-naked-bar-charts)
 
