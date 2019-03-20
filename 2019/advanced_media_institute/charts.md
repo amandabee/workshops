@@ -35,6 +35,12 @@ The Intercept dug into data on [terrorism prosecutions](https://trial-and-terror
 
 Alvin Chang's data viz explainer on [how the rich got rich and the poor got poor](https://www.vox.com/2016/5/23/11704246/wealth-inequality-cartoon) in Vox is a great example of the ways that we can use data visualization to make sense of complex numbers. He also used [potatoes to explain how a 70% tax rate would work](https://www.vox.com/videos/2019/2/12/18220925/70-percent-top-tax-optimal-theory-ocasio-cortez) and [how tax brackets really work](https://www.vox.com/2019/1/18/18187056/tax-bracket-marginal-video).
 
+
++ [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G) *Reuters*, October 9, 2018 has a nice clean chart of the sort that's in our wheelhouse.
++ [Homelessness in the Bay Area](https://www.spur.org/publications/urbanist-article/2017-10-23/homelessness-bay-area) *Spur: The Urbanist*, October 23, 2017
++ [Californians: Here’s why your housing costs are so high](https://calmatters.org/articles/housing-costs-high-california/) *CALMatters*, August 21, 2017
++ [Why is Sacramento failing its black students?](http://www.newsreview.com/sacramento/why-is-sacramento-failing-its/content?oid=26402481) *Sacramento News and Review*, June 14, 2018
+
 ## Data isn't magic
 
 !["Data is people."]({{site.baseurl}}/assets/imgs/itspeople.jpg)
@@ -134,6 +140,9 @@ Christian McDonald's 2019 NICAR workshop walks through [cleaning data with regul
 If you want to get fancy, David Montgomery's 2019 NICAR workshop walks through [cleaning a csv in R](https://github.com/dhmontgomery/nicar19/blob/master/r3.md).
 
 # Making charts
+
+## What works
+
 [Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories that ought to inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
 
 So what makes a chart good? In small groups I want you to look at and discuss these three charts. Do they work?
@@ -155,7 +164,9 @@ CalMatters rounded up a lot of data on [homelessness and renting in California](
 ![Break Time](/workshops/assets/imgs/break.gif)
 ## 7:30 - 7:40 PM
 
-# Making good charts: less is more
+# Making good charts
+
+## Less is more
 
 [![animated step-by-step guide to improving bar charts from Dark Horse Analytics]({{site.baseurl}}/2018/advanced_media_institute/dark_horse_analytics-data-ink.gif)](https://www.darkhorseanalytics.com/portfolio/data-looks-better-naked-bar-charts)
 
@@ -231,14 +242,9 @@ Spend some time in Datawrapper experimenting with how you want to display this d
 Here's my version of those same numbers:
 <iframe id="datawrapper-chart-Ztj22" src="//datawrapper.dwcdn.net/Ztj22/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="240"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["Ztj22"]={},window.datawrapper["Ztj22"].embedDeltas={"100":605,"200":360,"300":300,"400":283,"500":240,"700":223,"800":223,"900":223,"1000":223},window.datawrapper["Ztj22"].iframe=document.getElementById("datawrapper-chart-Ztj22"),window.datawrapper["Ztj22"].iframe.style.height=window.datawrapper["Ztj22"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["Ztj22"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("Ztj22"==b)window.datawrapper["Ztj22"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
 
-## More Recent Examples
+# Homework
 
-+ [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G) *Reuters*, October 9, 2018 has a nice clean chart of the sort that's in our wheelhouse.
-+ [Homelessness in the Bay Area](https://www.spur.org/publications/urbanist-article/2017-10-23/homelessness-bay-area) *Spur: The Urbanist*, October 23, 2017
-+ [Californians: Here’s why your housing costs are so high](https://calmatters.org/articles/housing-costs-high-california/) *CALMatters*, August 21, 2017
-+ [Why is Sacramento failing its black students?](http://www.newsreview.com/sacramento/why-is-sacramento-failing-its/content?oid=26402481) *Sacramento News and Review*, June 14, 2018
-
-# Homework, Due March 28
+## Due March 28
 
 Read [New bill would finally tear down federal judiciary’s ridiculous paywall](https://arstechnica.com/tech-policy/2018/09/new-bill-would-finally-tear-down-federal-judiciarys-ridiculous-paywall/) *Ars Technica*, September 17, 2018
 
