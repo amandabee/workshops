@@ -51,6 +51,7 @@ USA Today mapped [maternal mortality](https://www.usatoday.com/in-depth/news/inv
 
 *The Seattle Times* put together a nice example of a Locator Map in their [reporting on Swedish Health](https://www.seattletimes.com/seattle-news/times-watchdog/swedish-healths-ambitious-seattle-plans-involved-a-developer-with-a-stake-their-success/).
 
+
 ## Core concepts
 
 ### Shapes, points, and lines

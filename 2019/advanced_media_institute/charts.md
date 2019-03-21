@@ -217,7 +217,7 @@ You can see my process at <https://app.workbenchdata.com/workflows/6631/> -- sta
 
 ## Make a second chart
 
-In the Spring of 2017, ICE published a [report](https://www.ice.gov/features/100-days) (it's really just a press release) on their enforcement operations over the first 100 days of 2017.  They included a chart in their report -- what they say in the report, but not the chart, is that violent crimes including murder, rape and assault account for less than 10% of the "convicted criminals" in their data: 
+In the Spring of 2017, ICE published a [report](https://www.ice.gov/features/100-days) (it's really just a press release) on their enforcement operations over the first 100 days of 2017.  They included a chart in their report -- what they say in the report, but not the chart, is that violent crimes including murder, rape and assault account for less than 10% of the "convicted criminals" in their data:
 
 [![ICE Chart]({{site.baseurl}}/2018/advanced_media_institute/ice_enforcement.png)](https://www.ice.gov/features/100-days)
 
@@ -242,7 +242,20 @@ At-Large Arrests	8381	12786	52.6%
 Spend some time in Datawrapper experimenting with how you want to display this data.
 
 Here's my version of those same numbers:
+{% raw %}
 <iframe id="datawrapper-chart-Ztj22" src="//datawrapper.dwcdn.net/Ztj22/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="240"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["Ztj22"]={},window.datawrapper["Ztj22"].embedDeltas={"100":605,"200":360,"300":300,"400":283,"500":240,"700":223,"800":223,"900":223,"1000":223},window.datawrapper["Ztj22"].iframe=document.getElementById("datawrapper-chart-Ztj22"),window.datawrapper["Ztj22"].iframe.style.height=window.datawrapper["Ztj22"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["Ztj22"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("Ztj22"==b)window.datawrapper["Ztj22"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+{% endraw %}
+
+## A third chart!
+
+Houston, TX averages 11 fatal car crashes every week. Reporters at the Houston Chronicle collaborated to compile and analyze data on hundreds of thousands of fatal crashes nationwide to look at why Houston's roads are so deadly.
+
+[Out of Control: Houston’s roads, drivers are country’s most deadly](https://www.houstonchronicle.com/news/investigations/article/Houston-s-roads-drivers-are-nation-s-most-12865072.php), *Houston Chronicle*, 5 September 2018.
+
+They published the data behind this story on [data.world]( https://data.world/houstonchronicle/american-road-deaths-2001-2015) -- I grabbed the speeding fatality data so we can work with it: <https://app.workbenchdata.com/workflows/12655>.
+
+Start with the data and make a chart. Add a title and caption.
+
 
 # Homework
 
