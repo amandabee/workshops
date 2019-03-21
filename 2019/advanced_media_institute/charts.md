@@ -247,15 +247,13 @@ Here's my version of those same numbers:
 {% endraw %}
 
 ## A third chart!
+![Speed Kills](speed_kills.jpg)
 
-Houston, TX averages 11 fatal car crashes every week. Reporters at the Houston Chronicle collaborated to compile and analyze data on hundreds of thousands of fatal crashes nationwide to look at why Houston's roads are so deadly.
+Houston, TX averages 11 fatal car crashes every week. Reporters at the Houston Chronicle collaborated to compile and analyze data on hundreds of thousands of fatal crashes nationwide to look at why Houston's roads are so deadly. Their series on Houston road safety started with [Out of Control: Houston’s roads, drivers are country’s most deadly](https://www.houstonchronicle.com/news/investigations/article/Houston-s-roads-drivers-are-nation-s-most-12865072.php), *Houston Chronicle*, 5 September 2018.
 
-[Out of Control: Houston’s roads, drivers are country’s most deadly](https://www.houstonchronicle.com/news/investigations/article/Houston-s-roads-drivers-are-nation-s-most-12865072.php), *Houston Chronicle*, 5 September 2018.
+The team published [the data behind their reporting](https://data.world/houstonchronicle/american-road-deaths-2001-2015), so we can replicate a lot of their analysis. I grabbed the speeding fatality data for us to work with: <https://app.workbenchdata.com/workflows/12655>.
 
-They published the data behind this story on [data.world]( https://data.world/houstonchronicle/american-road-deaths-2001-2015) -- I grabbed the speeding fatality data so we can work with it: <https://app.workbenchdata.com/workflows/12655>.
-
-Start with the data and make a chart. Add a title and caption.
-
+Their caption is pretty good: there's no "the chart below shows..." -- instead the title points readers to what the authors think we should take away from the chart. But all the information we need for context is there. Use the [speeding fatality data](https://app.workbenchdata.com/workflows/12655) to replicate the chart in Datawrapper. The chart doesn't really need a re-design, but you can re-frame it if you'd like to. Or you can just replicate their work.
 
 # Homework
 
