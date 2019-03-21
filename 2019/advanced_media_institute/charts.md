@@ -78,6 +78,7 @@ Once you've exhausted the direct approach, or you're just interested in sparking
 *   [Arizona Central](https://www.azcentral.com/local/data/) recently launched a data hub.
 *   [BuzzFeed News](https://github.com/BuzzFeedNews)
 *   [Courier Journal](https://www.courier-journal.com/data/) (Louisville, KY)
+*   [Houston Chronicle](https://data.world/houstonchronicle/) (Houston, TX)
 *   [Naples Daily News](https://data.naplesnews.com/) (Naples, FL)
 *   [New Jersey Advance](https://data.world/njdotcom) publishes their data on data.world
 *   [New York Times](https://github.com/NYTimes) maintains a repository that's mostly code. They also publish some data via [The Upshot](https://github.com/TheUpshot)
@@ -247,6 +248,7 @@ Here's my version of those same numbers:
 {% endraw %}
 
 ## A third chart!
+
 ![Speed Kills](speed_kills.jpg)
 
 Houston, TX averages 11 fatal car crashes every week. Reporters at the Houston Chronicle collaborated to compile and analyze data on hundreds of thousands of fatal crashes nationwide to look at why Houston's roads are so deadly. Their series on Houston road safety started with [Out of Control: Houston’s roads, drivers are country’s most deadly](https://www.houstonchronicle.com/news/investigations/article/Houston-s-roads-drivers-are-nation-s-most-12865072.php), *Houston Chronicle*, 5 September 2018.
