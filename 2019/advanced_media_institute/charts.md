@@ -15,7 +15,7 @@ This week we're going to cover finding data, cleaning it up, and presenting it i
 
 I'm assuming everyone has worked through either Paul Grabowicz's [Spreadsheet Tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/) or the [Berkeley AMI interactive tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheet-basics) -- the latter only works on Safari, but Paul's walk-through works anywhere.
 
-## Get inspired
+## Examples
 
 *Seattle Times* reported on [double booked surgeons](https://www.seattletimes.com/seattle-news/times-watchdog/swedish-neuroscience-institute-double-booked-overlapping-surgeries/) -- the charts they included provide another view of the story and illustrate what it actually means to double book a surgeon.
 
@@ -128,6 +128,10 @@ You can see my finished work on Workbench: <https://app.workbenchdata.com/workfl
   * "Line Chart"
 
 Workbench's charting is great for a quick glance but you'll want to move over to another tool to do your actual visualization.
+
+### Chart It
+
+If you make your Workbench Workflow "Public" (top right of the screen ↖️) you can take the "live" URL for the CSV over to Workbench and make a better chart.
 
 ## More practice cleaning data
 [USA Spending](https://www.usaspending.gov/#/) tracks federal government spending. We can use their [Advanced Search](https://www.usaspending.gov/#/) to pull up a list of [grants to DUNS 9214214 and 124726725](https://www.usaspending.gov/#/search/fc06ccc70169c1f2695f1db9c5f9ba4b), aka Berkeley and Stanford. The data they provide is a lot cleaner than it was in 2014, but you can see an example of the kind of filtering you can do at <https://app.workbenchdata.com/workflows/5912/>/
@@ -249,9 +253,9 @@ Here's my version of those same numbers:
 
 ## A third chart!
 
-![Speed Kills](speed_kills.jpg)
-
 Houston, TX averages 11 fatal car crashes every week. Reporters at the Houston Chronicle collaborated to compile and analyze data on hundreds of thousands of fatal crashes nationwide to look at why Houston's roads are so deadly. Their series on Houston road safety started with [Out of Control: Houston’s roads, drivers are country’s most deadly](https://www.houstonchronicle.com/news/investigations/article/Houston-s-roads-drivers-are-nation-s-most-12865072.php), *Houston Chronicle*, 5 September 2018.
+
+![Speed Kills](speed_kills.jpg)
 
 The team published [the data behind their reporting](https://data.world/houstonchronicle/american-road-deaths-2001-2015), so we can replicate a lot of their analysis. I grabbed the speeding fatality data for us to work with: <https://app.workbenchdata.com/workflows/12655>.
 
@@ -297,11 +301,16 @@ Year	PACER Revenue (Millions)
 
 Post a link to your chart at: <https://etherpad.opennews.org/p/maps_and_charts>
 
-For extra credit, look at the notes from the Free Law Project and see if you can find 2016 and 2017 figures. Pay attention not only to the data, but also to the framing. Give your chart a title, think about the labels you do and don't want to include.
+For **extra credit**, look at the notes from the Free Law Project and see if you can find 2016 and 2017 figures. Pay attention not only to the data, but also to the framing. Give your chart a title, think about the labels you do and don't want to include.
 
-Identify at least three data sources that you're interested in working with. One should be about places. Pull each into Workbench and make them Public. Share the URLs at:
-<https://etherpad.opennews.org/p/maps_and_charts>
+## Look for data
+Identify a couple of data sources you're interested in working with or examining. Use the [guide to finding data](#finding-it) to see if you can sort out a source. Ideally, you'll find a data source and pull it into Workbench, but you can start by finding a few sources that are interesting to you and just letting me know where to find them.
 
+Share the URLs at: <https://etherpad.opennews.org/p/maps_and_charts>
+
+## Where to find me
+
+I'm **amanda@velociraptor.info** if you have any questions or want guidance or advice.
 
 # Keep learning
 
