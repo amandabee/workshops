@@ -8,7 +8,7 @@ tags      : [map, 2019]
 toc       : true
 ---
 
-# Welcome back to data
+# Welcome Back
 
 [The Age That Women Have Babies: How a Gap Divides America](https://www.nytimes.com/interactive/2018/08/04/upshot/up-birth-age-gap.html), *New York Times* 4 August 2018.
 
@@ -22,7 +22,7 @@ toc       : true
 
 Maps are a powerful reporting tool, and they can be a powerful storytelling tool. We're just going to dabble at the edges today, but there are some great resources under "Keep learning" if you want to do more mapping.
 
-[![Image: How Harvey Hurt Houston, in 10 Maps](propublica_harvey.png)](https://projects.propublica.org/graphics/harvey-maps)
+[![Image: How Harvey Hurt Houston, in 10 Maps]({{site.baseurl}}/2019/j298/propublica_harvey.png)](https://projects.propublica.org/graphics/harvey-maps)
 <sup><sub>ProPublica, Reveal and The Texas Tribune collaborated to map a series of stories about [Hurricane Harvey's impact in Houston](https://projects.propublica.org/graphics/harvey-maps).
 Credit: Al Shaw and Lisa Song, *ProPublica*; Kiah Collier, *The Texas Tribune*; Neena Satija, *The Texas Tribune* and *Reveal*, January 3, 2018.</sub></sup>
 
