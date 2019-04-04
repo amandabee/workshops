@@ -16,13 +16,12 @@ I started at the Californa Open Data Portal, where the state makes US Census [co
 
 ![tiger_counties.png](tiger_counties.png)
 
-There are a few ways I could go about clipping the legal boundaries to the shoreline, but the easiest was to search for a map that was already clipped to the shoreline. Luckily, [Cal's library](https://geodata.lib.berkeley.edu/catalog/ark28722-s7bp4z) maintains their own Geo Data commons and it includes a boundary file that is clipped to the shoreline.
+There are a few ways I could go about clipping the legal boundaries to the shoreline, but the easiest was to search for a map that was already clipped to the shoreline. Luckily, [Cal's library](https://geodata.lib.berkeley.edu/catalog/) maintains their own Geo Data commons and it includes a [boundary file that is clipped to the shoreline](https://geodata.lib.berkeley.edu/catalog/ark28722-s7hs4j).
 
 ![cal_counties.png](cal_counties.png)
 
-I wanted a layer that would show us the actual boundaries of Alameda County cities, too.
+I wanted a layer that would show us the actual boundaries of Alameda County cities, too. The library's [Places](https://geodata.lib.berkeley.edu/catalog/ark28722-s7bp4z) boundary file includes those.
 
-TK!
 
 I pulled these into [Mapshaper's web interface](https://mapshaper.org/) which doesn't do much but does a few things very well.
 
@@ -30,15 +29,16 @@ I followed [Datawrapper's instructions](https://academy.datawrapper.de/article/1
 
 On each layer I had to set the [projection](https://xkcd.com/977/) with `proj wgs84` -- I just typed that command in the console with the layer I was interested in selected.
 
-The other thing I wanted to do was drop the places that are outside of the Bay Area, since the "Places" data is statewide. 
+The other thing I wanted to do was drop the places that are outside of the Bay Area, since the "Places" data is statewide.
 
+With *california_place_clipped* selected, I ran `clip bayarea_county` to drop all the places outside of Bay Area Counties.
 
-Mapshaper Commands:
+I could also use a filter: `filter '"Marin, Contra Costa, Alameda, San Francisco, Santa Clara, San Mateo".indexOf(COUNTY) > -1' `
 
-`proj wgs84` (for each layer)
-with california_place_clipped selected, do `clip bayarea_county` to drop all the places outside of bay area counties.
+Then I need to merge the layers into a single shapefile -- for that I did some internet searching. A lot of it, actually, since I don't know mapshaper super well. I think I want [combine-layers](https://github.com/mbloch/mapshaper/wiki/Command-Reference) but I'm not 100% confident using it in the console of the web interface.
 
-Not sure I can
+`help merge-layers`
 
-Could do:
-`filter '"Marin, Contra Costa, Alameda, San Francisco, Santa Clara, San Mateo".indexOf(COUNTY) > -1' `
+I also had to [ask for help](https://gis.stackexchange.com/questions/317831/how-do-i-merge-two-layers-in-mapshapers-web-interface) and [nudge the developers directly](https://github.com/mbloch/mapshaper/issues/334).
+
+I'm not quite there yet. 
