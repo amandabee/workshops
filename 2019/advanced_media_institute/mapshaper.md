@@ -41,4 +41,6 @@ Then I need to merge the layers into a single shapefile -- for that I did some i
 
 I also had to [ask for help](https://gis.stackexchange.com/questions/317831/how-do-i-merge-two-layers-in-mapshapers-web-interface) and [nudge the developers directly](https://github.com/mbloch/mapshaper/issues/334).
 
-I'm not quite there yet. 
+I'm not quite there yet.
+
+Eventually I'll also want to add place names to the background map. 
