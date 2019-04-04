@@ -56,15 +56,15 @@ USA Today mapped [maternal mortality](https://www.usatoday.com/in-depth/news/inv
 
 ### Shapes, points, and lines
 
-#### Points
+**Points**: 
 "Geocoding" refers to the process of identifying an individual latitude/longitude pair for an address or other location description. To actually plot a location on a map, you need the location's latitude and longitude. `906 Washington` means nothing without coordinates.
 
 Geocoding is often challenging because there aren't great free resources for doing batch jobs or processing many addresses at once. The [Geocoding Tip Sheet](https://github.com/amandabee/workshops/wiki/Tip-Sheet:-Geocoding) is a round up of good options, but often public data sources already include coordinates.
 
-#### Lines
+**Lines**:
 A line is a series of two or more points connected together -- you learned that in Geometry. Think bus routes and flight paths.
 
-#### Polygons
+**Polygons**:
 Counties, council districts, police precincts -- these are all polygons. But not zipcodes. [Zipcodes aren't shapes](https://github.com/iandees/wtf-zipcodes).
 
 
@@ -214,6 +214,9 @@ We'll play with this together until we have points on a map. And you can embed t
 
 # Homework
 *optional*: If you plan to include a map in your portfolio project, send me a pitch by next week -- let me know what data you plan to map, where you found it and how you think it moves your story forward. If I get a thoughtful pitch by April 10, I'll work with you to get your map into shape.
+
+## Stay in touch
+I’m amanda@velociraptor.info if you have any questions or want guidance or advice.
 
 ## Keep learning
 
