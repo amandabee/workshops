@@ -8,7 +8,12 @@ tags      : [map, 2019]
 toc       : true
 ---
 
-# Welcome Back
+# Welcome back
+
+## Homework review
+https://etherpad.opennews.org/p/maps_and_charts
+
+## A few maps
 
 [The Age That Women Have Babies: How a Gap Divides America](https://www.nytimes.com/interactive/2018/08/04/upshot/up-birth-age-gap.html), *New York Times* 4 August 2018.
 
@@ -56,7 +61,7 @@ USA Today mapped [maternal mortality](https://www.usatoday.com/in-depth/news/inv
 
 ### Shapes, points, and lines
 
-**Points**: 
+**Points**:
 "Geocoding" refers to the process of identifying an individual latitude/longitude pair for an address or other location description. To actually plot a location on a map, you need the location's latitude and longitude. `906 Washington` means nothing without coordinates.
 
 Geocoding is often challenging because there aren't great free resources for doing batch jobs or processing many addresses at once. The [Geocoding Tip Sheet](https://github.com/amandabee/workshops/wiki/Tip-Sheet:-Geocoding) is a round up of good options, but often public data sources already include coordinates.
