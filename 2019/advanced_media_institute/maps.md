@@ -11,7 +11,7 @@ toc       : true
 # Welcome back
 
 ## Homework review
-https://etherpad.opennews.org/p/maps_and_charts
+<https://etherpad.opennews.org/p/maps_and_charts>
 
 ## A few maps
 
