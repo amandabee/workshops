@@ -43,4 +43,6 @@ I also had to [ask for help](https://gis.stackexchange.com/questions/317831/how-
 
 I'm not quite there yet.
 
+`merge-layers target=bayarea_county,california_place_clipped force` is what I actually needed. 
+
 Eventually I'll also want to add place names to the background map. 
