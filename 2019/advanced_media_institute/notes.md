@@ -1,3 +1,6 @@
+## Getting organized for Fall 2019
+
+http://www.thefunctionalart.com/2019/07/absolute-or-relative-values.html
 
 ## Sorted
 
