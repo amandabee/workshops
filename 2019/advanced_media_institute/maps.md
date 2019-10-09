@@ -2,7 +2,7 @@
 title     : Maps and Mapping
 layout    : default
 category  : advanced_media_institute
-tagline   : Thursday, 4 April 2019 6-9PM
+tagline   : Thursday, 24 October 2019 6-9PM
 year      : 2019
 tags      : [map, 2019]
 toc       : true
@@ -15,7 +15,7 @@ toc       : true
 
 ## A few maps
 
-[NJ Celebrities](https://projects.nj.com/features/stars/)
+[New Jersey's Map of the Stars](https://projects.nj.com/features/stars/) is a celebrity tour of the Garden State. *NJ.com* 9 October 2019
 
 [School Closures](https://disasterdays.calmatters.org/california-school-closures) 
 
