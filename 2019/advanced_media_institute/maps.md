@@ -15,6 +15,8 @@ toc       : true
 
 ## A few maps
 
+[NJ Celebrities](https://projects.nj.com/features/stars/)
+
 [School Closures](https://disasterdays.calmatters.org/california-school-closures) 
 
 [The Age That Women Have Babies: How a Gap Divides America](https://www.nytimes.com/interactive/2018/08/04/upshot/up-birth-age-gap.html), *New York Times* 4 August 2018.
