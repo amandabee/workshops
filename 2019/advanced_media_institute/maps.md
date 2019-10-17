@@ -15,9 +15,11 @@ toc       : true
 
 ## A few maps
 
+[In New York, the Neighborhood You’re Shot in May Determine Whether You Survive](https://www.thetrace.org/2019/10/new-york-gun-violence-queens-trauma-centers/), *The Trace* 17 October 2019; Maya Miller's [twitter thread](https://twitter.com/mayatmiller/status/1184825745190916101) walks through their process in establishing the story.
+
 [New Jersey's Map of the Stars](https://projects.nj.com/features/stars/) is a celebrity tour of the Garden State. *NJ.com* 9 October 2019
 
-[School Closures](https://disasterdays.calmatters.org/california-school-closures) 
+CalMatters mapped [School Closures](https://disasterdays.calmatters.org/california-school-closures) around the state.
 
 [The Age That Women Have Babies: How a Gap Divides America](https://www.nytimes.com/interactive/2018/08/04/upshot/up-birth-age-gap.html), *New York Times* 4 August 2018.
 
