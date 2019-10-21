@@ -17,7 +17,7 @@ I'm assuming everyone has worked through either Paul Grabowicz's [Spreadsheet Tu
 
 ## Examples
 
-A nice "how we did it" thread that's [worth reading](https://twitter.com/_KarenHao/status/1185647498418892808?s=20)
+[Meatless Burgers Stoke Sales and Questions About Nutrition](https://www.wsj.com/articles/meatless-burgers-stoke-sales-and-questions-about-nutrition-11564653600) in *Wall Street Journal* includes some nice clear charts.
 
 *Seattle Times* reported on [double booked surgeons](https://www.seattletimes.com/seattle-news/times-watchdog/swedish-neuroscience-institute-double-booked-overlapping-surgeries/) -- the charts they included provide another view of the story and illustrate what it actually means to double book a surgeon.
 
@@ -150,6 +150,9 @@ If you want to get fancy, David Montgomery's 2019 NICAR workshop walks through [
 
 ## What works
 
+Karen Hao and Jonathan Stray have done some reporting for *The Algorithm* looking at artificial intelligence in the justice system. Their story  
+[Can you make AI fairer than a judge? Play our courtroom algorithm game](https://www.technologyreview.com/s/613508/ai-fairer-than-judge-criminal-risk-assessment-algorithm/) is a great read, but I also really love Karen's guided [tour of the path they took](https://twitter.com/_KarenHao/status/1185647498418892808?s=20) from napkin sketches to final graphics.
+
 [Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories that ought to inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
 
 So what makes a chart good? In small groups I want you to look at and discuss these three charts. Do they work?
@@ -192,6 +195,10 @@ This is a pretty solid example of the kind of chart that NYT does a great job wi
 
 ## Don't make bad charts
 
+Charts and illustrations should make a story more clear or draw you in. It is possible to include [charts that do neither](https://www.nbcnews.com/politics/meet-the-press/democratic-voters-weigh-ideal-2020-candidate-traits-n978621). This is kind of cheating because they're grabbing stills that are probably closer to pull quotes than anything else, but the charts are really hard to make sense of.
+
+There's a world of [really bad charts](https://www.reddit.com/r/dataisugly/) on Reddit.
+
 Overall, there is some great reporting in CalMatter's 2018 report on [Homeless in California—what the data reveals](https://calmatters.org/articles/homeless-in-california-what-the-data-reveals/) but skim down to the charts. » *Question:* Do they hold up for you?
 
 Are **millenials really having fewer children**? The answer is probably "duh, of course they are". But looking at stories about the data there are a lot of examples of y-axis shenanigans:
@@ -222,7 +229,7 @@ You can see my process at <https://app.workbenchdata.com/workflows/6631/> -- sta
 5. Back to Step 2 ("Check and Describe") to select individual columns that we want to hide from the visualization.
 6. Refine, Annotate and Design it. We've got 3 different takes on this data to crib from. Set up a title, a description, any notes that you think are appropriate. When you're happy with your work, publish it and share the URL, with your name, at <https://etherpad.opennews.org/p/maps_and_charts>
 
-## Make a second chart
+## A Second Chart (ICE)
 
 In the Spring of 2017, ICE published a [report](https://www.ice.gov/features/100-days) (it's really just a press release) on their enforcement operations over the first 100 days of 2017.  They included a chart in their report -- what they say in the report, but not the chart, is that violent crimes including murder, rape and assault account for less than 10% of the "convicted criminals" in their data:
 
@@ -253,7 +260,13 @@ Here's my version of those same numbers:
 <iframe id="datawrapper-chart-Ztj22" src="//datawrapper.dwcdn.net/Ztj22/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="240"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["Ztj22"]={},window.datawrapper["Ztj22"].embedDeltas={"100":605,"200":360,"300":300,"400":283,"500":240,"700":223,"800":223,"900":223,"1000":223},window.datawrapper["Ztj22"].iframe=document.getElementById("datawrapper-chart-Ztj22"),window.datawrapper["Ztj22"].iframe.style.height=window.datawrapper["Ztj22"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["Ztj22"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("Ztj22"==b)window.datawrapper["Ztj22"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
 {% endraw %}
 
-## A third chart!
+## A Third Chart (Cocaine)
+
+BuzzFeed News tracked [Rising deaths from cocaine and methamphetamine use](https://www.buzzfeednews.com/article/danvergano/toxic-cocaine-diseases-drug-crisis) in part using [CDC data on drug overdose deaths](https://www.cdc.gov/drugoverdose/data/statedeaths.html)
+
+Their map of [drug overdose deaths](https://www.cdc.gov/drugoverdose/data/statedeaths/drug-overdose-death-2017.html) is
+
+## A Fourth Chart (Car Crashes)
 
 Houston, TX averages 11 fatal car crashes every week. Reporters at the Houston Chronicle collaborated to compile and analyze data on hundreds of thousands of fatal crashes nationwide to look at why Houston's roads are so deadly. Their series on Houston road safety started with [Out of Control: Houston’s roads, drivers are country’s most deadly](https://www.houstonchronicle.com/news/investigations/article/Houston-s-roads-drivers-are-nation-s-most-12865072.php), *Houston Chronicle*, 5 September 2018.
 
@@ -265,9 +278,9 @@ Their caption is pretty good: there's no "the chart below shows..." -- instead t
 
 # Homework
 
-## Due March 28
+## Due October 24
 
-Read [New bill would finally tear down federal judiciary’s ridiculous paywall](https://arstechnica.com/tech-policy/2018/09/new-bill-would-finally-tear-down-federal-judiciarys-ridiculous-paywall/) *Ars Technica*, September 17, 2018
+Homework is optional but I would love it if you all would read [New bill would finally tear down federal judiciary’s ridiculous paywall](https://arstechnica.com/tech-policy/2018/09/new-bill-would-finally-tear-down-federal-judiciarys-ridiculous-paywall/) *Ars Technica*, September 17, 2018
 
 The article includes a chart that shows just how much PACER's revenue has grown in the 30 years since it was founded. It's a perfectly good chart but we can definitely apply some of the basic design guidelines we looked at in class to improve on it.
 
@@ -303,7 +316,9 @@ Year	PACER Revenue (Millions)
 
 Post a link to your chart at: <https://etherpad.opennews.org/p/maps_and_charts>
 
-For **extra credit**, look at the notes from the Free Law Project and see if you can find 2016 and 2017 figures. Pay attention not only to the data, but also to the framing. Give your chart a title, think about the labels you do and don't want to include.
+For **extra credit**, look at the notes from the Free Law Project and see if you can find 2016 to 2018 figures. Pay attention not only to the data, but also to the framing. Give your chart a title, think about the labels you do and don't want to include.
+
+Note: this story is getting a tiny bit dated but it's still a good charting exercise. PACER has reacted to this push by exp
 
 ## Look for data
 Identify a couple of data sources you're interested in working with or examining. Use the [guide to finding data](#finding-it) to see if you can sort out a source. Ideally, you'll find a data source and pull it into Workbench, but you can start by finding a few sources that are interesting to you and just letting me know where to find them.

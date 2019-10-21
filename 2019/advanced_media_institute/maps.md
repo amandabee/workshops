@@ -145,8 +145,17 @@ Play with the colors. [ProPublica recommends](https://github.com/propublica/guid
 
 Question: -- *If these rates are both based on the 2000 population, how much does this map just reflect population growth?* It's a good question. According to the Census [Nevada was the US state with the the highest growth](https://www.census.gov/newsroom/blogs/random-samplings/2011/03/population-distribution-and-change-2000-to-2010.html) between 2000 and 2010, but suicides there dropped.
 
-## Another map
+## A Drug Overdose Map
 
+We looked at a chart from this story on [Rising deaths from cocaine and methamphetamine use](https://www.buzzfeednews.com/article/danvergano/toxic-cocaine-diseases-drug-crisis) on Tuesday. I wanted to look at a map the CDC published from the data, too.
+
+Look at their map of [drug overdose deaths](https://www.cdc.gov/drugoverdose/data/statedeaths/drug-overdose-death-2017.html):
+
+![map of Number and age-adjusted rates of drug overdose deaths by state, US 2017](/workshops/2019/advanced_media_institute/drug_overdose.png)
+
+Let's talk it through and try to recreate it. 
+
+## A Homicide Map
 The Washington Post collected data on more than 52,000 criminal homicides over the past decade in 50 of the largest American cities. I filtered out two local cities so we could take a closer look.
 [Homicides in Oakland](https://app.workbenchdata.com/workflows/5840) \ [Homicides in San Francisco](https://app.workbenchdata.com/workflows/5853/). We could map these in Datawrapper but we're going to get frustrated with their built in maps.
 

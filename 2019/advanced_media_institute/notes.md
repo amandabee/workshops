@@ -5,24 +5,18 @@ https://www.dol.gov/owcp/dlhwc/lsdbareports.htm
 
 https://organic.ams.usda.gov/integrity/
 
-http://www.thefunctionalart.com/2019/07/absolute-or-relative-values.html
+MAPPING: http://www.thefunctionalart.com/2019/07/absolute-or-relative-values.html
 
-https://www.buzzfeednews.com/article/danvergano/toxic-cocaine-diseases-drug-crisis?origin=tuh
+ADDED https://www.buzzfeednews.com/article/danvergano/toxic-cocaine-diseases-drug-crisis?origin=tuh
 
-https://www.cdc.gov/drugoverdose/data/statedeaths.html
+ADDED https://www.cdc.gov/drugoverdose/data/statedeaths.html
 
-Super basic charting
-https://www.wsj.com/articles/meatless-burgers-stoke-sales-and-questions-about-nutrition-11564653600
 
-This is cheating because it includes stills, but they really don't scan:
-https://www.nbcnews.com/politics/meet-the-press/democratic-voters-weigh-ideal-2020-candidate-traits-n978621
+
+
 
 Original data
 https://www.documentcloud.org/documents/6189211-19253-NBCWSJ-July-Poll-7-11-2019-Release.html
-
-Also:
-https://www.reddit.com/r/dataisugly/
-
 
 Fires:
 https://story.californiasunday.com/gone-paradise-fire
