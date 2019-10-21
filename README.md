@@ -7,8 +7,8 @@ Handouts / hands-on from very recent workshops. Not everything is here. Some thi
 ## 2019
 
 + **Berkeley Advanced Media Institute**, Berkeley, CA
-  + March 21: [Rows, Columns and Charts](2019/advanced_media_institute/charts.html)
-  + April 4: [Maps, Mapping and Geography](2019/advanced_media_institute/maps.html)
+  + October 22: [Rows, Columns and Charts](2019/advanced_media_institute/charts.html)
+  + October 24: [Maps, Mapping and Geography](2019/advanced_media_institute/maps.html)
 
 + **J298 Data Journalism**, Berkeley, CA
   + [Maps + CSVkit](2019/j298)
