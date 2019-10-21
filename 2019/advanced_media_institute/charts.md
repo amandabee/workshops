@@ -2,7 +2,7 @@
 title     : Rows, Columns and Charts
 layout    : default
 category  : advanced_media_institute
-tagline   : Thursday, 21 March 2019 6-9PM
+tagline   : Tuesday, 22 October 2019 6-9PM
 year      : 2019
 tags      : [chart, 2019]
 toc       : true
@@ -16,6 +16,8 @@ This week we're going to cover finding data, cleaning it up, and presenting it i
 I'm assuming everyone has worked through either Paul Grabowicz's [Spreadsheet Tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/) or the [Berkeley AMI interactive tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheet-basics) -- the latter only works on Safari, but Paul's walk-through works anywhere.
 
 ## Examples
+
+A nice "how we did it" thread that's [worth reading](https://twitter.com/_KarenHao/status/1185647498418892808?s=20)
 
 *Seattle Times* reported on [double booked surgeons](https://www.seattletimes.com/seattle-news/times-watchdog/swedish-neuroscience-institute-double-booked-overlapping-surgeries/) -- the charts they included provide another view of the story and illustrate what it actually means to double book a surgeon.
 
