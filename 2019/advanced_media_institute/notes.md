@@ -7,17 +7,6 @@ https://organic.ams.usda.gov/integrity/
 
 MAPPING: http://www.thefunctionalart.com/2019/07/absolute-or-relative-values.html
 
-ADDED https://www.buzzfeednews.com/article/danvergano/toxic-cocaine-diseases-drug-crisis?origin=tuh
-
-ADDED https://www.cdc.gov/drugoverdose/data/statedeaths.html
-
-
-
-
-
-Original data
-https://www.documentcloud.org/documents/6189211-19253-NBCWSJ-July-Poll-7-11-2019-Release.html
-
 Fires:
 https://story.californiasunday.com/gone-paradise-fire
 

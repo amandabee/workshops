@@ -194,11 +194,9 @@ This is a pretty solid example of the kind of chart that NYT does a great job wi
 * They cite their source, but it isn't in bold.
 
 ## Don't make bad charts
-
-Charts and illustrations should make a story more clear or draw you in. It is possible to include [charts that do neither](https://www.nbcnews.com/politics/meet-the-press/democratic-voters-weigh-ideal-2020-candidate-traits-n978621). This is kind of cheating because they're grabbing stills that are probably closer to pull quotes than anything else, but the charts are really hard to make sense of.
-
 There's a world of [really bad charts](https://www.reddit.com/r/dataisugly/) on Reddit.
 
+Charts and illustrations should make a story more clear or draw you in. It is possible to include [charts that do neither](https://www.nbcnews.com/politics/meet-the-press/democratic-voters-weigh-ideal-2020-candidate-traits-n978621). This is kind of cheating because they're grabbing stills that are probably closer to pull quotes than anything else, but the charts are really hard to make sense of. You can [use their data](https://www.documentcloud.org/documents/6189211-19253-NBCWSJ-July-Poll-7-11-2019-Release.html) to revise their charts if you want to play around.
 Overall, there is some great reporting in CalMatter's 2018 report on [Homeless in California—what the data reveals](https://calmatters.org/articles/homeless-in-california-what-the-data-reveals/) but skim down to the charts. » *Question:* Do they hold up for you?
 
 Are **millenials really having fewer children**? The answer is probably "duh, of course they are". But looking at stories about the data there are a lot of examples of y-axis shenanigans:
