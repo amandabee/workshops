@@ -297,7 +297,13 @@ The raw data is way more than we want or need. So I processed it. <https://app.w
 * I like to play with the "Group" step to get a sense of the data.
 * Filter out just the US.
 * Filter out the two categories we're interested in: "Psychostimulants with abuse potential" and "Cocaine" -- the CDC data [spells out](https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm) what the terms mean. Psychostimulants is more than *just* meth, and if you want to go back and repeat this for publication, you should make sure you really understand the data.
-  * *
+  * Make month-by-month dates by concatenating and converting.
+  * Drop all the columns we don't need
+  * Reshape it so we have date by drug type
+
+Now we have something we could take over to Datawrapper.
+
+Look up the live link for the data -- if you aren't seeing: <https://app.workbenchdata.com/public/moduledata/live/185536.csv> you're doing something wrong. 
 
 Their map of [drug overdose deaths](https://www.cdc.gov/drugoverdose/data/statedeaths/drug-overdose-death-2017.html) is another solid exercise.
 
