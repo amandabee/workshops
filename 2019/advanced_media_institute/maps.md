@@ -13,6 +13,8 @@ toc       : true
 ## Homework review
 <https://etherpad.opennews.org/p/maps_and_charts>
 
+As long as you email me before the course wraps up, I'll be happy to review your homework. **amanda@velociraptor.info**
+
 ## A few maps
 
 [In New York, the Neighborhood You’re Shot in May Determine Whether You Survive](https://www.thetrace.org/2019/10/new-york-gun-violence-queens-trauma-centers/), *The Trace* 17 October 2019; Maya Miller's [twitter thread](https://twitter.com/mayatmiller/status/1184825745190916101) walks through their process in establishing the story.
@@ -36,7 +38,6 @@ Maps are a powerful reporting tool, and they can be a powerful storytelling tool
 [![Image: How Harvey Hurt Houston, in 10 Maps]({{site.baseurl}}/2019/j298/propublica_harvey.png)](https://projects.propublica.org/graphics/harvey-maps)
 <sup><sub>ProPublica, Reveal and The Texas Tribune collaborated to map a series of stories about [Hurricane Harvey's impact in Houston](https://projects.propublica.org/graphics/harvey-maps).
 Credit: Al Shaw and Lisa Song, *ProPublica*; Kiah Collier, *The Texas Tribune*; Neena Satija, *The Texas Tribune* and *Reveal*, January 3, 2018.</sub></sup>
-
 
 We use maps to understand the data, to find a story, to tell a story. Some of my favorite examples:
 
@@ -143,7 +144,8 @@ Play with the colors. [ProPublica recommends](https://github.com/propublica/guid
 
 **Step 6:** Embed it!
 
-Question: -- *If these rates are both based on the 2000 population, how much does this map just reflect population growth?* It's a good question. According to the Census [Nevada was the US state with the the highest growth](https://www.census.gov/newsroom/blogs/random-samplings/2011/03/population-distribution-and-change-2000-to-2010.html) between 2000 and 2010, but suicides there dropped.
+
+» *Question:* -- *If these rates are both based on the 2000 population, how much does this map just reflect population growth?* It's a good question. According to the Census [Nevada was the US state with the the highest growth](https://www.census.gov/newsroom/blogs/random-samplings/2011/03/population-distribution-and-change-2000-to-2010.html) between 2000 and 2010, but suicides there dropped.
 
 ## A Drug Overdose Map
 
@@ -153,13 +155,13 @@ Look at their map of [drug overdose deaths](https://www.cdc.gov/drugoverdose/dat
 
 ![map of Number and age-adjusted rates of drug overdose deaths by state, US 2017](/workshops/2019/advanced_media_institute/drug_overdose.png)
 
-Let's talk it through and try to recreate it. 
+Let's talk it through and try to recreate it.
 
 ## A Homicide Map
 The Washington Post collected data on more than 52,000 criminal homicides over the past decade in 50 of the largest American cities. I filtered out two local cities so we could take a closer look.
 [Homicides in Oakland](https://app.workbenchdata.com/workflows/5840) \ [Homicides in San Francisco](https://app.workbenchdata.com/workflows/5853/). We could map these in Datawrapper but we're going to get frustrated with their built in maps.
 
-Question: Is this data points, lines, or shapes?
+» *Question:* Is this data points, lines, or shapes?
 
 
 **Step 1:** Find the URL for the cleaned and filtered CSV in Workbench. Copy that.
