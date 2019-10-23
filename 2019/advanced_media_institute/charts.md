@@ -15,7 +15,12 @@ This week we're going to cover finding data, cleaning it up, and presenting it i
 
 I'm assuming everyone has worked through either Paul Grabowicz's [Spreadsheet Tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/) or the [Berkeley AMI interactive tutorial](https://multimedia.journalism.berkeley.edu/tutorials/spreadsheet-basics) -- the latter only works on Safari, but Paul's walk-through works anywhere.
 
-## Examples
+## Charts in the Wild
+
+Karen Hao and Jonathan Stray have done some reporting for *The Algorithm* looking at artificial intelligence in the justice system. Their story  
+[Can you make AI fairer than a judge? Play our courtroom algorithm game](https://www.technologyreview.com/s/613508/ai-fairer-than-judge-criminal-risk-assessment-algorithm/) is a great read, but I also really love Karen's guided [tour of the path they took](https://twitter.com/_KarenHao/status/1185647498418892808?s=20) from napkin sketches to final graphics.
+
+[Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories that ought to inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
 
 [Meatless Burgers Stoke Sales and Questions About Nutrition](https://www.wsj.com/articles/meatless-burgers-stoke-sales-and-questions-about-nutrition-11564653600) in *Wall Street Journal* includes some nice clear charts.
 
@@ -29,19 +34,22 @@ Oregon Live and *The Oregonian* ran a lengthy [series on elder abuse](https://ww
 
 Data visualization doesn't have to be data driven. This chart of [QZ Brexit paths](https://qz.com/1571189/what-happens-now-that-theresa-may-lost-her-brexit-deal-vote/) helps tell a chutes-and-ladders like story.
 
-Often charts are relatively simple. CalMatters ran a long report on [families struggling to get mental health care](https://calmatters.org/articles/californians-struggle-to-get-mental-health-care/) and included a couple of charts.
+Often charts are relatively simple. CalMatters ran a long report on [families struggling to get mental health care](https://calmatters.org/articles/californians-struggle-to-get-mental-health-care/) and included a couple of charts that could use stronger captions but make fantastic pullquotes.
 
-*Star Tribune* included a few charts in [their reporting on senior homes](http://www.startribune.com/senior-home-residents-are-abused-and-ignored-across-minnesota/450623913/) that just illustrate the scope of the problem.
+*Star Tribune* charts in [their reporting on senior homes](http://www.startribune.com/senior-home-residents-are-abused-and-ignored-across-minnesota/450623913/) illustrate the scope of the problem.
 
 The Intercept dug into data on [terrorism prosecutions](https://trial-and-terror.theintercept.com/) in the US. They also looked at [sexual abuse of prisoners in ICE custody](https://theintercept.com/2018/04/11/immigration-detention-sexual-abuse-ice-dhs/). Both took substantial digging.
 
 Alvin Chang's data viz explainer on [how the rich got rich and the poor got poor](https://www.vox.com/2016/5/23/11704246/wealth-inequality-cartoon) in Vox is a great example of the ways that we can use data visualization to make sense of complex numbers. He also used [potatoes to explain how a 70% tax rate would work](https://www.vox.com/videos/2019/2/12/18220925/70-percent-top-tax-optimal-theory-ocasio-cortez) and [how tax brackets really work](https://www.vox.com/2019/1/18/18187056/tax-bracket-marginal-video).
 
 
-+ [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G) *Reuters*, October 9, 2018 has a nice clean chart of the sort that's in our wheelhouse.
-+ [Homelessness in the Bay Area](https://www.spur.org/publications/urbanist-article/2017-10-23/homelessness-bay-area) *Spur: The Urbanist*, October 23, 2017
-+ [Californians: Here’s why your housing costs are so high](https://calmatters.org/articles/housing-costs-high-california/) *CALMatters*, August 21, 2017
-+ [Why is Sacramento failing its black students?](http://www.newsreview.com/sacramento/why-is-sacramento-failing-its/content?oid=26402481) *Sacramento News and Review*, June 14, 2018
+[Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G) *Reuters*, October 9, 2018 has a nice clean chart of the sort that's in our wheelhouse.
+
+[Homelessness in the Bay Area](https://www.spur.org/publications/urbanist-article/2017-10-23/homelessness-bay-area) *Spur: The Urbanist*, October 23, 2017
+
+[Californians: Here’s why your housing costs are so high](https://calmatters.org/articles/housing-costs-high-california/) *CALMatters*, August 21, 2017
+
+[Why is Sacramento failing its black students?](http://www.newsreview.com/sacramento/why-is-sacramento-failing-its/content?oid=26402481) *Sacramento News and Review*, June 14, 2018
 
 ## Data isn't magic
 
@@ -62,7 +70,7 @@ Data is powerful but it is never a substitute for picking up the phone and makin
 
 # Finding and cleaning data
 
-Data is a powerful reporting tool. It lets us scrutinize public spending and policy outcomes, challenge conventional wisdom and participate more fully in public conversations. A decade of open data activism has left reporters and the general public with unprecedented access to public payrolls, traffic reports, police data and much more. All of it allows us to hold policy makers accountable and understand the world in ways we couldn’t without access to the numbers.
+Data is a powerful reporting tool. It lets us scrutinize public spending and policy outcomes, challenge conventional wisdom and participate more fully in public conversations. A decade of open data activism has left reporters and the general public with unprecedented access to public payrolls, traffic reports, police data and much more. All of it allows us to hold policy makers accountable and understand the world in ways we couldn't without access to the numbers.
 
 ## Finding it
 
@@ -109,21 +117,24 @@ We're going to start with a CSV from the [U.S. Energy Information Administration
 
 You can see my finished work on Workbench: <https://app.workbenchdata.com/workflows/5908/> but don't use "duplicate" -- we're going to walk through this from scratch.
 
-1. Start with an empty workflow.
+1. Start with an empty workflow. You might be asked to start by Choosing a Data Source. We're going to "Add from URL"
 
 [![Workbench Screenshot]({{site.baseurl}}/2019/advanced_media_institute/workbench_create_workflow.png)](https://app.workbenchdata.com/workflows/)
 
-2. Import the CSV -- you can either download it and then upload it to Workbench or give Workbench a URL for the data we want to work with: <https://amandabee.github.io/workshops/2019/advanced_media_institute/world_oil_production.csv>
 
-3. Transform it into a functional spreadsheet using ...
+
+2. Import the CSV -- you can also download it and then upload it to Workbench, but we're going to give Workbench a URL for the data we want to work with: <http://amandabee.github.io/workshops/2019/advanced_media_institute/world_oil_production.csv>
+
+3. Transform it into a functional table. One of the things I like about Workbench is that it logs every step so you can always see what you've done.
   * "Delete Rows" to delete rows 1-3 and 5-8
+  * Delete that extra column
   * Edit the cell that is missing a header
   * "Rows to Header" to move the header where we want them
   * Rename  the columns to drop those annoying decimals:
-  `delete me, region, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017`
-  * Use the context menu on the first column, or "Select Columns" to delete it.
+  `region, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017` *This is one of the more exasperating features of Workbench. It is not great at working with years.*
 
-4. Once we've got the data cleaned up, we can actually reshape it into something we might be able to chart.
+
+4. Once we've got the data a bit organized, we can actually reshape it into something we might be able to chart.
   * Select "Reshape" and then "Transpose" to transpose the data
   * Use "Rename" to label the "year" column
   * "Convert to Date and Time"
@@ -131,11 +142,27 @@ You can see my finished work on Workbench: <https://app.workbenchdata.com/workfl
 
 Workbench's charting is great for a quick glance but you'll want to move over to another tool to do your actual visualization.
 
+5. In our last class someone pointed out that a few of these categories are kind of arbitrary. [Eurasia](https://www.eia.gov/tools/glossary/index.php?id=E) encompasses the former Soviet Union. It seems non-crazy to combine that with Europe, or rename it.
+  * Use the ➕ to add a second tab.
+  * Our "source" for this tab is going to be "Start from tab"
+  * We can use our "Tab 1" data and look at the Calculate function to create a new column with the sum of Europe and Eurasia.
+
 ### Chart It
 
-If you make your Workbench Workflow "Public" (top right of the screen ↖️) you can take the "live" URL for the CSV over to Workbench and make a better chart.
+You have to make your Workbench Workflow "Public" (top right of the screen ↖️) but once you do, you can take the "live" URL for your CSV over to Datawrapper and make a much nicer chart.
 
-## More practice cleaning data
+* Pick the "Step" you want to chart. Probably the last step before the chart.
+* Every step produces a unique URL, which is incredibly handy but also definitely a recipe for confusion.
+* If your CSV isn't clearing Datawrapper's checks, make sure that you published it!
+
+Publishing your data makes the whole workflow accessible. There are cases when you will want to mask some of your tracks and migrate just the final data to a new workflow.
+
+But if you really, really need to cover your tracks, you should read Workbench's terms of service. I've never had a conversation with them about how they expect to respond to subpoenas, for instance.
+
+## More Data Cleaning
+
+We won't walk through these in class, but below are a few more walk throughs that will help you get the most out of Workbench's data cleaning capacities.
+
 [USA Spending](https://www.usaspending.gov/#/) tracks federal government spending. We can use their [Advanced Search](https://www.usaspending.gov/#/) to pull up a list of [grants to DUNS 9214214 and 124726725](https://www.usaspending.gov/#/search/fc06ccc70169c1f2695f1db9c5f9ba4b), aka Berkeley and Stanford. The data they provide is a lot cleaner than it was in 2014, but you can see an example of the kind of filtering you can do at <https://app.workbenchdata.com/workflows/5912/>/
 
 The USA Spending demo makes use of [regular expressions](https://velociraptor.info/talks/2014/NICAR/regex) which are awesome and also [exasperating](https://www.xkcd.com/1171/). [Rubular](http://rubular.com/) and [Regex101](https://regex101.com/) might make your regular expression journey more sane.
@@ -150,12 +177,7 @@ If you want to get fancy, David Montgomery's 2019 NICAR workshop walks through [
 
 ## What works
 
-Karen Hao and Jonathan Stray have done some reporting for *The Algorithm* looking at artificial intelligence in the justice system. Their story  
-[Can you make AI fairer than a judge? Play our courtroom algorithm game](https://www.technologyreview.com/s/613508/ai-fairer-than-judge-criminal-risk-assessment-algorithm/) is a great read, but I also really love Karen's guided [tour of the path they took](https://twitter.com/_KarenHao/status/1185647498418892808?s=20) from napkin sketches to final graphics.
-
-[Source](https://source.opennews.org/) publishes a lot of great "How we built it" stories that ought to inspire you. [Their Q & A with Alvin Chang](https://source.opennews.org/articles/value-human-text-analysis-q-alvin-chang/) on his quick-turnaround Vox graphic that showed unanswered questions from the Kavanaugh hearings is great.
-
-So what makes a chart good? In small groups I want you to look at and discuss these three charts. Do they work?
+What makes a chart good? In small groups I want you to look at and discuss these three charts. Do they work?
 
 [**AB 626**](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180AB626) amends the California Retail Food Code to accommodate microenterprise home kitchens. I think there are some holes in this story about [AB 626](https://www.latimes.com/local/lanow/la-me-ab626-immigrants-reality-20190218-htmlstory.html), but I know the founders of Josephine so I guess I'm a little biased. Still, they pulled out some interesting data about where the Los Angeles County Health Department hands out violations for home cooking.
 
@@ -189,39 +211,47 @@ Chart from: [These 95 Apartments Promised Affordable Rent in San Francisco. Then
 This is a pretty solid example of the kind of chart that NYT does a great job with. What stands out?
 
 * The title tells you what they see in the chart.
-* Labels point you to key points
+* The description walks you through it in clear accessible language.
+* Labels direct you to key points
 * Axis labels are kept to a minimum, especially when we don't need them.
-* They cite their source, but it isn't in bold.
+* They cite their source
 
 ## Don't make bad charts
 There's a world of [really bad charts](https://www.reddit.com/r/dataisugly/) on Reddit.
 
-Charts and illustrations should make a story more clear or draw you in. It is possible to include [charts that do neither](https://www.nbcnews.com/politics/meet-the-press/democratic-voters-weigh-ideal-2020-candidate-traits-n978621). This is kind of cheating because they're grabbing stills that are probably closer to pull quotes than anything else, but the charts are really hard to make sense of. You can [use their data](https://www.documentcloud.org/documents/6189211-19253-NBCWSJ-July-Poll-7-11-2019-Release.html) to revise their charts if you want to play around.
-Overall, there is some great reporting in CalMatter's 2018 report on [Homeless in California—what the data reveals](https://calmatters.org/articles/homeless-in-california-what-the-data-reveals/) but skim down to the charts. » *Question:* Do they hold up for you?
+Charts and illustrations should make a story more clear or draw you in. It is possible to include [charts that do neither](https://www.nbcnews.com/politics/meet-the-press/democratic-voters-weigh-ideal-2020-candidate-traits-n978621). Using this as an example might be cheating because they're grabbing stills that are probably closer to pull quotes than anything else, but the charts are really hard to make sense of. You can [use their data](https://www.documentcloud.org/documents/6189211-19253-NBCWSJ-July-Poll-7-11-2019-Release.html) to revise their charts if you want to play around.
+Overall, there is some great reporting in CalMatter's 2018 report on [Homeless in California—what the data reveals](https://calmatters.org/articles/homeless-in-california-what-the-data-reveals/) but skim down to the charts.
 
-Are **millenials really having fewer children**? The answer is probably "duh, of course they are". But looking at stories about the data there are a lot of examples of y-axis shenanigans:
+» *Question:* Look through the CalMatters Homelessness charts. Do they hold up for you?
 
-One writer cribbed his charts from Business Insider, but check out the y-axis in [the chart he included](https://www.linkedin.com/pulse/why-many-millennials-wont-have-children-michael-spencer/).  
+# Three Charts from One Table
 
-» *Question*: what is wrong with his x-axis?
+When the CDC released new data on the age at which American women give birth for the first time, they prompted a lot of different headlines. More than one proclaimed that "Millennials are having fewer children" adding "the human race" to the ever-growing list of [things millennials have killed](https://duckduckgo.com/?q=things+millennials+killed).
+
+Are **millennials really having fewer children**? The answer is probably "duh, of course they are". But looking at stories that were published when the data was released, there are a lot of examples of chart shenanigans:
+
+One writer cribbed his charts from Business Insider, but check out the y-axis in [the chart he included](https://www.linkedin.com/pulse/why-many-millennials-wont-have-children-michael-spencer/).  And then check ou this x-axis.
+
+» *Question*: What's going on here?
 
 ![image]({{site.baseurl}}/2018/advanced_media_institute/births_linkedin.jpeg)
 
-Look at the same data with a wider Y-axis spread, you see something that looks a lot more like a steady trend, as in an [NPR piece](https://www.npr.org/sections/health-shots/2016/01/14/462816458/average-age-of-first-time-moms-keeps-climbing-in-the-u-s) about the same data [or the CDC report](https://www.cdc.gov/nchs/data/databriefs/db232.pdf) that precipitated the coverage.
+Look at the same data with a wider Y-axis spread, you see something that looks a lot more like a steady trend, as in [this chart from the original  CDC report](https://www.cdc.gov/nchs/data/databriefs/db232.pdf) suggests.
 
 ![image]({{site.baseurl}}/2018/advanced_media_institute/births_cdc.png)
+
+In their coverage, [NPR takes a step back](https://www.npr.org/sections/health-shots/2016/01/14/462816458/average-age-of-first-time-moms-keeps-climbing-in-the-u-s) and looks at a longer trend.
+
 ![image]({{site.baseurl}}/2018/advanced_media_institute/births_npr.png)
 
-**Discussion:** What data would get at the question in the headline?  We want to know the mean age at first birth, and the birth rate. And we want to know whether millennials stand out or are consistent with long-standing trends.
+**Discussion:** Which y-axis is fair? What data would get at the question in the headline?  We want to know the mean age at first birth, and the birth rate. And we want to know whether millennials stand out or are consistent with long-standing trends.
 
-# Making a simple chart
+## Chart One: Age at First Birth
 
-I grabbed the data from the CDC report cited in most of the pieces above. It's at [age_at_birth.csv](age_at_birth.csv) -- control-click or right click to copy the URL.
+I pulled the data from the CDC report cited in most of the pieces above. _[National Vital Statistics Reports, Vol. 64, No. 1, January 15, 2015](https://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_01.pdf) [Table I–1](https://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_01_tables.pdf#i01)._  You can see what the original looked like at  [age_at_birth.csv](age_at_birth.csv). It needed some cleanup, so I processed it in Workbench:  <https://app.workbenchdata.com/workflows/6631/>
 
-You can see my process at <https://app.workbenchdata.com/workflows/6631/> -- start by giving Workbench the URL for the raw data.
-
-1. Find the URL to download the csv from workbench or copy the live link.
-2. Make a new chart in Datawrapper. Use "Link External Dataset" to provide the URL. We could probably use workbench to serve the data but Datawrapper is a safer choice.
+1. To chart it, we're going to start by giving Datawrapper the URL for the raw data. <https://app.workbenchdata.com/public/moduledata/live/28665.csv>
+2. Make a new chart in Datawrapper. Use "Link External Dataset" to provide the URL.
 3. Power through step 2 ("Check and Describe") but we'll come back to it.
 4. Look at the raw chart.
 5. Back to Step 2 ("Check and Describe") to select individual columns that we want to hide from the visualization.
@@ -238,7 +268,7 @@ In the Spring of 2017, ICE published a [report](https://www.ice.gov/features/100
 Pew covered the same numbers but added context and specificity to their chart (and ommitted the 3D renderings).
 [![Pew Chart]({{site.baseurl}}/2018/advanced_media_institute/pew_ice.png)](http://www.pewresearch.org/fact-tank/2018/02/08/ice-arrests-went-up-in-2017-with-biggest-increases-in-florida-northern-texas-oklahoma/)
 
-<!--FWIW, what the ICE chart is showing that total arrests were up 37.6% in 2017. Convicted criminal arrests were up 18.2% and at-large arrests up 52.6% (their math is a little off).-->
+Note: What ICE is trying to show in their chart is that total arrests were up 37.6% in 2017 over the same period in 2016. Arrests of convicted criminal arrests were up 18.2% and at-large arrests (which happen in neighborhoods and at work sites) up 52.6% -- their math is a little off.
 
 I manually copied out the data from the ICE chart above. You can paste it straight into Datawrapper:
 
@@ -260,9 +290,16 @@ Here's my version of those same numbers:
 
 ## A Third Chart (Cocaine)
 
-BuzzFeed News tracked [Rising deaths from cocaine and methamphetamine use](https://www.buzzfeednews.com/article/danvergano/toxic-cocaine-diseases-drug-crisis) in part using [CDC data on drug overdose deaths](https://www.cdc.gov/drugoverdose/data/statedeaths.html)
+BuzzFeed News tracked [Rising deaths from cocaine and methamphetamine use](https://www.buzzfeednews.com/article/danvergano/toxic-cocaine-diseases-drug-crisis) in part using [CDC data on drug overdose deaths](https://www.cdc.gov/drugoverdose/data/statedeaths.html).
 
-Their map of [drug overdose deaths](https://www.cdc.gov/drugoverdose/data/statedeaths/drug-overdose-death-2017.html) is
+The raw data is way more than we want or need. So I processed it. <https://app.workbenchdata.com/workflows/36826/>
+
+* I like to play with the "Group" step to get a sense of the data.
+* Filter out just the US.
+* Filter out the two categories we're interested in: "Psychostimulants with abuse potential" and "Cocaine" -- the CDC data [spells out](https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm) what the terms mean. Psychostimulants is more than *just* meth, and if you want to go back and repeat this for publication, you should make sure you really understand the data.
+  * *
+
+Their map of [drug overdose deaths](https://www.cdc.gov/drugoverdose/data/statedeaths/drug-overdose-death-2017.html) is another solid exercise.
 
 ## A Fourth Chart (Car Crashes)
 
