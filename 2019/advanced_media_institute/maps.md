@@ -157,79 +157,47 @@ Look at their map of [drug overdose deaths](https://www.cdc.gov/drugoverdose/dat
 
 Let's talk it through and try to recreate it.
 
+The map shows *all* overdoses. So we need to dial in on the data a bit. We want to refine this data to include only overdose deaths for each state for the 12 month period ending December 2018.
+
+We have to distill the data by a ton and we have to normalize it to the population. My walk through is at <https://app.workbenchdata.com/workflows/36826/>
+
+We could take all those steps, and it's probably worth doing, but to map it we're going to need the CSV:  <https://app.workbenchdata.com/public/moduledata/live/185629.csv>
+
+Note: I spent a decent amount of time in this data but I don't know it inside and out and I definitely have some questions. Before you do any reporting on this you want to make sure you actually understand what the age adjusted rates mean, and that I'm not getting this all wrong.
+
 ## A Homicide Map
 The Washington Post collected data on more than 52,000 criminal homicides over the past decade in 50 of the largest American cities. I filtered out two local cities so we could take a closer look.
 [Homicides in Oakland](https://app.workbenchdata.com/workflows/5840) \ [Homicides in San Francisco](https://app.workbenchdata.com/workflows/5853/). We could map these in Datawrapper but we're going to get frustrated with their built in maps.
 
-» *Question:* Is this data points, lines, or shapes?
+Unfortunately, we don't have good options right now for a very local map of points. I loved [Carto](https://carto.com/signup/) for this but their free tier is way too limited to do anything with.
 
+Datawrapper's locator maps are fantastic if you've got fewer than 100 points to map.
 
-**Step 1:** Find the URL for the cleaned and filtered CSV in Workbench. Copy that.
-
-**Step 2:** Create a new spreadsheet. Populate it with the `=IMPORTDATA()` function. What does the help menu say about how to use `=IMPORTDATA()`?
-
-**Step 3:** Format the `reported_date` column so it reads as dates. We have to do this in our spreadsheet before we get to Fusion Tables.
-
-**Step 4:** Create a new column and calculate the number of days the case has been open with  `=DAYS(TODAY(),D2)` -- stop and read what `=DAYS()` and `=TODAY()` do. What do they do?
-
-**Step 5:** 🤔 What is wrong with this picture? (Hint: it's in the `disposition` column.) Not all of these homicides are "unsolved". So we're going to filter out only the open cases and apply our "days open" function to them.
-
-**Step 6:** Create a new Fusion Table. Go to Google Drive and select *New > More > Google Fusion Tables* (you might have to connect Fusion Tables as an app).
-
-**Step 7:** Which column contains our location? We actually need a "two column location" which could be more intuitive than it is.
-
-**Step 8:** This data contains all homicides, open and closed. So let's play with a few ways to handle that.  
-  * Filter out the solved homicides.
-  * [Style the map by disposition](https://support.google.com/fusiontables/answer/2476954?hl=en&ref_topic=2575652) -- a process that should be easier than Google makes it.  
-
-  *a.* Make a new table with *File > New Table*  
-  *b.* We can use `=UNIQUE(Sheet1!L2:L947)` to get the exact values we need.  
-  *c.* Fusion Tables actually recognizes [200 different map markers](https://fusiontables.google.com/data?docid=1BDnT5U1Spyaes0Nj3DXciJKa_tuu7CzNRXWdVA#map:id=3) but we're going to stick with `small_red` and `small_green`.  
-  *d.* Create a new Fusion Table from your spreadsheet tab.  
-  *e.* Head back to your original map of homicides and use *File > Find Table to Merge With* to merge them.  
-  *f.* On your map, look at "Change feature styles..." and find the "Column" tab.
-
-  I wound up with a table that looks like this:
-
-| Disposition      | icon name   |
-|------------------|-------------|
-| Closed by arrest | small_green |
-| Open/No arrest   | small_red   |
-
-
-
-**Step 9:** Last step, *Tools > Publish*
-
-
-## Mapping polygons in fusion tables
-
-Fusion Tables makes it a little harder to merge data into a boundary file, but they do maintain a good collection of boundary files. We can select the US States data from their [boundary files](https://support.google.com/fusiontables/answer/1182141?hl=en) and merge it with our CDC data.
-
-We're going to have to walk through a few steps:
-
-**Step 1:** Upload the csv of CDC data directly to a new fusion table.
-
-**Step 2:** Open the [USA State Boundaries](https://support.google.com/fusiontables/answer/1182141?hl=en) shape file.
-
-**Step 3:** Use "Find table to merge with" to find your CDC table.
-
-**Step 4:** Merge -- remember we need to make sure we've got an apples to apples merge.
-
+Mapbox is a much more powerful option, but it's also much more complex.
+We can map these as points, but adding hover windows is going to take a bit of javascript.
 
 ## Mapbox
 
-Another excellent option if you're willing to learn (or cut and paste) some javascript is Mapbox Studio. Their order of operations is kind of nuanced and not obvious or intuitive if you're not familiar with some core principles of publishing maps on the internet. Their [sample workflow](https://www.mapbox.com/studio-manual/overview/#sample-workflow) is a good starting point, but it won't be 100% clear until you've spent some time working with their tools.
+If you're willing to learn (or cut and paste) some javascript, Mapbox Studio is pretty great. Their order of operations is kind of nuanced and not obvious or intuitive if you're not familiar with some core principles of publishing maps on the internet. Their [sample workflow](https://www.mapbox.com/studio-manual/overview/#sample-workflow) is a good starting point, but it won't be 100% clear until you've spent some time working with their tools.
 
 [Styles](https://www.mapbox.com/studio-manual/reference/styles/) are the visual rules that control how your map is drawn on the page. [Tilesets](https://www.mapbox.com/studio-manual/reference/tilesets/) are mapbox's primary data format. A tileset is a collection of images broken into a uniform grid of tiles, ready to load at various zoom levels. (If you've ever zoomed too fast on a Google Map you've seen tiles in action.) [Datasets](https://www.mapbox.com/studio-manual/reference/datasets/) are the editable feature collections that tilesets are built from. A dataset is your collection of lines, points, or shapes, with descriptive data attached.
 
-0. Download the unsolved homicides CSV that you're interested in. Make sure you know where your computer stored it.
 1. Make an account.
+0. Download the unsolved homicides CSV that you're interested in. Make sure you know where your computer stored it.
 2. Head into [Mapbox Studio](https://www.mapbox.com/studio/) once you're logged in.
 3. On the "Datasets" tab, click on "New dataset" -- upload your csv.
 
 You can very quickly start looking at the data on a map. We can also go back to the Studio menu and start to work on making styles. Mapbox likes to start in Paris. If you aren't making a map of Paris search for a different city so you can center your map there.
 
-Add a layer. Even though you already uploaded it, you want to select "upload" and then look for Create From Dataset.
+4. Export the map as a tileset.
+5. In your Styles menu, you're going to add your tileset as a style.
+6. This is where you can do a little conditional styling, too. When you select a tileset it opens an info window that has two tabs: `Style` and `Select Data` and look for "Conditions"
+
+
+
+My [rough finished map](https://api.mapbox.com/styles/v1/amandabee/ck23udylb4w0v1cntayiyv9eh.html?fresh=true&title=true&access_token=pk.eyJ1IjoiYW1hbmRhYmVlIiwiYSI6ImNqbHpveWZwcDBsN24zdnJ2dWIxNTRmdXYifQ.YZTIu_8CabXbqaqlYA1Spw#12.0/37.797823/-122.249149/0). To add any popover windows we need to get into Javascript.
+
+They have a great tutorial on [adding hover interactivity](https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/) to maps.
 
 We'll play with this together until we have points on a map. And you can embed that map and make it zoomable. To add any interactivity, however, you have to start with some of their javascript tutorials.
 
