@@ -1,7 +1,14 @@
+Not everything is here. Some things are elsewhere. `¯\_(ツ)_/¯`
+
+tip sheets
+=========
+
++ Salary Sources
+
 workshops
 =========
 
-Handouts / hands-on from very recent workshops. Not everything is here. Some things are elsewhere. `¯\_(ツ)_/¯`
+Handouts / hands-on from recent¹ workshops.
 
 
 ## 2019
@@ -24,4 +31,6 @@ Handouts / hands-on from very recent workshops. Not everything is here. Some thi
   + [About Maps](2018/j200/maps.html)
   + [Making a Map](2018/j200/maps_handson.html)
 
+¹Recent is relative. As of 2023, I do far fewer hands-on skill type workshops than I used to. 
 Copyright Amanda Hickman. License: [by-nc-sa 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/); contact me to discuss commercial uses.
+
